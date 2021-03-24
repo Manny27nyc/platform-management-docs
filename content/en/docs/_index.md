@@ -1,6 +1,6 @@
 ---
-title: "Documentation"
-linkTitle: "Documentation"
+title: "Platform Management Documentation"
+linkTitle: "Platform Management Documentation"
 weight: 20
 menu:
   main:

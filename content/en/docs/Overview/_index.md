@@ -1,6 +1,6 @@
 ---
-title: "Overview"
-linkTitle: "Overview"
+title: Overview
+linkTitle: Overview
 weight: 1
 description: >
   Here's where your user finds out if your project is for them.
@@ -32,3 +32,5 @@ Give your users next steps from the Overview. For example:
 
 * [Getting Started](/getting-started/): Get started with project
 * [Examples](/examples/): Check out some example code!
+
+March 24, 2021
