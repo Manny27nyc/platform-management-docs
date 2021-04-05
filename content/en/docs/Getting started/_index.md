@@ -33,3 +33,6 @@ Is there any initial setup users need to do after installation to try your proje
 ## Try it out
 
 Can your users test their installation, for example by running a commmand or deploying a Hello World example?
+
+April 5, 2021
+Testing the date by making a change to the file, but not updating the front matter.
