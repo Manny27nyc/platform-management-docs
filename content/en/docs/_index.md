@@ -2,6 +2,7 @@
 title: "Platform Management Documentation"
 linkTitle: "Platform Management Documentation"
 weight: 20
+date: 2021-04-02
 menu:
   main:
     weight: 20
