@@ -1,17 +1,40 @@
 ---
-title: "Platform Management Documentation"
-linkTitle: "Platform Management Documentation"
-weight: 20
-date: 2021-04-02
-menu:
-  main:
-    weight: 20
+title: Management
+linkTitle: Management
+description: ADD A DESCRIPTION
+weight: 10
+date: 2021-08-12
 ---
 
-{{% pageinfo %}}
-This is a placeholder page that shows you how to use this template site.
-{{% /pageinfo %}}
+## Introduction
 
-This section is where the user documentation for your project lives - all the information your users need to understand and successfully use your project.
+Amplify API Management Platform hides integration complexity, enforces IT policy and scales at will, providing centralized visibility, control and a marketplace for all your integration assets. This guide is for using the Amplify Platform Management interface to manage the following for the platform:
 
-For large documentation sets we recommend adding content under the headings in this section, though if some or all of them don’t apply to your project feel free to remove them or add your own.
+* Users and accounts
+* Organizations
+* Billing
+* Members and teams
+
+Also use the interface to:
+
+* Create and manage applications
+* View application metrics and analytics
+* Visualize the health of your business
+
+## Browser Support
+
+The Amplify Platform supports the following browsers:
+
+* Google Chrome 61+
+* Mozilla Firefox 52+
+* iOS Safari 11.1+
+* Microsoft Edge 17+
+* Internet Explorer 11 (has been deprecated with an end of support date of September 30, 2020).
+
+If you try to access the Amplify Platform in an unsupported browser, you will be redirected to the [Supported Browsers](https://platform.axway.com/browser) page.
+
+## Next Steps
+
+Review the [Getting Started](/docs/getting_started_with_amplify_platform_management/) documentation to start using the Amplify Platform Management interface.
+
+Aug 12, 2021
