@@ -1,7 +1,7 @@
 ---
 title: Navigation
 linkTitle: Navigation
-description: ADD A DESCRIPTION
+description: 
 weight: 40
 date: 2021-08-12
 ---
@@ -16,7 +16,7 @@ The Amplify Platform includes the following menus and links in the top navigatio
 
 ### Service Links menu
 
-The _Service Links_ menu provides links to to the _Platform Home_ page, the _Dashboard_, the capabilities to which your organization is subscribed (example shown), and the _Explore More Products and Services_ page. Click the _Integration Builder_ capability to show links to available environments.
+The _Service Links_ menu provides links to to the _Platform Home_ page, the _Dashboard_, the capabilities to which your organization is subscribed (example shown), and the _Explore More Products and Services_ page. Click the _Integration Builder_ capability to show links to available environments.
 
 ![](/Images/service_links_menu.png)
 
@@ -55,7 +55,6 @@ The _User_ menu displays your account email and role and provides links to:
 * **Account** - Click this link to access and manage your account information.
 * **Organization** - Click this link to mange the selected organization.
 * **Switch Org** (for accounts with multiple organizations) - Click to switch to a different organization to which you belong.
-
 * **Sign Out** - Click this link to sign out of your account.
 
 ## Bottom navigation

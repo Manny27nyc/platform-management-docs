@@ -1,7 +1,7 @@
 ---
 title: Managing client applications
 linkTitle: Managing client applications
-description: ADD A DESCRIPTION
+description: 
 weight: 10
 date: 2021-08-12
 ---
@@ -10,7 +10,7 @@ date: 2021-08-12
 
 This document provides information on app overview and service keys, what the {{% variables/apibuilder_prod_name %}}, test, and performance tabs entail, how to view real-time and aggregated analytics, and managing application team members.
 
-## App Overview and Service Keys
+## App Overview and service keys
 
 When you select a client application from the **Apps** tab, its **Overview** tab opens. The **Overview** tab displays basic information about the application, including its name, description, and application GUID, category, creator, admin, and assigned teams. It also includes [key metrics](/docs/dashboard_guide/managing_applications/viewing_metrics/) collected by the Analytics service.
 
@@ -36,7 +36,7 @@ For Titanium applications, you can click the **Actions** (**...**) menu in the 
 
 You can also permanently delete the selected application by clicking the **Action Menu** icon and selecting **Delete**. To confirm the deletion of the selected application, type the name of the application you would like to delete permanently, and then select, **I understand that this a permanent and irreversible action. Continue**.
 
-## APIs Tab
+## APIs tab
 
 The **APIs** tab lists the Services, APIs, {{% variables/apibuilder_prod_name %}} (**Service**) applications, and Mobile Backend Services (**Data**) used by the application. Click an item in the list to view or manage its services. See [Managing Mobile Backend Services Datasources](/docs/dashboard_guide/managing_applications/managing_mobile_backend_services_datasources/) for details.
 
@@ -44,7 +44,7 @@ The **APIs** tab lists the Services, APIs, {{% variables/apibuilder_prod_name %}
 
 ![](/Images/apis_latest.png)
 
-## Crashes Tab
+## Crashes tab
 
 The **Crashes** tab displays the total number of crashes of your application for the selected time frame and the crash rate for your application. The crash for your application is calculated by dividing the total number of crashes by the total number of sessions. Additionally, error messages, time of the first occurrence, time of the last occurrence, total occurrences, and triage status are displayed for each operating system (for example, Windows, iOS, and Android). The displayed crash analytics can be filtered by the environment, crash type, and crash status. To export the crash analytics information, click the **Actions** (**...**) menu, and select either **Chart** or **Table**.
 
@@ -63,11 +63,11 @@ To filter and search crashes by username:
 1. Enter the username in the **Search by username** field.
 2. Click **Search.**
 
-## Viewing Real-time and Aggregated Analytics
+## Viewing real-time and aggregated analytics
 
 The **Analytics** tab displays real-time analytics, such as the number of active users, the number of installs, the number of sessions, and the number of events.
 
-You can also view custom events captured by your application using the Titanium.Analytics object, or the performance APIs provided by the Platform Services SDK for [iOS](https://docs.axway.com/bundle/AMPLIFY_Appcelerator_Services_allOS_en/page/aps_analytics_for_ios.html) or [Android](https://docs.axway.com/bundle/AMPLIFY_Appcelerator_Services_allOS_en/page/aps_analytics_for_android.html).
+You can also view custom events captured by your application using the Titanium.Analytics object, or the performance APIs provided by the Platform Services SDK for [iOS](https://docs.axway.com/bundle/Amplify_Appcelerator_Services_allOS_en/page/aps_analytics_for_ios.html) or [Android](https://docs.axway.com/bundle/Amplify_Appcelerator_Services_allOS_en/page/aps_analytics_for_android.html).
 
 You can define event funnels, or custom ordered collections of captured events that track a particular user or business process, such as a sales funnel (for example, purchase and purchase confirm).
 
@@ -75,6 +75,6 @@ You can define event funnels, or custom ordered collections of captured events t
 
 For more information, see [Viewing Analytics](/docs/dashboard_guide/managing_applications/viewing_analytics/).
 
-## Application Preview
+## Application preview
 
 You can upload and preview applications by clicking the **Actions** (...) menu icon for a selected app, and then selecting **App Preview**. For more information, see [Previewing Applications](/docs/dashboard_guide/managing_applications/managing_client_applications/previewing_applications/).

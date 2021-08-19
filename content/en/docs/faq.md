@@ -1,7 +1,7 @@
 ---
-title: Management faq
-linkTitle: Management faq
-description: ADD A DESCRIPTION
+title: FAQ
+linkTitle: FAQ
+description: 
 weight: 50
 date: 2021-08-12
 ---
@@ -46,6 +46,3 @@ See [Troubleshooting common errors](/docs/dashboard_guide/managing_applications
 
 To configure cloud services within Dashboard, please review [Configuring Cloud Services](/docs/dashboard_guide/managing_applications/managing_mobile_backend_services_datasources/configuring_cloud_services/) for more details.
 
-## Viewing custom cloud services
-
-If you have configured custom cloud services for your app, you can view information about the {{% variables/apibuilder_prod_name %}} application in Dashboard. Please review [Viewing Custom Cloud Services](https://confluence.axway.com/display/APUD/Viewing+Custom+Cloud+Services) for more information.

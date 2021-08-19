@@ -1,7 +1,7 @@
 ---
-title: Amplify visibility dashboards
-linkTitle: Amplify visibility dashboards
-description: ADD A DESCRIPTION
+title: Amplify Visibility dashboards
+linkTitle: Amplify Visibility dashboards
+description: 
 weight: 20
 date: 2021-08-12
 ---
@@ -150,7 +150,7 @@ You can do the following with the displayed results:
 
 ## Accessing the  App Builder (Amplify Platform Dashboard)
 
-Click the **App Builder ![](/Images/tab_app_builder.png)** menu to redirect you from the Visibility dashboards view into the Amplify Platform Dashboard (App Builder) dashboard. You will not see this menu if you are an Axway administrator. See [The Amplify Platform Dashboard](/docs/dashboard_guide/the_dashboards/the_amplify_platform_dashboard/) for details.
+Click the **App Builder ![](/Images/tab_app_builder.png)** menu to redirect you from the Visibility dashboards view into the Amplify Platform Dashboard (App Builder) dashboard. You will not see this menu if you are an Axway administrator. See [The Amplify Platform Dashboard](/docs/dashboard_guide/the_dashboards/platform_dashboard/) for details.
 
 ## Accessing the API Observer dashboard
 

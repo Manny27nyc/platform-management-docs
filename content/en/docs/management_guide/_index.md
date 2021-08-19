@@ -1,7 +1,7 @@
 ---
-title: Management guide
-linkTitle: Management guide
-description: ADD A DESCRIPTION
+title: Amplify Platform Management guide
+linkTitle: Amplify Platform Management guide
+description: 
 weight: 20
 date: 2021-08-12
 ---

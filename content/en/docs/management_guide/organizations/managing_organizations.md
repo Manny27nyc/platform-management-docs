@@ -1,7 +1,7 @@
 ---
 title: Managing organizations
 linkTitle: Managing organizations
-description: ADD A DESCRIPTION
+description: 
 weight: 30
 date: 2021-08-12
 ---
@@ -83,7 +83,7 @@ After you create or add a users to your organization, you can view and modify th
 4. If you're a user of multiple organizations, select the organization you want to view from the _Users_ dropdown menu.
 5. To change a user's role, select a different role or additional roles from the _Role_ dropdown menu. Note that the _Role_ dropdown menu selections are sorted by product roles. Administrators can manage all users and applications in the organization. All other user roles can view only applications to which they belong.
 6. To remove a selected user from the organization, select the **Actions** menu (**...**), and select **Remove User** and then confirm the removal.
-7. To view a user's team assignments, select the **Actions** icon, and select **View Teams**. Refer to [Managing teams](https://confluence.axway.com/pages/viewpage.action?pageId=278015286#ManagingOrganizations-ManageTeams).
+7. To view a user's team assignments, select the **Actions** icon, and select **View Teams**. Refer to [Managing teams](#managing-teams).
 
 The user's last login is displayed in the _Last Login_ column, and their current multi-factor authentication status is shown in the _MFA_ column. For more information on multi-factor authentication, refer to [Manage multi-factor authentication](/docs/management_guide/managing_accounts/#manage-multi-factor-authentication).
 
@@ -100,7 +100,7 @@ If you are an organization admin, you can add new service accounts to an organiz
 1. Sign in to the [Amplify Platform](https://platform.axway.com/).
 2. Click on the **User & Org** menu and select **Organization**.
 3. Click the **Service Accounts** tab from the left navigation.
-4. If you're a user of multiple organizations, select the organization you want to view from the _Service_ _Accounts_ dropdown menu.
+4. If you're a user of multiple organizations, select the organization you want to view from the _Service Account_ dropdown menu.
 5. Click the **+** **Service Account** button in the upper-right corner.
 6. Enter the service account name and optionally add a description.
 7. (Optional) Select the service account's roles from the _Org Roles_ dropdown menu. One or more service roles can be selected. Administrators can manage all users and applications in the organization.
@@ -128,7 +128,7 @@ After you create or add a user to your organization, you can view and modify the
     * To change a service account's role, select a different role from the _Team Roles_ dropdown menu. Administrators can manage all users and applications in the organization. All other user roles can view only applications to which they belong.
 7. To download the service account authentication profile in JSON format, select the **Actions** menu (**...**), and select **Download JSON File** (available for Client Certificate authentication method).
 8. To remove a selected service account from the organization, select the **Actions** menu (**...**), and select **Delete** and then confirm the deletion.
-9. To view a service account's team assignments, select the **Actions** menu (**...**) and select **View Teams**. Refer to [Managing teams](https://confluence.axway.com/pages/viewpage.action?pageId=278015286#ManagingOrganizations-ManageTeams).
+9. To view a service account's team assignments, select the **Actions** menu (**...**) and select **View Teams**. Refer to [Managing teams](#managing-teams).
 
 ## Managing teams
 
@@ -163,7 +163,7 @@ To edit an existing team:
 4. If you're a member of multiple organizations, select the organization you want to view from the _Teams_ dropdown menu.
 5. Select the **Actions** (**...**) menu associated with the team to edit.
 6. Select **Edit**.
-7. Make the necessary changes to the selected team. For additional information, refer to [Add a new team](https://confluence.axway.com/pages/viewpage.action?pageId=278015286#ManagingOrganizations-Application).
+7. Make the necessary changes to the selected team. For additional information, refer to [Add a new team](#add-a-new-team).
 8. Click **Save**.
 
 ### Set a team as default
@@ -226,7 +226,7 @@ The **Settings** tab enables you to:
 
 ![](/Images/settings_tab.png)
 
-### Change the Branding
+### Change the branding
 
 To brand the Dashboard per your organization's branding requirements:
 

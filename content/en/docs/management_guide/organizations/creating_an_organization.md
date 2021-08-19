@@ -1,7 +1,7 @@
 ---
 title: Creating an organization
 linkTitle: Creating an organization
-description: ADD A DESCRIPTION
+description: 
 weight: 40
 date: 2021-08-12
 ---

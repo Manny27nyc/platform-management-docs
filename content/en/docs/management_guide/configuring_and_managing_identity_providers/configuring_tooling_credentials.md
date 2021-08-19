@@ -1,7 +1,7 @@
 ---
 title: Configuring tooling credentials
 linkTitle: Configuring tooling credentials
-description: ADD A DESCRIPTION
+description: 
 weight: 60
 date: 2021-08-12
 ---

@@ -1,7 +1,7 @@
 ---
-title: Configuring a saml v2.0 idp
-linkTitle: Configuring a saml v2.0 idp
-description: ADD A DESCRIPTION
+title: Configuring a SAML v2.0 IdP
+linkTitle: Configuring a SAML v2.0 IdP
+description: 
 weight: 20
 date: 2021-08-12
 ---
@@ -22,7 +22,7 @@ This section includes details on configuring a SAML v2.0 Identity Provider with 
 
 Refer to the [Microsoft configure SAML-based configure single sign on](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/configure-single-sign-on-non-gallery-applications) article for details.
 
-**To create a new Identity Provider**
+To create a new Identity Provider
 
 1. From the _Identity Providers_ page, click the **\+ Identity Provider**. The **New Identity Provider** form will be presented.
 2. Select **SAML v2.0**. A blank form is presented.

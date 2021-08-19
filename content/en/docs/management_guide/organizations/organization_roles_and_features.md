@@ -1,14 +1,14 @@
 ---
 title: Organization roles and features
 linkTitle: Organization roles and features
-description: ADD A DESCRIPTION
+description: 
 weight: 20
 date: 2021-08-12
 ---
 
 This section is about organization user roles and features. Users can be assigned different roles that grant them the rights to the Platform associated with their assigned roles and capabilities. A user always needs to be assigned one platform role and can be assigned zero, one, or more of the other roles.
 
-## Roles and Capabilities
+## Roles and capabilities
 
 The following table shows the available roles and capabilities.
 
@@ -19,8 +19,7 @@ The following table shows the available roles and capabilities.
 | Developer | Use for development and integration projects | X | X | X | X | X | X | X | X |  |  |  |
 | Insight | Use for business oversight | X | X |  |  |  |  |  |  |  |  |  |
 | Consumer | Use for the consumption of services from the catalog |  |  |  |  | X |  |  |  |  |  |  |
-| **Runtime Services Roles** (**Runtime Services is deprecated and will be discontinued effective September 1, 2022.)** |
-| Runtime Services Admin | Use for all-encompassing access to Runtime Services |  |  |  |  |  | X | X |  |  |  |  |
+| Runtime Services Admin | Use for all-encompassing access to Runtime Services. **Runtime Services Roles** (**Runtime Services is deprecated and will be discontinued effective September 1, 2022.)** |  |  |  |  |  | X | X |  |  |  |  |
 | **Central Roles** |
 | Central Admin | Use for all-encompassing access to Central |  |  |  | X | X |  |  |  |  |  |  |
 | **Flow Manager Roles** |
@@ -37,7 +36,7 @@ The following table shows the available roles and capabilities.
 | Auditor | Use for viewing auditing events of the platform |  |  |  |  |  |  |  |  | X |  |  |
 | Analytics Specialist | Use for viewing logs |  |  |  |  |  |  |  |  |  | X |  |
 
-## Team Roles
+## Team roles
 
 Users also have a role in each team they belong to.
 

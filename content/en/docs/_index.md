@@ -1,7 +1,7 @@
 ---
-title: Management
-linkTitle: Management
-description: ADD A DESCRIPTION
+title: Amplify Platform Management
+linkTitle: Amplify Platform Management
+description: 
 weight: 10
 date: 2021-08-12
 ---
@@ -21,7 +21,7 @@ Also use the interface to:
 * View application metrics and analytics
 * Visualize the health of your business
 
-## Browser Support
+## Browser support
 
 The Amplify Platform supports the following browsers:
 
@@ -33,7 +33,7 @@ The Amplify Platform supports the following browsers:
 
 If you try to access the Amplify Platform in an unsupported browser, you will be redirected to the [Supported Browsers](https://platform.axway.com/browser) page.
 
-## Next Steps
+## Next steps
 
 Review the [Getting Started](/docs/getting_started_with_amplify_platform_management/) documentation to start using the Amplify Platform Management interface.
 

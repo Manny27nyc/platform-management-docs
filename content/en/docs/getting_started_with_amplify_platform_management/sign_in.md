@@ -1,7 +1,7 @@
 ---
 title: Sign in
 linkTitle: Sign in
-description: ADD A DESCRIPTION
+description: 
 weight: 20
 date: 2021-08-12
 ---
@@ -35,7 +35,7 @@ Use the following sign-in if your organization does not have the single sign-on 
 
     ![](/Images/device_authorization.png)
 
-6. If you are a member of multiple organizations, you may be forwarded to the _Select Organization_ page. You can  configure the login path and organization to log in to from your Account - Settings page. Refer to the  [Select the org rule](/docs/management_guide/managing_accounts/#select-the-org-login-rule) section in Managing Accounts.
+6. If you are a member of multiple organizations, you may be forwarded to the _Select Organization_ page. You can  configure the login path and organization to log in to from your Account - Settings page. Refer to the [Select the org rule](/docs/management_guide/managing_accounts/#select-the-org-login-rule) section in Managing Accounts.
     ![](/Images/multiple_orgs.png)
 7. Select the organization to sign into from the Select Organization drop-down menu.
 8. Click **Continue**. Clicking **Continue** will forward you to the Amplify Platform home page. For an overview of the Amplify Platform, refer to the [Amplify Platform Overview](/docs/getting_started_with_amplify_platform_management/overview/).

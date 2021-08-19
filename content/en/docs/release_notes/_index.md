@@ -1,7 +1,8 @@
 ---
-title: Management release notes
-linkTitle: Management release notes
-description: ADD A DESCRIPTION
+title: Release notes
+linkTitle: Release notes
+description: New features, improvements, and bug fixes for the release.
+no_list: true
 weight: 40
 date: 2021-08-12
 ---

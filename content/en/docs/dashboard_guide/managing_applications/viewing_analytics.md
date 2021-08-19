@@ -1,7 +1,7 @@
 ---
 title: Viewing analytics
 linkTitle: Viewing analytics
-description: ADD A DESCRIPTION
+description: 
 weight: 40
 date: 2021-08-12
 ---
@@ -43,7 +43,7 @@ The real-time analytics information can be filtered by version and environment.
 
 ### Sessions tab
 
-The **Sessions** tab displays the total number of user sessions for the application for the provided time interval and environment and how long on average users spent using it by platform and location. To toggle on and off displayed analytics information in the chart, click the on the item in the table legend. To export the metrics data, click the **Action Menu** icon in the upper-right of the screen. For details on exporting the metrics, refer to [Download analytics data](https://confluence.axway.com/pages/viewpage.action?pageId=278015335#ViewingAnalytics-DownloadData). To scale the analytics display to the current page, select **Scale to the current page**.
+The **Sessions** tab displays the total number of user sessions for the application for the provided time interval and environment and how long on average users spent using it by platform and location. To toggle on and off displayed analytics information in the chart, click the on the item in the table legend. To export the metrics data, click the **Action Menu** icon in the upper-right of the screen. For details on exporting the metrics, refer to [Download analytics data](#download-analytics-data). To scale the analytics display to the current page, select **Scale to the current page**.
 
 ![](/Images/analytics_sessions.png)
 
@@ -71,13 +71,13 @@ In the Location view:
 
 ### Avg. Session Length tab
 
-The **Avg. Session Length** tab displays the average length of use of the application by the platform for the provided time interval and environment. To toggle on and off displayed analytics information in the chart, click the on the item in the table legend. To export the metrics data, click the **Action Menu** icon in the upper-right of the screen. For details on exporting the metrics, refer to [Download analytics data](https://confluence.axway.com/pages/viewpage.action?pageId=278015335#ViewingAnalytics-DownloadData). To scale the analytics display to the current page, select **Scale to the current page**.
+The **Avg. Session Length** tab displays the average length of use of the application by the platform for the provided time interval and environment. To toggle on and off displayed analytics information in the chart, click the on the item in the table legend. To export the metrics data, click the **Action Menu** icon in the upper-right of the screen. For details on exporting the metrics, refer to [Download analytics data](#download-analytics-data). To scale the analytics display to the current page, select **Scale to the current page**.
 
 ![](/Images/analytics_session_length_latest.png)
 
 ### Installs tab
 
-The **Installs** tab displays the total number of installs of the application by platform, version, and location for the provided time interval and environment. To toggle on and off displayed analytics information in the chart, click the on the item in the table legend. To export the metrics data, click the **Action Menu** icon in the upper-right of the screen. For details on exporting the metrics, refer to [Download analytics data](https://confluence.axway.com/pages/viewpage.action?pageId=278015335#ViewingAnalytics-DownloadData). To scale the analytics display to the current page, select **Scale to the current page**.
+The **Installs** tab displays the total number of installs of the application by platform, version, and location for the provided time interval and environment. To toggle on and off displayed analytics information in the chart, click the on the item in the table legend. To export the metrics data, click the **Action Menu** icon in the upper-right of the screen. For details on exporting the metrics, refer to [Download analytics data](#download-analytics-data). To scale the analytics display to the current page, select **Scale to the current page**.
 
 ![](/Images/analytics_installs_latest.png)
 
@@ -96,7 +96,7 @@ In the Location view:
 
 ### Updates tab
 
-The **Updates** tab displays the total number of updates of the application by platform, version, and location for the provided time interval and environment. To toggle on and off displayed analytics information in the chart, click the on the item in the table legend. To export the metrics data, click the **Action Menu** icon in the upper-right of the screen. For details on exporting the metrics, refer to [Download analytics data](https://confluence.axway.com/pages/viewpage.action?pageId=278015335#ViewingAnalytics-DownloadData). To scale the analytics display to the current page, select **Scale to the current page**.
+The **Updates** tab displays the total number of updates of the application by platform, version, and location for the provided time interval and environment. To toggle on and off displayed analytics information in the chart, click the on the item in the table legend. To export the metrics data, click the **Action Menu** icon in the upper-right of the screen. For details on exporting the metrics, refer to [Download analytics data](#download-analytics-data). To scale the analytics display to the current page, select **Scale to the current page**.
 
 ![](/Images/analytics_updates.png)
 
@@ -115,13 +115,13 @@ In the Location view:
 
 ### Version Adoption tab
 
-The **Version Adoption** tab shows the number of sessions by platform version for the selected time interval and environment. To toggle on and off displayed analytics information in the chart, click the on the item in the table legend. To export the metrics data, click the **Action Menu** icon in the upper-right of the screen. For details on exporting the metrics, refer to [Download analytics data](https://confluence.axway.com/pages/viewpage.action?pageId=278015335#ViewingAnalytics-DownloadData). To scale the analytics display to the current page, select **Scale to the current page**.
+The **Version Adoption** tab shows the number of sessions by platform version for the selected time interval and environment. To toggle on and off displayed analytics information in the chart, click the on the item in the table legend. To export the metrics data, click the **Action Menu** icon in the upper-right of the screen. For details on exporting the metrics, refer to [Download analytics data](#download-analytics-data). To scale the analytics display to the current page, select **Scale to the current page**.
 
 ![](/Images/version_adoption.png)
 
 ### Unique Devices tab
 
-The **Unique Devices** tab displays the maximum daily number of unique devices using the application by platform and application version for the provided time interval and environment. The maximum unique devices number provides you with a measure of the number of real users using your application, normalized for the fact that some users may use the application multiple times a day. To toggle on and off displayed analytics information in the chart, click the on the item in the table legend. To export the metrics data, click the **Action Menu** icon in the upper-right of the screen. For details on exporting the metrics, refer to [Download analytics data](https://confluence.axway.com/pages/viewpage.action?pageId=278015335#ViewingAnalytics-DownloadData). To scale the analytics display to the current page, select **Scale to the current page**.
+The **Unique Devices** tab displays the maximum daily number of unique devices using the application by platform and application version for the provided time interval and environment. The maximum unique devices number provides you with a measure of the number of real users using your application, normalized for the fact that some users may use the application multiple times a day. To toggle on and off displayed analytics information in the chart, click the on the item in the table legend. To export the metrics data, click the **Action Menu** icon in the upper-right of the screen. For details on exporting the metrics, refer to [Download analytics data](#download-analytics-data). To scale the analytics display to the current page, select **Scale to the current page**.
 
 ![](/Images/analytics_unique_devices.png)
 
@@ -132,7 +132,7 @@ The **Unique Devices** tab displays the maximum daily number of unique devices u
 
 ### Events tab
 
-The **Events** tab lists the name and number of each custom events generated by your application, as well as a timeline of when events were generated for the selected time interval and environment. To get custom events to appear on the list, you must build your application and trigger each event to ensure that the events are registered with the analytics engine. To toggle on and off displayed analytics information in the chart, click the on the item in the table legend. To export the metrics data, click the **Action Menu** icon in the upper-right of the screen. For details on exporting the metrics, refer to [Download analytics data](https://confluence.axway.com/pages/viewpage.action?pageId=278015335#ViewingAnalytics-DownloadData). To scale the analytics display to the current page, select **Scale to the current page**.
+The **Events** tab lists the name and number of each custom events generated by your application, as well as a timeline of when events were generated for the selected time interval and environment. To get custom events to appear on the list, you must build your application and trigger each event to ensure that the events are registered with the analytics engine. To toggle on and off displayed analytics information in the chart, click the on the item in the table legend. To export the metrics data, click the **Action Menu** icon in the upper-right of the screen. For details on exporting the metrics, refer to [Download analytics data](#download-analytics-data). To scale the analytics display to the current page, select **Scale to the current page**.
 
 The **Events** tab also displays events generated by the [Mobile Backend Services](https://docs.axway.com/bundle/Mobile_Backend_Services_allOS_en/page/mobile_backend_services.html) API calls. Mobile Backend Services API events are named `cloud-class-method`.
 
@@ -140,11 +140,11 @@ The **Events** tab also displays events generated by the [Mobile Backend Service
 
 ### Event Funnels tab
 
-The **Event Funnels** tab lets you create new event funnels, edit existing event funnel, and view event funnel analytics for the selected time interval and environment. To export the metrics data, click the **Action Menu** icon in the upper-right of the screen. For details on exporting the metrics, refer to [Download analytics data](https://confluence.axway.com/pages/viewpage.action?pageId=278015335#ViewingAnalytics-DownloadData). To scale the analytics display to the current page, select **Scale to the current page**.
+The **Event Funnels** tab lets you create new event funnels, edit existing event funnel, and view event funnel analytics for the selected time interval and environment. To export the metrics data, click the **Action Menu** icon in the upper-right of the screen. For details on exporting the metrics, refer to [Download analytics data](#download-analytics-data). To scale the analytics display to the current page, select **Scale to the current page**.
 
 ![](/Images/analytics_event_funnels.png)
 
-An event funnel is a sequence of custom events you define that corresponds to a process you want to measure and analyze. For example, a shopping application would likely want to measure the flow of users through the process of searching for, viewing, and purchasing a product. By analyzing event funnel data, you can identify, for example, where users drop out of the purchase process. For instructions on creating and viewing event funnels, see the Creating and Viewing Event Funnels section in [Amplify Appcelerator Analytics](https://docs.axway.com/bundle/AMPLIFY_Appcelerator_Services_allOS_en/page/amplify_appcelerator_analytics.html).
+An event funnel is a sequence of custom events you define that corresponds to a process you want to measure and analyze. For example, a shopping application would likely want to measure the flow of users through the process of searching for, viewing, and purchasing a product. By analyzing event funnel data, you can identify, for example, where users drop out of the purchase process. For instructions on creating and viewing event funnels, see the Creating and Viewing Event Funnels section in [Amplify Appcelerator Analytics](https://docs.axway.com/bundle/Amplify_Appcelerator_Services_allOS_en/page/amplify_appcelerator_analytics.html).
 
 ![](/Images/image2014_1_1_19_12_14.png)
 
@@ -174,43 +174,43 @@ Each sub-tab is explained below.
 
 ### All APIs tab
 
-The **All APIs** tab displays the total number of Mobile Backend Services requests made for the selected time interval and environment either by application or by request type. To toggle on and off displayed analytics information in the chart, click the on the item in the table legend. To export the metrics data, click the **Action Menu** icon in the upper-right of the screen. For details on exporting the metrics, refer to [Download analytics data](https://confluence.axway.com/pages/viewpage.action?pageId=278015335#ViewingAnalytics-DownloadData). To scale the analytics display to the current page, select **Scale to the current page**.
+The **All APIs** tab displays the total number of Mobile Backend Services requests made for the selected time interval and environment either by application or by request type. To toggle on and off displayed analytics information in the chart, click the on the item in the table legend. To export the metrics data, click the **Action Menu** icon in the upper-right of the screen. For details on exporting the metrics, refer to [Download analytics data](#download-analytics-data). To scale the analytics display to the current page, select **Scale to the current page**.
 
 ![](/Images/all_apis_latest.png)
 
 ### Authentication tab
 
-The **Authentication** tab displays the authentication application names, the number of authentication requests, the daily average of authentication requests, and the top authentication requests for the selected time interval and the selected environment when **Application** is selected. When **Type** is selected, the authentication request names and the number of authentication requests are displayed for the selected time interval and environment. To toggle on and off displayed analytics information in the chart, click the on the item in the table legend. To export the metrics data, click the **Action Menu** icon in the upper-right of the screen. For details on exporting the metrics, refer to [Download analytics data](https://confluence.axway.com/pages/viewpage.action?pageId=278015335#ViewingAnalytics-DownloadData). To scale the analytics display to the current page, select **Scale to the current page**.
+The **Authentication** tab displays the authentication application names, the number of authentication requests, the daily average of authentication requests, and the top authentication requests for the selected time interval and the selected environment when **Application** is selected. When **Type** is selected, the authentication request names and the number of authentication requests are displayed for the selected time interval and environment. To toggle on and off displayed analytics information in the chart, click the on the item in the table legend. To export the metrics data, click the **Action Menu** icon in the upper-right of the screen. For details on exporting the metrics, refer to [Download analytics data](#download-analytics-data). To scale the analytics display to the current page, select **Scale to the current page**.
 
 ![](/Images/authentication_latest.png)
 
 ### Communication tab
 
-The **Communication** tab displays the communication application names, the number of communication requests, the daily average of communication requests, and the top communication requests for the selected time interval and the selected environment when **Application** is selected. When **Type** is selected, the communication request names and the number of communication requests are displayed for the selected time interval and environment. To toggle on and off displayed analytics information in the chart, click the on the item in the table legend. To export the metrics data, click the **Action Menu** icon in the upper-right of the screen. For details on exporting the metrics, refer to [Download analytics data](https://confluence.axway.com/pages/viewpage.action?pageId=278015335#ViewingAnalytics-DownloadData). To scale the analytics display to the current page, select **Scale to the current page**.
+The **Communication** tab displays the communication application names, the number of communication requests, the daily average of communication requests, and the top communication requests for the selected time interval and the selected environment when **Application** is selected. When **Type** is selected, the communication request names and the number of communication requests are displayed for the selected time interval and environment. To toggle on and off displayed analytics information in the chart, click the on the item in the table legend. To export the metrics data, click the **Action Menu** icon in the upper-right of the screen. For details on exporting the metrics, refer to [Download analytics data](#download-analytics-data). To scale the analytics display to the current page, select **Scale to the current page**.
 
 ![](/Images/communication_latest.png)
 
 ### Custom tab
 
-The **Custom** tab displays the custom object application names, the number of custom object requests, the daily average of custom object requests, and the top custom object requests for the selected time interval and the selected environment when **Application** is selected. When **Type** is selected, the custom object request names and the number of custom object requests are displayed for the selected time interval and environment. To toggle on and off displayed analytics information in the chart, click the on the item in the table legend. To export the metrics data, click the **Action Menu** icon in the upper-right of the screen. For details on exporting the metrics, refer to [Download analytics data](https://confluence.axway.com/pages/viewpage.action?pageId=278015335#ViewingAnalytics-DownloadData). To scale the analytics display to the current page, select **Scale to the current page**.
+The **Custom** tab displays the custom object application names, the number of custom object requests, the daily average of custom object requests, and the top custom object requests for the selected time interval and the selected environment when **Application** is selected. When **Type** is selected, the custom object request names and the number of custom object requests are displayed for the selected time interval and environment. To toggle on and off displayed analytics information in the chart, click the on the item in the table legend. To export the metrics data, click the **Action Menu** icon in the upper-right of the screen. For details on exporting the metrics, refer to [Download analytics data](#download-analytics-data). To scale the analytics display to the current page, select **Scale to the current page**.
 
 ![](/Images/custom_latest.png)
 
 ### Location tab
 
-The **Location** tab displays the location application names, the number of location requests, the daily average of location requests, and the top location requests for the selected time interval and the selected environment when **Application** is selected. When **Type** is selected, the location request names and the number of location requests are displayed for the selected time interval and environment.  To toggle on and off displayed analytics information in the chart, click the on the item in the table legend. To export the metrics data, click the **Action Menu** icon in the upper-right of the screen. For details on exporting the metrics, refer to [Download analytics data](https://confluence.axway.com/pages/viewpage.action?pageId=278015335#ViewingAnalytics-DownloadData). To scale the analytics display to the current page, select **Scale to the current page**.
+The **Location** tab displays the location application names, the number of location requests, the daily average of location requests, and the top location requests for the selected time interval and the selected environment when **Application** is selected. When **Type** is selected, the location request names and the number of location requests are displayed for the selected time interval and environment.  To toggle on and off displayed analytics information in the chart, click the on the item in the table legend. To export the metrics data, click the **Action Menu** icon in the upper-right of the screen. For details on exporting the metrics, refer to [Download analytics data](#download-analytics-data). To scale the analytics display to the current page, select **Scale to the current page**.
 
 ![](/Images/location_latest.png)
 
 ### Media tab
 
-The **Media** tab displays the media application names, the number of media requests, the daily average of media requests, and the top media requests for the selected time interval and the selected environment when **Application** is selected. When **Type** is selected, the media request names and the number of media requests are displayed for the selected time interval and environment. To toggle on and off displayed analytics information in the chart, click the on the item in the table legend. To export the metrics data, click the **Action Menu** icon in the upper-right of the screen. For details on exporting the metrics, refer to [Download analytics data](https://confluence.axway.com/pages/viewpage.action?pageId=278015335#ViewingAnalytics-DownloadData). To scale the analytics display to the current page, select **Scale to the current page**.
+The **Media** tab displays the media application names, the number of media requests, the daily average of media requests, and the top media requests for the selected time interval and the selected environment when **Application** is selected. When **Type** is selected, the media request names and the number of media requests are displayed for the selected time interval and environment. To toggle on and off displayed analytics information in the chart, click the on the item in the table legend. To export the metrics data, click the **Action Menu** icon in the upper-right of the screen. For details on exporting the metrics, refer to [Download analytics data](#download-analytics-data). To scale the analytics display to the current page, select **Scale to the current page**.
 
 ![](/Images/media_latest.png)
 
 ### Social tab
 
-The **Social** tab displays the social application names, the number of social requests, the daily average of social requests, and the top social requests for the selected time interval and the selected environment when **Application** is selected. When **Type** is selected, the social request names and the number of social requests are displayed for the selected time interval and environment. To toggle on and off displayed analytics information in the chart, click the on the item in the table legend. To export the metrics data, click the **Action Menu** icon in the upper-right of the screen. For details on exporting the metrics, refer to [Download analytics data](https://confluence.axway.com/pages/viewpage.action?pageId=278015335#ViewingAnalytics-DownloadData). To scale the analytics display to the current page, select **Scale to the current page**.
+The **Social** tab displays the social application names, the number of social requests, the daily average of social requests, and the top social requests for the selected time interval and the selected environment when **Application** is selected. When **Type** is selected, the social request names and the number of social requests are displayed for the selected time interval and environment. To toggle on and off displayed analytics information in the chart, click the on the item in the table legend. To export the metrics data, click the **Action Menu** icon in the upper-right of the screen. For details on exporting the metrics, refer to [Download analytics data](#download-analytics-data). To scale the analytics display to the current page, select **Scale to the current page**.
 
 ![](/Images/social_latest.png)
 
@@ -258,7 +258,7 @@ Once you select the export option, your download begins.
 
 In the example below, session data over a custom time interval for all the organization's projects were downloaded. Since the granularity level for the data/time range file is set to daily, each data point in the table is also daily.
 
-**appceleratordemo_sessions_app_chart_day_20140501_20140625_20140625221049.csv**
+appceleratordemo_sessions_app_chart_day_20140501_20140625_20140625221049.csv
 
 ```
 "Date/Time","iOS","Android","Mobileweb"
@@ -268,7 +268,7 @@ In the example below, session data over a custom time interval for all the orga
 ...
 ```
 
-**appceleratordemo_sessions_app_table_day_20140501_20140625_20140625221052**
+appceleratordemo_sessions_app_table_day_20140501_20140625_20140625221052
 
 ```
 "Application","Sessions"

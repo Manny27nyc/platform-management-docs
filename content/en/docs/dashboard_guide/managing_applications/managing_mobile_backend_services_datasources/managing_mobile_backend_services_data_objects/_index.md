@@ -1,14 +1,14 @@
 ---
 title: Managing mobile backend services data objects
 linkTitle: Managing mobile backend services data objects
-description: ADD A DESCRIPTION
+description: 
 weight: 20
 date: 2021-08-12
 ---
 
 {{% alert title="Note" color="primary" %}}Mobile Backend Services is deprecated and will be discontinued effective September 1, 2022.{{% /alert %}}
 
-The **Manage Data** tab in Dashboard provides a visual interface to the various [Mobile Backend Services APIs](http://docs.appcelerator.com/arrowdb/latest/#!/api) for creating, updating, deleting, and querying your application's Mobile Backend Services (MBS) objects – Photos and Chats, for example – on behalf of its users. You can also create and edit administrative MBS objects, like access control lists and email templates.
+The **Manage Data** tab in Dashboard provides a visual interface to the various Mobile Backend Services APIs for creating, updating, deleting, and querying your application's Mobile Backend Services (MBS) objects – Photos and Chats, for example – on behalf of its users. You can also create and edit administrative MBS objects, like access control lists and email templates.
 
 ## Mobile Backend Services app left navigation
 
@@ -35,7 +35,7 @@ Click an MBS type to view a paginated table that lists all the objects of that t
 
 ![](/Images/users_latest.png)
 
-To filter the list of objects displayed in the table, click the **Filter** icon. Select a field to filter on, a filter operand (for example, "Equals" or "Starts With"), and the value on which to filter. The fields you can filter on vary according to the type of object. See [Filtering Mobile Backend Services object data](https://confluence.axway.com/pages/viewpage.action?pageId=278015330#ManagingMobileBackendServicesdataobjects-Filtering) for more information.
+To filter the list of objects displayed in the table, click the **Filter** icon. Select a field to filter on, a filter operand (for example, "Equals" or "Starts With"), and the value on which to filter. The fields you can filter on vary according to the type of object. See [Filtering Mobile Backend Services object data](#filtering-mobile-backend-services-object-data).
 
 To delete an object or objects, select an object or objects from the list and click the **Delete** icon and then verify the deletion of the selected object or objects.
 
@@ -51,11 +51,11 @@ To quickly switch to another object type, click the **Type** drop-down menu and 
 
 ![](/Images/menu_latest.png)
 
-Click a row to expand it and view additional fields. To edit an object, either click its name in the row heading or select **Edit** from the _Tools_ drop-down menu. To delete an object, select the **Action Menu** icon and select **Delete**. See [Editing and Deleting objects](https://confluence.axway.com/pages/viewpage.action?pageId=278015330#ManagingMobileBackendServicesdataobjects-edit_objects).
+Click a row to expand it and view additional fields. To edit an object, either click its name in the row heading or select **Edit** from the _Tools_ drop-down menu. To delete an object, select the **Action Menu** icon and select **Delete**. See [Editing and Deleting objects](#editing-and-deleting-objects).
 
 ![](/Images/user_click_latest.png)
 
-## Editing and Deleting objects
+## Editing and deleting objects
 
 To edit an object, click its name in the table row header to open the edit form. To delete an object, select its table row and then click the **Delete** icon and confirm the object deletion.
 
@@ -129,8 +129,8 @@ Each MBS object has fields unique to its purpose and function. Several types of 
 * **Created** – Date the object was created.
 * **Updated** – Date the object was last updated.
 * **ID** – Object GUID.
-* **Custom Fields** – One more name/value pairs you can define for an object. See [Creating custom fields](https://confluence.axway.com/pages/viewpage.action?pageId=278015330#ManagingMobileBackendServicesdataobjects-custom_fields).
-* **Geo Coordinates** – One or more geographic coordinates. See [Creating geo coordinates](https://confluence.axway.com/pages/viewpage.action?pageId=278015330#ManagingMobileBackendServicesdataobjects-geo_coordinates).
+* **Custom Fields** – One more name/value pairs you can define for an object. See [Creating custom fields](#creating-custom-fields).
+* **Geo Coordinates** – One or more geographic coordinates. See [Creating geo coordinates](#creating-geo-coordinates).
 * **Tags** – A comma-delimited list of strings to which to tag the object.
 * **Access Control List** – An ACL to restrict read or write access to the object.
 

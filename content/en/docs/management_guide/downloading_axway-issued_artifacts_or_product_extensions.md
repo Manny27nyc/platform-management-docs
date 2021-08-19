@@ -1,7 +1,7 @@
 ---
-title: Downloading axway-issued artifacts or product extensions
-linkTitle: Downloading axway-issued artifacts or product extensions
-description: ADD A DESCRIPTION
+title: Downloading Axway-issued artifacts or product extensions
+linkTitle: Downloading Axway-issued artifacts or product extensions
+description: 
 weight: 40
 date: 2021-08-12
 ---

@@ -1,7 +1,7 @@
 ---
 title: Organization concepts
 linkTitle: Organization concepts
-description: ADD A DESCRIPTION
+description: 
 weight: 10
 date: 2021-08-12
 ---
@@ -22,17 +22,17 @@ An organization is linked to one or more subscriptions. Subscriptions define the
 
 When you sign up for a trial of the platform, then an organization is automatically created and you become the administrator that manages the organization with a default list of subscriptions. When a customer purchases our platform capabilities, then an Axway administrator creates an organization, assigns the correct subscriptions, and makes a user of the customer an administrator of the platform.
 
-## Child Organizations
+## Child organizations
 
 An organization can have child organizations. These child organizations are allocated resources from the parent organization. An administrator of the parent organization can create child organizations and manage both the parent and child organizations.
 
-## Multiple Organizations
+## Multiple organizations
 
 A user (referred to as a member in the platform) can belong to multiple organizations. Select **Switch Org** from the User & Org menu to see which organizations you belong to and to switch to a different organization.
 
 ![](/Images/organization_switch_org.png)
 
-## Organization Users and Roles
+## Organization users and roles
 
 Each organization has one or more users. At least one user needs to be an administrator. If a new organization is created, then the first user becomes an Administrator. An administrator can change the roles of the users, with the restriction that there always needs to be at least one user that has the Administrator role. The test organization currently contains five users.
 

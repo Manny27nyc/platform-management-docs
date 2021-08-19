@@ -1,7 +1,7 @@
 ---
 title: Managing accounts
 linkTitle: Managing accounts
-description: ADD A DESCRIPTION
+description: 
 weight: 10
 date: 2021-08-12
 ---
@@ -29,7 +29,7 @@ The Account Information page includes the following account information:
 * **First Name** - Verify and edit the first name on your account.
 * **Last Name** - Verify and edit the last name on your account.
 * **Email** - Lists your email address.
-* **Phone Number** - Verify your phone number. Refer to [Verify your phone number](https://confluence.axway.com/pages/viewpage.action?pageId=278015284#ManagingAccounts-Phone).
+* **Phone Number** - Verify your phone number. Refer to [Verify your phone number](#verify-your-phone-number).
 * **Timezone** - Your selected time zone. Click the **Edit Account** button to choose a different time zone.
 * **Joined** - Lists when you joined the listed organization.
 * **Last Updated** - Provides the date and time you last updated your user account information.
@@ -42,7 +42,7 @@ To edit your account details, click the **Edit Account** button.
 
 ![](/Images/edit_account.png)
 
-Clicking the **Edit Account** button enables the editing of the **First Name** and **Last Name** fields. It also enables the **Phone Number** field and the verification of the entered phone number. For additional instructions on verifying your phone number, refer to [Verify your phone number](https://confluence.axway.com/pages/viewpage.action?pageId=278015284#ManagingAccounts-Phone). Clicking on the Edit Account button also enables the **Timezone** dropdown menu. Once you have finished editing your user account information, click the **Save** button.
+Clicking the **Edit Account** button enables the editing of the **First Name** and **Last Name** fields. It also enables the **Phone Number** field and the verification of the entered phone number. For additional instructions on verifying your phone number, refer to [Verify your phone number](#verify-your-phone-number). Clicking on the Edit Account button also enables the **Timezone** dropdown menu. Once you have finished editing your user account information, click the **Save** button.
 
 ### Verify your phone number
 
@@ -65,7 +65,7 @@ The **Orgs & Roles** link lists the organizations you are a member of by org na
 
 ## Manage credentials
 
-The **Credentials** link takes you to the view where you can change your account password and enable or disable multi-factor authentication. If your organization is using an Identity Provider, the Credentials link takes you to the view where you can create and change the password you use for tooling. Refer to [Configuring Tooling Credentials](/docs/management_guide/configuring_and_managing_identity_providers_idps/configuring_tooling_credentials/) for details.
+The **Credentials** link takes you to the view where you can change your account password and enable or disable multi-factor authentication. If your organization is using an Identity Provider, the Credentials link takes you to the view where you can create and change the password you use for tooling. Refer to [Configuring Tooling Credentials](/docs/management_guide/configuring_and_managing_identity_providers/configuring_tooling_credentials)
 
 ### Change your password
 
@@ -95,16 +95,16 @@ To enable multi-factor authentication:
 3. For the **Preferred MFA Method**, select the default method a multi-factor authentication token will be generated for when logging in from a new device. Options are **Authenticator App**, **Email**, and **SMS**.
 
     | Preferred MFA method | How this works | When can this be used |
-    | --- | --- | --- |
-    | Authenticator App | A random code is generated within the app that needs to be provided when the user logs into the Platform. | Only available when an authenticator app has been configured for your account. See [Setup Authenticator App](https://confluence.axway.com/pages/viewpage.action?pageId=278015284#ManagingAccounts-AuthApp) for details. |
+    | ---| --- | --- |
+    | Authenticator App | A random code is generated within the app that needs to be provided when the user logs into the Platform. | Only available when an authenticator app has been configured for your account. See [Setup Authenticator App](#setup-authenticator-app) for details. |
     | Email | A code is sent to your email address that needs to be provided when the user logs into the Platform. | Always available, uses the email address linked to your account. |
-    | SMS | A code is sent through SMS that needs to be provided when the user logs into the Platform. | Only available when a phone number is linked to your account. See [Verify your phone number](https://confluence.axway.com/pages/viewpage.action?pageId=278015284#ManagingAccounts-Phone) for details. |
+    | SMS | A code is sent through SMS that needs to be provided when the user logs into the Platform. | Only available when a phone number is linked to your account. See [Verify your phone number](#verify-your-phone-number) for details. |
 
 4. Click **Save**. Once the Enabled checkbox is selected and the account saved, multi-factor authentication will be enabled, and a notification email will be sent.
 
 5. Depending on the preferred MFA method you selected, make sure to complete these steps:
-    * Authenticator App - [Setup Authenticator App](https://confluence.axway.com/pages/viewpage.action?pageId=278015284#ManagingAccounts-AuthApp)
-    * SMS - [Verify your phone number](https://confluence.axway.com/pages/viewpage.action?pageId=278015284#ManagingAccounts-Phone)
+    * Authenticator App - [Setup Authenticator App](#setup-authenticator-app)
+    * SMS - [Verify your phone number](#verify-your-phone-number)
 6. After you have enabled MFA and you login you will see a notification asking you to enter an authorization code. You might need to use another browser or a private browser session to test this. Enter the Authorization code provided by your Authenticator App,  email, or SMS, and then click **Authorize**.
 
     When the code is correctly validated, you will be successfully logged into the Platform.

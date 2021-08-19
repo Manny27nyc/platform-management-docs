@@ -1,7 +1,7 @@
 ---
-title: Configuring and managing identity providers (idps)
-linkTitle: Configuring and managing identity providers (idps)
-description: ADD A DESCRIPTION
+title: Configuring and managing Identity Providers
+linkTitle: Configuring and managing Identity Providers
+description: 
 weight: 50
 date: 2021-08-12
 ---
@@ -10,4 +10,4 @@ An organization administrator can configure Identity Providers (IdP) and manage 
 
 {{% alert title="Note" color="primary" %}}Organizations are permitted access through an Amplify Platform Enterprise subscription with an Identity Provider entitlement.{{% /alert %}}
 
-Refer to [Getting Started with Identity Providers](/docs/management_guide/configuring_and_managing_identity_providers_idps/getting_started_with_identity_providers/) for details.
+Refer to [Getting started with Identity Providers](/docs/management_guide/configuring_and_managing_identity_providers/getting_started_with_identity_providers) for details.

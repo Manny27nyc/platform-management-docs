@@ -1,7 +1,7 @@
 ---
 title: Getting started with mobile backend services datasources
 linkTitle: Getting started with mobile backend services datasources
-description: ADD A DESCRIPTION
+description: 
 weight: 10
 date: 2021-08-12
 ---
@@ -10,9 +10,9 @@ date: 2021-08-12
 
 This guide provides how-to instructions for getting started with Mobile Backend Services (MBS) datasources.
 
-1. [C](https://confluence.axway.com/pages/viewpage.action?pageId=278015317#GettingStartedwithMobileBackendServicesDatasources-Creatingadatasource)[reating a datasource](https://confluence.axway.com/pages/viewpage.action?pageId=278015317#GettingStartedwithMobileBackendServicesDatasources-datasource).
-2. [Creating a user](https://confluence.axway.com/pages/viewpage.action?pageId=278015317#GettingStartedwithMobileBackendServicesDatasources-user).
-3. [Retrieving the app key](https://confluence.axway.com/pages/viewpage.action?pageId=278015317#GettingStartedwithMobileBackendServicesDatasources-appkey).
+1. [Creating a datasource](#creating-a-datasource).
+2. [Creating a user](#creating-a-user).
+3. [Retrieving the app key](#retrieving-the-app-key).
 
 ## Creating a datasource
 

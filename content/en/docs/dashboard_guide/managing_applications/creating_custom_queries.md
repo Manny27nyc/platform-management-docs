@@ -1,7 +1,7 @@
 ---
 title: Creating custom queries
 linkTitle: Creating custom queries
-description: ADD A DESCRIPTION
+description: 
 weight: 60
 date: 2021-08-12
 ---
@@ -10,7 +10,7 @@ date: 2021-08-12
 
 By default, Dashboard provides metric analytics for Amplify Runtime Requests, Average Session Length, Install, Events, Mobile Backend Service Requests, Push Notifications, Sessions, and Unique Devices. The Custom Queries feature enables you to create custom queries based on your application-specific metrics and analytical needs or expand upon the provided default analytics to meet your specific analytics needs.
 
-## Queries Overview
+## Queries overview
 
 To access the _Queries Overview_ screen, select the **Custom Queries** tab on the Dashboard home page.
 
@@ -20,7 +20,7 @@ Note that if you have not created any custom queries, selecting the **Custom Que
 
 ![](/Images/custom_queries.png)
 
-## Creating Queries without filtering
+## Creating queries without filtering
 
 To create a custom query without filtering:
 
@@ -69,7 +69,7 @@ To create a custom query without filtering:
 8. (Optional) Click **Preview** to preview your custom query. The Custom Query section will be updated to display your custom query analytics preview.
 9. Click **Save** to save your custom query. Your custom query will be saved, the Saved Queries drop-down menu will be updated to include your saved custom query, the Custom Query section will be updated to display your custom query analytics, and your custom query will be available on the _Queries Overview_ screen.
 
-## Creating Queries with filtering
+## Creating queries with filtering
 
 To create a custom query with filtering:
 
@@ -141,19 +141,19 @@ To create a custom query with filtering:
 14. Complete the operand field or make a selection from the drop-down menu. The field selections are based on the selected filter type. To fetch the available field selections over the selected time range, click the **Magnify** icon. Optionally, you can select **Advanced** and enter the JSON coded filter.
 15. Click **Save** to save to save your custom query. Your custom query will be saved, the Saved Queries drop-down menu will be updated to include your saved custom query, the Custom Query section will be updated to display your custom query analytics, and your custom query will be available on the _Queries Overview_ screen.
 
-## Previewing Queries
+## Previewing queries
 
 To preview a custom query and not save it, click **Submit**. The Custom Query section will be updated to display your custom query analytics.
 
-## Saving Queries
+## Saving queries
 
 To save a custom query, click **Save**. Your custom query will be saved, the Saved Queries drop-down menu will be updated to include your saved custom query, the Custom Query section will be updated to display your custom query analytics, and your custom query will be available on the _Queries Overview_ screen.
 
-## Clearing Queries
+## Clearing queries
 
 To clear the custom query selections and fields, click **Clear**.
 
-## Editing Queries
+## Editing queries
 
 To edit a custom query:
 
@@ -164,7 +164,7 @@ To edit a custom query:
 4. Edit the filtering as needed.
 5. Click **Save** to save your custom query changes. The Custom Query section will be updated to display your custom query analytics changes.
 
-## Deleting Queries
+## Deleting queries
 
 To delete a custom query:
 
@@ -173,7 +173,7 @@ To delete a custom query:
 3. Enter the name of the query to delete in the _Delete Confirmation_ screen.
 4. To confirm the query deletion, click **I understand that this is a permanent and irreversible action. Continue**.
 
-## Filtering Queries
+## Filtering queries
 
 You can filter queries using either basic filtering or advanced filtering.
 
@@ -207,7 +207,7 @@ To configure basic filtering:
 7. (Optional) To add additional filters, click the **Plus** icon.
 8. To save the configured filtering as part of a custom query, click **Save**.
 
-### Advanced Filtering
+### Advanced filtering
 
 To configure advanced filtering:
 
@@ -225,11 +225,11 @@ To configure advanced filtering:
 
 3. To save the configured filtering as part of a custom query, click **Save**.
 
-### Delete Filters
+### Delete filters
 
 To delete a filter, select the **Delete** icon associated with the filter to delete.
 
-## Custom Data Query Example
+## Custom data query example
 
 If a `featureEvent` is specified:
 

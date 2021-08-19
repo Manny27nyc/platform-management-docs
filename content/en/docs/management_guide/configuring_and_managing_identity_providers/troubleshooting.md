@@ -1,7 +1,7 @@
 ---
 title: Troubleshooting
 linkTitle: Troubleshooting
-description: ADD A DESCRIPTION
+description: 
 weight: 70
 date: 2021-08-12
 ---
@@ -10,7 +10,7 @@ The troubleshooting section includes details about issues you may come across wh
 
 ## Email recipient to confirm domain association must be on same domain being verified
 
-After domain ownership is verified and identity provider has been configured you must confirm the association of an IdP to the domain. Confirming the association is competed by sending a verification email to a user on the same domain as the domain that is being verified. When you get to the step to [select a user's email address to validate the association](/docs/management_guide/configuring_and_managing_identity_providers_idps/enabling_the_identity_provider_configuration/confirming_the_association_of_an_idp_to_the_domain/#for-the-domain-you-want-to-confirm-select-confirm-idp-association-from-the-actions--menu-from-the-email-domain-table) in the **Verification Recipient** field, the Platform only shows users with an email address that is using the domain that you want to verify. You need a user in your organization with an email with that domain to complete domain verification.
+After domain ownership is verified and identity provider has been configured you must confirm the association of an IdP to the domain. Confirming the association is competed by sending a verification email to a user on the same domain as the domain that is being verified. When you get to the step to [select a user's email address to validate the association] (/docs/management_guide/configuring_and_managing_identity_providers/enabling_identity_provider_configuration/confirming_the_association_of_an_idp_to_the_domain) in the **Verification Recipient** field, the Platform only shows users with an email address that is using the domain that you want to verify. You need a user in your organization with an email with that domain to complete domain verification.
 
 ## Error messages
 
@@ -22,7 +22,7 @@ A "destination URL validation failed" error is thrown by an IdP and has been see
 
 ### "Invalid Federated Identity Action Message" error message
 
-An "InvalidFederatedIdentityActionMessage" error message can be seen when the user clicks the confirm domain ownership link in the email they receive and they are redirected to the Amplify Platform. Refer to [Confirming the association of an IdP to the domain](https://confluence.axway.com/display/APUD/Confirming+the+Association+of+an+IdP+to+the+Domain) for details. This error can occur if you have an invalid X509 certificate configured for the [SAML v2.0 Identity Provider](https://confluence.axway.com/display/APUD/Configuring+a+SAML+v2.0+IdP). Edit the SAML Identity Provider to use a valid X509 certificate.
+An "InvalidFederatedIdentityActionMessage" error message can be seen when the user clicks the confirm domain ownership link in the email they receive and they are redirected to the Amplify Platform. Refer to [Confirming the association of an IdP to the domain](/docs/management_guide/configuring_and_managing_identity_providers/enabling_identity_provider_configuration/confirming_the_association_of_an_idp_to_the_domain/) for details. This error can occur if you have an invalid X509 certificate configured for the [SAML v2.0 Identity Provider](/docs/management_guide/configuring_and_managing_identity_providers/managing_identity_provider_configuration/configuring_a_saml_v2.0_idp/). Edit the SAML Identity Provider to use a valid X509 certificate.
 
 ### "Invalid username or password" error message
 

@@ -1,7 +1,7 @@
 ---
 title: Managing billing
 linkTitle: Managing billing
-description: ADD A DESCRIPTION
+description: 
 weight: 30
 date: 2021-08-12
 ---
@@ -16,7 +16,7 @@ The **Overview** tab provides your account basic information, number of seats, a
 
 ![](/Images/billing_overview.png)
 
-The **Basic Info** section lists your organization name and provides your current plan information. To change your current plan, click the **Adjust Plan** button. When you click the **Adjust Plan** button, you will be transferred to the _Choose Plan_ page. For more information on choosing a plan, refer to [Choose Plan](https://confluence.axway.com/pages/viewpage.action?pageId=278015315#ManagingBilling-Choose).
+The **Basic Info** section lists your organization name and provides your current plan information. To change your current plan, click the **Adjust Plan** button. When you click the **Adjust Plan** button, you will be transferred to the _Choose Plan_ page. For more information on choosing a plan, refer to [Choose Plan](#choose-plan).
 
 The **Seats** section lists the number of occupied account seats versus the number of licensed account seats. It also provides a link to the community support site. To access the community support site, click the **Public Forms** link. To manage your organization's members, click the **Tool** icon.
 
@@ -93,7 +93,7 @@ The **Runtime Services** tab includes the Run APIs and Microservices and Enterpr
 
 The **Run APIs and Microservices** section enables you to add instant, elastic infrastructure for all your runtime needs. You can purchase cloud capacity using Container Points and allocate them to containers. Each container can run a single application. To add elastic infrastructure, select the number of containers needed to run your server-side applications, and we will calculate the required points. Additional medium, large, and x-large containers can be selected or deselected by clicking by + or - symbols associated with each container type. The additional cost per month is calculated and displayed as additional containers are added or removed. Don't worry; container points can be reallocated at any time. Additionally, your organization's currently allocated container points and the number of recommended container point to run your application are displayed.
 
-#### Enterprise Cloud Capacity and Support
+#### Runtime Services Enterprise Cloud Capacity and Support
 
 The **Enterprise Cloud Capacity and Support** section provides a list of benefits offered with an enterprise-level plan for cloud capacity. Enterprise plans for cloud capacity offer:
 
@@ -115,7 +115,7 @@ The **Mobile Backend Services** tab includes the Mobile Backend Services and Ent
 
 ![](/Images/mobile_backend_services.png)
 
-#### Mobile Backend Services
+#### Mobile Backend Services section
 
 The **Mobile Backend Services** section provides pre-built, scalable cloud services to accelerate your server-side applications. You can adjust your allocated number push calls and API calls per month and add database and file storage space.
 
@@ -124,7 +124,7 @@ The **Mobile Backend Services** section provides pre-built, scalable cloud servi
 * Database storage - Adjust your allocated database storage space to increase your instant, schema-less storage in the cloud. Database storage is a schema-less, instant, on-demand data store that runs in the cloud. Database storage can be used for things like key/value pair, custom objects, geodata, and so forth.
 * File storage - Adjust your allocated file storage space to increase your space to store uploaded files and photos.
 
-#### Enterprise Cloud Capacity and Support
+#### Mobile Backend Services Enterprise Cloud Capacity and Support
 
 The **Enterprise Cloud Capacity and Support** section provides a list of benefits offered with an enterprise-level plan for cloud capacity. Enterprise plans for cloud capacity offer:
 

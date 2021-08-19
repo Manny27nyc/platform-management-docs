@@ -1,16 +1,16 @@
 ---
 title: Managing email templates
 linkTitle: Managing email templates
-description: ADD A DESCRIPTION
+description: 
 weight: 20
 date: 2021-08-12
 ---
 
-The Email Templates screen lets you create and edit plain text and HTML email templates. The email template's subject and body can contain [placeholder values](#using-placeholder-fields) that are dynamically replaced with values you specify when sending the email using the Mobile Backend Services (MBS) [email_from_template](http://docs.appcelerator.com/arrowdb/latest/#!/api/Emails-method-email_from_template) REST API, Titanium.Cloud.Emails.send() method or equivalent native [iOS](http://docs.appcelerator.com/aps-sdk-apidoc/latest/ios/Classes/APSEmails.html#//api/name/send:withBlock:) or [Android](http://docs.appcelerator.com/aps-sdk-apidoc/latest/android/com/appcelerator/aps/APSEmails.html) method. The email can be sent as plain text, HTML, or multi-part using these methods.
+The Email Templates screen lets you create and edit plain text and HTML email templates. The email template's subject and body can contain [placeholder values](#using-placeholder-fields) that are dynamically replaced with values you specify when sending the email using the Mobile Backend Services (MBS) email_from_template REST API, Titanium.Cloud.Emails.send() method or equivalent native iOS or Android method. The email can be sent as plain text, HTML, or multi-part using these methods.
 
 ## Creating an email template
 
-An email template specifies the email subject line and body, which may be HTML or plain-text. You specify the template name when calling [email_from_template](http://docs.appcelerator.com/arrowdb/latest/#!/api/Emails-method-email_from_template), the recipients, and values for any [placeholder values](#using-placeholder-fields).
+An email template specifies the email subject line and body, which may be HTML or plain-text. You specify the template name when calling email_from_template, the recipients, and values for any [placeholder values](#using-placeholder-fields).
 
 To create an email template:
 
@@ -18,7 +18,7 @@ To create an email template:
 2. Select **Manage Data**, then click **Email Templates**.
 3. Click **\+ Email Template**.
 4. Click the **Code** tab, and provide values for the following fields:
-    1. **Name** – Name of the email template. You will specify this name when [sending](http://docs.appcelerator.com/platform/latest/#!/api/Modules.Cloud.Emails) the email.
+    1. **Name** – Name of the email template. You will specify this name when [sending] the email.
     2. **Subject** – The email's subject. The subject can contain [placeholder values](#using-placeholder-fields) in double curly brackets.
     3. **Body (HTML)** – The email's HTML-formatted body text. The body can contain [placeholder values](#using-placeholder-fields) in double curly brackets.
     4. **Body (Plain Text)** – The email's plain text-formatted body text. The body can contain [placeholder values](#using-placeholder-fields) in double curly brackets.
@@ -104,7 +104,7 @@ To delete an email template:
 
 ## Sending email based on a template
 
-To send an email based on a template, call the [email_from_template](http://docs.appcelerator.com/arrowdb/latest/#!/api/Emails-method-email_from_template) MBS method from your application. For example, the following code example uses the `Titanium.Cloud.Emails.send()` method to send an email based on the 'welcome_template' to a user.
+To send an email based on a template, call the email_from_template MBS method from your application. For example, the following code example uses the `Titanium.Cloud.Emails.send()` method to send an email based on the 'welcome_template' to a user.
 
 ```javascript
 Cloud.Emails.send({

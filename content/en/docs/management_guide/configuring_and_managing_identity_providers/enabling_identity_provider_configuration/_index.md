@@ -1,7 +1,7 @@
 ---
-title: Enabling the identity provider configuration
-linkTitle: Enabling the identity provider configuration
-description: ADD A DESCRIPTION
+title: Enabling Identity Provider configuration
+linkTitle: Enabling Identity Provider configuration
+description: 
 weight: 40
 date: 2021-08-12
 ---

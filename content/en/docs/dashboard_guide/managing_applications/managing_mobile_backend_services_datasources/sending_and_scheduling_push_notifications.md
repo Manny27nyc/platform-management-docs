@@ -1,7 +1,7 @@
 ---
 title: Sending and scheduling push notifications
 linkTitle: Sending and scheduling push notifications
-description: ADD A DESCRIPTION
+description: 
 weight: 40
 date: 2021-08-12
 ---
@@ -20,7 +20,7 @@ To send a notification to users located in a geographic area, the application mu
 
 The Dashboard provides two views for sending notifications, **Standard** and **Advanced.** The Standard view provides an easy way to send notifications without having to understand the payload structure. In the Advanced view, you manually create the JSON payload. The advanced form provides additional flexibility, such as including custom payload fields.
 
-If you prefer can use the [PushNotification.notify](http://docs.appcelerator.com/arrowdb/latest/#!/api/PushNotifications-method-notify) or [PushNotification.notify_tokens](http://docs.appcelerator.com/arrowdb/latest/#!/api/PushNotifications-method-notify_token) REST APIs to send push notifications.
+If you prefer can use the PushNotification.notify or PushNotification.notify_tokens REST APIs to send push notifications.
 
 {{% alert title="Note" color="primary" %}}A warning will be displayed if you attempt to perform a push with an expired or disabled iOS certificate.{{% /alert %}}
 
@@ -34,7 +34,7 @@ If you prefer can use the [PushNotification.notify](http://docs.appcelerator.com
     1. To send a notification to all users regardless of their channel subscriptions, select **All Users** and leave the **Channel Name** field blank.
     2. To send a notification to all users subscribed to a particular channel, select **All Users** and enter the channel name in the **Channel Name** field.
     3. To send a notification to specific users who are subscribed to a particular channel_,_ select  **Specific Users**, then:
-        1. Click the add ** (+)**  button in the  **To Users** field.
+        1. Click the add **(+)**  button in the  **To Users** field.
         2. Select the desired recipients from the list of users. To locate a particular user, enter their username in the search field.
         3. In the **Channel Name** field, enter the name of the target channel subscription.
 
@@ -69,11 +69,11 @@ If you prefer can use the [PushNotification.notify](http://docs.appcelerator.com
         5. In the **Time to Live** field (Android, only), specify how long (in seconds) the message should be kept in Firebase Cloud Messaging storage if the device is offline.
         6. In the **Priority** field (Android, only), select either **Normal** or **High**. Set to high priority if the message is time-critical and requires the user's immediate interaction.
 8. To define the notification payload using the **Advanced** view:
-    1. In the **Custom JSON** field, enter a valid JSON string (see [Custom JSON Payloads](#undefined) for details).
+    1. In the **Custom JSON** field, enter a valid JSON string (see [Custom JSON Payloads](#custom-json-payloads) for details).
         ![](/Images/advanced_form2_latest.png)
 9. Click **Send Now**.
 
-## About Notification Payloads
+## About notification payloads
 
 The content, or payload, of a push notification, is a JSON-encoded object whose fields contain the payload values. The JSON object typically contains one of the "standard" notification fields. Standard fields are supported by both iOS and Android devices. Some fields are platform-specific, such as `icon` or `title`, that are only used by Android, or `category` and `content-available`, that are only used by iOS 8 devices and later.
 
@@ -96,7 +96,7 @@ iOS 8 devices and later support the following additional fields:
 * `category` – The name of the category to use for interactive notifications. See [iOS Interactive Notifications](https://docs.axway.com/bundle/Titanium_SDK_allOS_en/page/ios_interactive_notifications.html) for more information.
 * `content-available` – If set to **1**, indicates that new content is available.  This is used to support Newsstand apps and background content downloads.
 
-The payload can also include custom fields that your application can read and use as desired. See [Custom JSON Payloads](#undefined) for an example of using custom fields.
+The payload can also include custom fields that your application can read and use as desired. See [Custom JSON Payloads](#custom-json-payloads) for an example of using custom fields.
 
 ### Custom JSON payloads
 
@@ -132,11 +132,11 @@ When the device receives this payload, it will do the following:
 * On iOS devices:
     * The user notification actions associated with the "sampleCategory" user notification category.
 
-### About JSON Payloads Delivered to Devices
+### About JSON payloads delivered to devices
 
 The notification payload that Mobile Backend Services delivers to either FCM or GCM or APNS is slightly modified from the original JSON payload you provide to Dashboard. Also, the payloads are slightly different for Android and iOS devices.
 
-For Android, all Android-specific fields are contained in an **`android`** dictionary, while all other iOS-only and custom fields are top-level keys of the payload. For example, the payload shown in [Custom JSON payloads](#undefined) will be delivered to an Android application as follows:
+For Android, all Android-specific fields are contained in an **`android`** dictionary, while all other iOS-only and custom fields are top-level keys of the payload. For example, the payload shown in [Custom JSON payloads](#custom-json-payloads) will be delivered to an Android application as follows:
 
 ```
 {
@@ -154,7 +154,7 @@ For Android, all Android-specific fields are contained in an **`android`** dicti
 }
 ```
 
-For iOS devices, all iOS-specific fields are contained in an `**aps**` dictionary, while all Android-specific and custom fields are top-level keys of the payload. For example, the payload shown in [Custom JSON payloads](#undefined) will be delivered to an iOS application as follows:
+For iOS devices, all iOS-specific fields are contained in an `**aps**` dictionary, while all Android-specific and custom fields are top-level keys of the payload. For example, the payload shown in [Custom JSON payloads](#custom-json-payloads) will be delivered to an iOS application as follows:
 
 ```
 {
@@ -172,11 +172,13 @@ For iOS devices, all iOS-specific fields are contained in an `**aps**` dictionar
 }
 ```
 
-### Notification Features
+### Notification features
 
-#### Rich Notifications (iOS 10 and later)
+This section includes notification features such as rich and interactive notifications for iOS, silent push notifications, notification badges and sounds, and Android-specific payload fields.
 
-Since Titanium SDK 7.3.0, you can create rich notifications for users running iOS 10 or later. Rich notifications can include additional meta-data like a subtitle, location-based triggers, and attachments. While most of the new properties can be configured in existing [UserNotificationAction](http://docs.appcelerator.com/platform/latest/#!/api/Titanium.App.iOS.UserNotificationAction) instances, there is one special case to remember when working with rich notifications: If you want to display an attachment, you have to distinguish between local and remote images:
+#### Rich notifications (iOS 10 and later)
+
+Since Titanium SDK 7.3.0, you can create rich notifications for users running iOS 10 or later. Rich notifications can include additional meta-data like a subtitle, location-based triggers, and attachments. While most of the new properties can be configured in existing UserNotificationAction instances, there is one special case to remember when working with rich notifications: If you want to display an attachment, you have to distinguish between local and remote images:
 
 * **Local** images: Can be specified when scheduling a **local** notification from your application, for example using the `[attachments](http://docs.appcelerator.com/platform/latest/#!/api/NotificationParams-property-attachments)` property inside the creation dictionary of the notification.
 * **Remote** image: Can be specified when scheduling a **remote** notification using an `[UNNotificationServiceExtension](https://developer.apple.com/documentation/usernotifications/unnotificationserviceextension?language=objc)`. App extensions in Titanium can be written in both Objective-C and Swift. Learn more about them [here](https://docs.axway.com/bundle/Titanium_SDK_allOS_en/page/creating_ios_extensions_-_siri_intents.html).
@@ -199,7 +201,7 @@ Since Titanium SDK 7.3.0, you can create rich notifications for users running i
 
 Important: Make sure to include the `mutable-content` flag in your JSON payload, which is used to trigger the notification extension. Also, the `attachement-url` is downloaded and persisted in your local filesystem using the `attachment-name` key. The developer is responsible to structure the extension and the way it deals with remote content. See our [example Swift extension](https://github.com/appcelerator-developer-relations/appc-sample-ios-push-notifications/blob/master/extensions/NotificationServiceExtension/notificationservice/NotificationService.swift) that can be used as part of the [App Extensions](https://docs.axway.com/bundle/Titanium_SDK_allOS_en/page/creating_ios_extensions_-_siri_intents.html) guide.
 
-In addition to that, iOS 10 also introduces a NotificationCenter API that is made available in Titanium via the [`Ti.App.iOS.UserNotificationCenter`](http://docs.appcelerator.com/platform/latest/#!/api/Titanium.App.iOS.UserNotificationCenter) API. It represents a powerful binding to manage notifications by being able to change or cancel notifications that are currently pending. While most of its API's are made for iOS 10 and later, the changes have been made in a way to be backward compatible with iOS 8, so you don't need to call multiple methods to manage your push notifications.
+In addition to that, iOS 10 also introduces a NotificationCenter API that is made available in Titanium via the `Ti.App.iOS.UserNotificationCenter` API. It represents a powerful binding to manage notifications by being able to change or cancel notifications that are currently pending. While most of its API's are made for iOS 10 and later, the changes have been made in a way to be backward compatible with iOS 8, so you don't need to call multiple methods to manage your push notifications.
 
 Some useful links to get started:
 
@@ -208,13 +210,13 @@ Some useful links to get started:
 * Titanium: [iOS Push Notifications Sample App](https://github.com/appcelerator-developer-relations/appc-sample-ios-push-notifications)
 * Titanium: [App Extensions Guide](https://docs.axway.com/bundle/Titanium_SDK_allOS_en/page/creating_ios_extensions_-_siri_intents.html)
 
-#### Interactive Notifications (iOS 8 and later)
+#### Interactive notifications (iOS 8 and later)
 
 You can create interactive notifications for users running iOS 8 or later can respond to without launching the application to the foreground.
 
 ![](/Images/interactivebannermessage.png)
 
-Your Titanium application defines one or more _notification categories_, each of which consists of one or more _notification actions_. When you [create a push notification](#undefined) in the Dashboard, the **Category** form field lets you specify the category of interactive notification to display when the push notification arrives.
+Your Titanium application defines one or more _notification categories_, each of which consists of one or more _notification actions_. When you [create a push notification](#create-a-push-notification) in the Dashboard, the **Category** form field lets you specify the category of interactive notification to display when the push notification arrives.
 
 **To create an interactive notification:**
 
@@ -226,11 +228,11 @@ Your Titanium application defines one or more _notification categories_, each of
 2. In the Dashboard, send a new push notification and set the **Category** field to the desired notification category.
     ![](/Images/push_notification.png)
 
-When the notification arrives, the device displays the set of actions defined by the category. The [remotenotificationaction](http://docs.appcelerator.com/platform/latest/#!/api/Titanium.App.iOS-event-remotenotificationaction) event fires when the user interacts with the notification.
+When the notification arrives, the device displays the set of actions defined by the category. The remotenotificationaction event fires when the user interacts with the notification.
 
-In addition, you can set the `[behavior](http://docs.appcelerator.com/platform/latest/#!/api/Titanium.App.iOS.UserNotificationAction-property-behavior)` property of the [`Ti.App.iOS.NotificationAction`](http://docs.appcelerator.com/platform/latest/#!/api/Titanium.App.iOS.UserNotificationAction) to  [`Ti.App.iOS.USER_NOTIFICATION_BEHAVIOR_TEXTINPUT`](http://docs.appcelerator.com/platform/latest/#!/api/Titanium.App.iOS-property-USER_NOTIFICATION_BEHAVIOR_TEXTINPUT) which will show a text field that can be used to respond to actions without opening the app.
+In addition, you can set the `[behavior](http://docs.appcelerator.com/platform/latest/#!/api/Titanium.App.iOS.UserNotificationAction-property-behavior)` property of the `Ti.App.iOS.NotificationAction` to `Ti.App.iOS.USER_NOTIFICATION_BEHAVIOR_TEXTINPUT` which will show a text field that can be used to respond to actions without opening the app.
 
-#### Silent Push Notifications
+#### Silent push notifications
 
 The **Content-Available** form field lets you silently notify a Titanium or native iOS/Android application, without alerting the user at all. A silent push is often used to alert the application that new content is available to download. Once the download (or another task) initiated by the silent push is complete, the application can display a notification to the user that new content is available.
 
@@ -238,7 +240,7 @@ The **Content-Available** form field lets you silently notify a Titanium or nati
 
 For detailed steps on enabling silent push notifications in your Titanium application, see [Silent Push](https://docs.axway.com/bundle/Titanium_SDK_allOS_en/page/ios_background_services.html) in the Titanium SDK guides.
 
-#### Notification Badges
+#### Notification badges
 
 A **badge** is a number displayed on the application icon (on iOS), or in the notification area (on Android). You can specify a specific badge value to display (2 or 10, for example), or a number prefixed by plus (+) or minus (-) symbol (+3 or -6, for example). When prefixed, the currently displayed badge number is incremented or decremented by the specified amount, respectively. To remove an application badge on iOS, specify a badge value of **0** (zero).
 
@@ -246,7 +248,7 @@ A **badge** is a number displayed on the application icon (on iOS), or in the no
 
 ![](/Images/android_badge.png)
 
-#### Notification Sounds
+#### Notification sounds
 
 The `sound` field in a notification payload specifies the name (minus the extension) of a local sound file resource to play the notification arrives. When a push notification arrives, you can specify a custom sound to play, the default system sound, or no sound.
 
