@@ -164,7 +164,7 @@ const config = {
   publish_mode: 'editorial_workflow',
   media_folder: '/static/Images', // Media files will be stored in the repo under static/Images
   public_folder: '/Images', // The src attribute for uploaded media will begin with /Images
-  site_url: 'https://platform-management-open-docs.netlify.app/', // URL to netlify site
+  site_url: 'https://platform.management.netlify.app/', // URL to netlify site
   collections,
 };
 

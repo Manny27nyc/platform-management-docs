@@ -1,7 +1,7 @@
 ---
 title: Release notes
 linkTitle: Release notes
-description: New features, improvements, and bug fixes for the release.
+description: 
 no_list: true
 weight: 40
 date: 2021-08-12
