@@ -1,7 +1,7 @@
 ---
 title: The Amplify Platform dashboard
 linkTitle: The Amplify Platform dashboard
-description: 
+description: About the Dashboard left navigation menu items.
 weight: 10
 date: 2021-08-12
 ---

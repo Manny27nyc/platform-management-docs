@@ -1,7 +1,7 @@
 ---
 title: Managing access control lists
 linkTitle: Managing access control lists
-description: 
+description: Access control lists are for managing read and write access to Mobile Backend Services objects. 
 weight: 10
 date: 2021-08-12
 ---

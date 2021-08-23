@@ -1,12 +1,12 @@
 ---
 title: Previewing applications
 linkTitle: Previewing applications
-description: 
+description: The App Preview feature allows you to distribute different versions of your application to testers and stakeholders reviewing the application.
 weight: 20
 date: 2021-08-12
 ---
 
-The App Preview functionality is available on the Dashboard. Previously, this functionality was only accessible from Axway Appcelerator Studio. The App Preview feature allows you to distribute different versions of your application to testers and stakeholders reviewing the application. The App Preview feature is available for Professional and Enterprise organizations and is accessible from the **Actions** menu for the selected app.
+The App Preview functionality is available on the Dashboard. Previously, this functionality was only accessible from Axway Appcelerator Studio. The App Preview feature is available for Professional and Enterprise organizations and is accessible from the **Actions** menu for the selected app.
 
 ![](/Images/app_preview_01_new.png)
 

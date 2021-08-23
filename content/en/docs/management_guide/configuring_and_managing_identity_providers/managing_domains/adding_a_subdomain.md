@@ -1,7 +1,7 @@
 ---
 title: Adding a subdomain
 linkTitle: Adding a subdomain
-description: 
+description: How to add a domain for Identity Providers. 
 weight: 30
 date: 2021-08-12
 ---

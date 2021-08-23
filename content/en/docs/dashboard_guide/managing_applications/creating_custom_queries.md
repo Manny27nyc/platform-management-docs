@@ -1,7 +1,7 @@
 ---
 title: Creating custom queries
 linkTitle: Creating custom queries
-description: 
+description: How to create custom queries to meet your specific analytics needs.
 weight: 60
 date: 2021-08-12
 ---

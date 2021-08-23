@@ -1,7 +1,7 @@
 ---
 title: Managing Runtime Services applications
 linkTitle: Managing Runtime Services applications
-description: 
+description: View and manage Runtime Services applications. 
 weight: 30
 date: 2021-08-12
 ---

@@ -1,7 +1,7 @@
 ---
 title: Dissociating a domain
 linkTitle: Dissociating a domain
-description: 
+description: How to dissociate a domain for Identity Providers. 
 weight: 50
 date: 2021-08-12
 ---

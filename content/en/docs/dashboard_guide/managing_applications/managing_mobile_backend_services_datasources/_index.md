@@ -1,7 +1,7 @@
 ---
 title: Managing Mobile Backend Services datasources
 linkTitle: Managing Mobile Backend Services datasources
-description: 
+description: View and manage Mobile Backend Services datasources.
 weight: 20
 date: 2021-08-12
 ---

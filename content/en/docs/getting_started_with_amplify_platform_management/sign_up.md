@@ -1,7 +1,7 @@
 ---
 title: Sign up
 linkTitle: Sign up
-description: 
+description: How to sign up for a Platform account.
 weight: 10
 date: 2021-08-12
 ---

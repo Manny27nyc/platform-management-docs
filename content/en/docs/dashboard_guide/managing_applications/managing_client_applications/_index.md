@@ -1,14 +1,12 @@
 ---
 title: Managing client applications
 linkTitle: Managing client applications
-description: 
+description: This section provides information on app overview and service keys, what the API Builder, test, and performance tabs entail, how to view real-time and aggregated analytics, and managing application team members.
 weight: 10
 date: 2021-08-12
 ---
 
 {{% alert title="Note" color="primary" %}}Client applications support ends March 1, 2022. Refer to the [End of Support announcement](https://devblog.axway.com/featured/product-update-changes-to-application-development-services-appcelerator/) for details.{{% /alert %}}
-
-This document provides information on app overview and service keys, what the {{% variables/apibuilder_prod_name %}}, test, and performance tabs entail, how to view real-time and aggregated analytics, and managing application team members.
 
 ## App Overview and service keys
 

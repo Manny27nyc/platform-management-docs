@@ -1,12 +1,10 @@
 ---
 title: The dashboards
 linkTitle: The dashboards
-description: 
+description: The Platform provides different dashboards based on the organization subscriptions and your assigned roles.
 weight: 10
 date: 2021-08-12
 ---
-
-The Amplify Platform provides different dashboards based on the organization subscriptions and your assigned roles.
 
 Click the **Dashboard** link from the Amplify Platform home page.
 

@@ -1,7 +1,7 @@
 ---
 title: Enabling IdP configuration for all domain users
 linkTitle: Enabling IdP configuration for all domain users
-description: 
+description: How to enable the Identity Provider configuration for all users on the domain.
 weight: 20
 date: 2021-08-12
 ---

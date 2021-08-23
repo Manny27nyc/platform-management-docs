@@ -1,7 +1,7 @@
 ---
 title: Confirming the association of an IdP to the domain
 linkTitle: Confirming the association of an IdP to the domain
-description: 
+description: A selected user on the domain must confirm the association of the Identity Provider to the domain.
 weight: 10
 date: 2021-08-12
 ---

@@ -1,7 +1,7 @@
 ---
 title: Configuring cloud services
 linkTitle: Configuring cloud services
-description: 
+description: Configuring keys, settings, and email for cloud services. 
 weight: 30
 date: 2021-08-12
 ---

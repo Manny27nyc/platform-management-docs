@@ -1,7 +1,7 @@
 ---
 title: Removing a domain
 linkTitle: Removing a domain
-description: 
+description: How to remove a domain for Identity Providers. 
 weight: 40
 date: 2021-08-12
 ---

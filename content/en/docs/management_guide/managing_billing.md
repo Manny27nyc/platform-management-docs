@@ -1,12 +1,12 @@
 ---
 title: Managing billing
 linkTitle: Managing billing
-description: 
+description: Access the billing page to manage organization subscriptions.
 weight: 30
 date: 2021-08-12
 ---
 
-To manage your account information, select **Manage Subscriptions** from the **Organization** details page. Selecting **Manage Subscriptions** opens the _Billing_ page.
+To manage your billing information, select **Manage Subscriptions** from the **Organization** details page. Selecting **Manage Subscriptions** opens the _Billing_ page.
 
 {{% alert title="Note" color="primary" %}}Mobile Backend Services and Runtime Services are deprecated and will be discontinued effective September 1, 2022.{{% /alert %}}
 

@@ -1,7 +1,7 @@
 ---
 title: FAQ
 linkTitle: FAQ
-description: 
+description: Frequently asked questions about the Platform.
 weight: 50
 date: 2021-08-12
 ---

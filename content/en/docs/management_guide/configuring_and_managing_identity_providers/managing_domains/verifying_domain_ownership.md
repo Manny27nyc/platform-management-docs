@@ -1,7 +1,7 @@
 ---
 title: Verifying domain ownership
 linkTitle: Verifying domain ownership
-description: 
+description: How to verify domain ownership for Identity Providers. 
 weight: 20
 date: 2021-08-12
 ---

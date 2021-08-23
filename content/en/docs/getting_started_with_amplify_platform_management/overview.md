@@ -1,12 +1,12 @@
 ---
 title: Overview
 linkTitle: Overview
-description: 
+description: An overview of the Platform home page and what you see based on your organizations subscriptions and your assigned roles.
 weight: 30
 date: 2021-08-12
 ---
 
-Once you are signed into the Amplify Platform, the _Welcome to Amplify_ home page is displayed. What you see on the home page depends on your organizations subscriptions and your assigned roles.  Subscriptions define the platform capabilities that the organization is allowed to use. Users can be assigned different roles that grant them the rights to the Platform associated with their assigned roles and capabilities.
+Once you are signed into the Amplify Platform, the _Welcome to Amplify_ home page is displayed. What you see on the home page depends on your organizations subscriptions and your assigned roles. Subscriptions define the platform capabilities that the organization is allowed to use. Users can be assigned different roles that grant them the rights to the Platform associated with their assigned roles and capabilities.
 
 The Amplify Platform home page includes the following areas. Refer to the images below to understand the areas you will see for your organization:
 

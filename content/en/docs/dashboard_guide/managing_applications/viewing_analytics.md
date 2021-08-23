@@ -1,7 +1,7 @@
 ---
 title: Viewing analytics
 linkTitle: Viewing analytics
-description: 
+description: View detailed analytics for each application. 
 weight: 40
 date: 2021-08-12
 ---

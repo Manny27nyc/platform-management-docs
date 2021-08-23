@@ -1,7 +1,7 @@
 ---
 title: Amplify Platform Management guide
 linkTitle: Amplify Platform Management guide
-description: 
+description: This guide details the interface tasks to manage the Platform.
 weight: 20
 date: 2021-08-12
 ---

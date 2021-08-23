@@ -1,7 +1,7 @@
 ---
 title: Configuring an OpenID Connect IdP
-linkTitle: Configuring an OpenId Connect IdP
-description: 
+linkTitle: Configuring an OpenID Connect IdP
+description: How to configure an OpenID Connect Identity Provider for the Platform.
 weight: 10
 date: 2021-08-12
 ---

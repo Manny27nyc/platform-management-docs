@@ -1,7 +1,7 @@
 ---
 title: Viewing metrics
 linkTitle: Viewing metrics
-description: 
+description: View metrics relevant to a product line to which your organization is subscribed.
 weight: 50
 date: 2021-08-12
 ---

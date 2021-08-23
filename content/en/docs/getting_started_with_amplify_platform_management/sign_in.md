@@ -1,7 +1,7 @@
 ---
 title: Sign in
 linkTitle: Sign in
-description: 
+description: How to sign into the Platform.
 weight: 20
 date: 2021-08-12
 ---

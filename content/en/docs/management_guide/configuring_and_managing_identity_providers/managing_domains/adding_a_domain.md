@@ -1,7 +1,7 @@
 ---
 title: Adding a domain
 linkTitle: Adding a domain
-description: 
+description: How to add a domain for Identity Providers. 
 weight: 10
 date: 2021-08-12
 ---

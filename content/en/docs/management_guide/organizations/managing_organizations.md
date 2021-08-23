@@ -1,7 +1,7 @@
 ---
 title: Managing organizations
 linkTitle: Managing organizations
-description: 
+description: A Platform administrator can perform various tasks to manage their organizations.
 weight: 30
 date: 2021-08-12
 ---

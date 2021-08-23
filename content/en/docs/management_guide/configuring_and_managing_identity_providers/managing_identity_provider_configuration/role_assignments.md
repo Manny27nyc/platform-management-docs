@@ -1,14 +1,14 @@
 ---
 title: Role assignments
 linkTitle: Role assignments
-description: 
+description: Administrators use the _Role Assignments_ section to define the platform roles and teams for a user when they log in to the platform the first time for a configured IdP. 
 weight: 30
 date: 2021-08-12
 ---
 
 ## Default role and team assignments
 
-Administrators use the _Role Assignments_ section to define the platform roles and teams for a user when they log in to the platform the first time for a configured IdP. When new members of an organization sign in to the platform for this IdP, they are assigned these predefined roles and team assignments. Refer to the _Roles and features_ section in [Managing Organizations](/docs/management_guide/organizations/managing_organizations/) for details on the roles and capabilities available in the platform.
+When new members of an organization sign in to the platform for this IdP, they are assigned these predefined roles and team assignments. Refer to the _Roles and features_ section in [Managing Organizations](/docs/management_guide/organizations/managing_organizations/) for details on the roles and capabilities available in the platform.
 
 The _Role Assignments_ section defines:
 

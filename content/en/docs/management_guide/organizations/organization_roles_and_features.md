@@ -1,7 +1,7 @@
 ---
 title: Organization roles and features
 linkTitle: Organization roles and features
-description: 
+description: Users are assigned roles to grant them rights to the Platform.
 weight: 20
 date: 2021-08-12
 ---

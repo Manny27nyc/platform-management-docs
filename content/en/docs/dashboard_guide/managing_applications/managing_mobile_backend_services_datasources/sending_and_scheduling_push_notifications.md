@@ -1,12 +1,10 @@
 ---
 title: Sending and scheduling push notifications
 linkTitle: Sending and scheduling push notifications
-description: 
+description: This section explains how to send and schedule push notifications in the Dashboard.
 weight: 40
 date: 2021-08-12
 ---
-
-This guide explains how to send and schedule push notifications in the Dashboard.
 
 ## Sending push notifications
 
