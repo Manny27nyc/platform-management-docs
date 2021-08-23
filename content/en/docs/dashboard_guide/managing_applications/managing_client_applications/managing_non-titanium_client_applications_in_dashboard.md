@@ -1,6 +1,6 @@
 ---
-title: Managing non-titanium client applications in dashboard
-linkTitle: Managing non-titanium client applications in dashboard
+title: Managing non-Titanium client applications in Dashboard
+linkTitle: Managing non-Titanium client applications in Dashboard
 description: 
 weight: 10
 date: 2021-08-12

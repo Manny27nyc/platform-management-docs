@@ -173,7 +173,7 @@ To set a team as default:
 1. Sign in to the [Amplify Platform](https://platform.axway.com/).
 2. Click on the **User & Org** menu and select **Organization**.
 3. Click the **Teams** tab from the left navigation.
-4. If you're a member of multiple organizations, select the organization you want to view from the  _Teams_ dropdown menu.
+4. If you're a member of multiple organizations, select the organization you want to view from the _Teams_ dropdown menu.
 5. Select the **Actions** (**...**) menu icon associated with the team to edit.
 6. Select **Set as Default**.
 7. Confirm setting the selected team as the default team by clicking **Continue** in the confirmation dialog.
@@ -185,7 +185,7 @@ To remove a team:
 1. Sign in to the [Amplify Platform](https://platform.axway.com/).
 2. Click on the **User & Org** menu and select **Organization**.
 3. Click the **Teams** tab from the left navigation.
-4. If you're a member of multiple organizations, select the organization you want to view from the _Teams_ dropdown menu.
+4. If you're a member of multiple organizations, select the organization you want to view from the _Teams_ dropdown menu.
 5. Select the **Actions** (**...**) menu associated with the team to edit.
 6. Select **Remove**.
 7. (Optional) Select a team to which to transfer the team's assigned apps.
@@ -256,7 +256,7 @@ The **Activity** tab allows you to filter and see more details about each of th
 1. Sign in to the [Amplify Platform](https://platform.axway.com/).
 2. Click on the **User & Org** menu and select **Organization**.
 3. Click the **Activity** tab from the left navigation.
-4. If you're a member of multiple organizations, select the organization you want to view from the _Activity_ dropdown menu.
+4. If you're a member of multiple organizations, select the organization you want to view from the _Activity_ dropdown menu.
 5. Filter your user events by:
     1. **Date Range Filter** - Filter the events by date and time.
         * Last 3 months (or previous months in 3-month intervals)

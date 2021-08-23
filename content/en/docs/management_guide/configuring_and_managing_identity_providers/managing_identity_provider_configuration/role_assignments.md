@@ -25,9 +25,9 @@ The _Advanced Role Management_ section is optional and hidden by default. The ad
 
 ## Mapping roles and teams
 
-Use the _Role Mapping_ section to map role assignments and the _Team Mapping_ section to map team assignments to the IdP provided attributes.
+Use the _Role Mapping_ section to map role assignments and the _Team Mapping_ section to map team assignments to the IdP provided attributes.
 
-1. Click the **Actions** (**...**) menu on the _Identity Provider's_ detail page to display the _Role Mapping_ and _Team Mapping_ sections (these sections are hidden by default).
+1. Click the **Actions** (**...**) menu on the _Identity Provider's_ detail page to display the _Role Mapping_ and _Team Mapping_ sections (these sections are hidden by default).
 2. Click **\+ Role Mapping** or **+ Team Mapping**. A blank row appears.
 3. Complete the following fields:
     * **Team** (applies to the team mapping section only) - Select the team to which the role mapping applies.

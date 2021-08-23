@@ -6,4 +6,4 @@ This repository contains all files for building and deploying the site. The Mark
 
 ## Contribute
 
-We welcome your contributions! To get started, go to <https://platform-management.netlify.app/> and click **Documentation** in the top menu. Browse the documentation and use the options in the right navigation to edit any page using GitHub or Netlify CMS.
+We welcome your contributions! To get started fork this repository, create a feature branch with your changes, and then submit a pull request. 

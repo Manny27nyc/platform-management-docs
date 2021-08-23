@@ -6,9 +6,8 @@ weight: 40
 date: 2021-08-12
 ---
 
-Enterprise Subscription Required!
-
-{{% alert title="Note" color="primary" %}}This Amplify Services feature requires an Enterprise Subscription.{{% /alert %}}
+{{% alert title="Note" color="primary" %}}**Enterprise Subscription Required!** </br>
+This Amplify Services feature requires an Enterprise Subscription.{{% /alert %}}
 
 If you are an administrator of your organization, you can create child organizations under your parent organization. Child organizations share the user and device resources with the parent organization and cannot be allotted more than what the parent has not used.
 

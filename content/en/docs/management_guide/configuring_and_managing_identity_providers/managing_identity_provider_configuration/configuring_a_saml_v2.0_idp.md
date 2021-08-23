@@ -39,7 +39,7 @@ To create a new Identity Provider
 
     ![](/Images/ad_overview.png)
 
-4. Copy the mapping values from the Identity Provider configuration to complete **Single Sign-On Service URL** and ****Single Logout Service URL**** . See section 4 from the SAML v2.0 for Azure Active Directory example.
+4. Copy the mapping values from the Identity Provider configuration to complete **Single Sign-On Service URL** and **Single Logout Service URL**. See section 4 from the SAML v2.0 for Azure Active Directory example.
 5. Copy the mapping values from the Identity Provider configuration to complete the **NameID Policy Format**, **Signature Algorithm**, and **Validating X509 Certificate**. See sections 2 and 3 from the SAML v2.0 for Azure Active Directory example.
 
     * **NameID Policy Format**: Click the field under **Required Claim** to show the format that will be used for the **NameID Policy Format** section in the Identity Provider configuration form.
@@ -57,7 +57,7 @@ To create a new Identity Provider
     ![](/Images/360_saml_v2_0_attribute_mapping_values.png)
 
     ![](/Images/ad_attribute_map_claims.png)
-7. Complete the _Role Assignments_ section. Refer to [Role Assignments](/docs/management_guide/configuring_and_managing_identity_providers_idps/managing_identity_provider_configuration/role_assignments/) for details.
+7. Complete the _Role Assignments_ section. Refer to [Role Assignments](/docs/management_guide/configuring_and_managing_identity_providers_idps/managing_identity_provider_configuration/role_assignments/) for details.
 
     The following is an example for a completed SAML v2.0 form (before clicking **Save**).
     ![](/Images/saml_new.png)

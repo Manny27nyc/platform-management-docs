@@ -65,7 +65,7 @@ The **Orgs & Roles** link lists the organizations you are a member of by org na
 
 ## Manage credentials
 
-The **Credentials** link takes you to the view where you can change your account password and enable or disable multi-factor authentication. If your organization is using an Identity Provider, the Credentials link takes you to the view where you can create and change the password you use for tooling. Refer to [Configuring Tooling Credentials](/docs/management_guide/configuring_and_managing_identity_providers/configuring_tooling_credentials)
+The **Credentials** link takes you to the view where you can change your account password and enable or disable multi-factor authentication. If your organization is using an Identity Provider, the Credentials link takes you to the view where you can create and change the password you use for tooling. Refer to [Configuring Tooling Credentials](/docs/management_guide/configuring_and_managing_identity_providers/configuring_tooling_credentials).
 
 ### Change your password
 

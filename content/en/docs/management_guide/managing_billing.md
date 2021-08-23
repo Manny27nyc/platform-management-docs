@@ -77,7 +77,7 @@ To add Enterprise seats, either call one of the listed numbers or click the **Ta
 
 #### Compare plans
 
-To compare the options between the Indie, Pro, and Enterprise plans, select **Compare Plans**. When you select ****Compare Plans**** , the plans, features, pricing information for is displayed side-by-side for easy comparison of each seat type.
+To compare the options between the Indie, Pro, and Enterprise plans, select **Compare Plans**. When you select **Compare Plans**, the plans, features, pricing information for is displayed side-by-side for easy comparison of each seat type.
 
 ![](/Images/plans_pricing.png)
 

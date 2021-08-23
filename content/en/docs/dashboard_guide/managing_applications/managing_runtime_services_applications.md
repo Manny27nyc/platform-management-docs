@@ -1,6 +1,6 @@
 ---
-title: Managing Runtime services applications
-linkTitle: Managing Runtime services applications
+title: Managing Runtime Services applications
+linkTitle: Managing Runtime Services applications
 description: 
 weight: 30
 date: 2021-08-12
