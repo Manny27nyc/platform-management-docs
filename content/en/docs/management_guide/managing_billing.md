@@ -14,7 +14,7 @@ To manage your billing information, select **Manage Subscriptions** from the **O
 
 The **Overview** tab provides your account basic information, number of seats, and current cloud capacity and mobile services.
 
-![](/Images/billing_overview.png)
+![Billing overview page](/Images/billing_overview.png)
 
 The **Basic Info** section lists your organization name and provides your current plan information. To change your current plan, click the **Adjust Plan** button. When you click the **Adjust Plan** button, you will be transferred to the _Choose Plan_ page. For more information on choosing a plan, refer to [Choose Plan](#choose-plan).
 
@@ -45,7 +45,7 @@ The **Application Development** tab enables you to select a seat or seats that 
 
 {{% alert title="Note" color="primary" %}}The **Application Development** tab is displayed as the **Application Development** expandable section at lower screen resolutions.{{% /alert %}}
 
-![](/Images/application_development.png)
+![Application Development page](/Images/application_development.png)
 
 You can claim an Indie seat for free by clicking the Claim for Free button. An Indie seat is a great place for solo developers to start. The Indie seat includes the following features:
 
@@ -79,7 +79,7 @@ To add Enterprise seats, either call one of the listed numbers or click the **Ta
 
 To compare the options between the Indie, Pro, and Enterprise plans, select **Compare Plans**. When you select **Compare Plans**, the plans, features, pricing information for is displayed side-by-side for easy comparison of each seat type.
 
-![](/Images/plans_pricing.png)
+![Compare plans](/Images/plans_pricing.png)
 
 ### Runtime Services
 
@@ -87,7 +87,7 @@ The **Runtime Services** tab includes the Run APIs and Microservices and Enterpr
 
 {{% alert title="Note" color="primary" %}}The **Runtime Services** tab is displayed as the **Runtime Services** expandable section at lower screen resolutions.{{% /alert %}}
 
-![](/Images/runtime_services.png)
+![Runtime Services page](/Images/runtime_services.png)
 
 #### Run APIs and Microservices
 
@@ -113,7 +113,7 @@ The **Mobile Backend Services** tab includes the Mobile Backend Services and Ent
 
 {{% alert title="Note" color="primary" %}}The **Mobile Backend Services** tab is displayed as the **Mobile Backend Services** expandable section at lower screen resolutions.{{% /alert %}}
 
-![](/Images/mobile_backend_services.png)
+![Mobile Backend Services page](/Images/mobile_backend_services.png)
 
 #### Mobile Backend Services section
 
@@ -144,7 +144,7 @@ The **Application Integration** tab enables you to select a plan that provides e
 
 {{% alert title="Note" color="primary" %}}The **Application Integration** tab is displayed as the Application Integration expandable section at lower screen resolutions.{{% /alert %}}
 
-![](/Images/application_integration.png)
+![Application Integration page](/Images/application_integration.png)
 
 To add an Enterprise plan, either call one of the listed numbers or click the **Talk To Sales** button and complete the _Get in Touch_ form.
 
@@ -158,17 +158,17 @@ The **Payment History** tab lists the payment history of the selected account. T
 * Cloud Capacity subscriptions
 * Training subscriptions
 
-![](/Images/billing_payment_history.png)
+![Payment History page](/Images/billing_payment_history.png)
 
 ## Billing Info
 
 The **Billing Info** tab list the payment method, billing information, and shipping information for your account.
 
-![](/Images/billing_info.png)
+![Billing Info page](/Images/billing_info.png)
 
 To update the Billing Information, click the **Update** button. The _Payment Method Information_ page is displayed.
 
-![](/Images/billing_info_update.png)
+![Updating billing information](/Images/billing_info_update.png)
 
 1. In the **Payment Information** section, complete the following fields or verify the information in the following fields:
     * Credit Card Number

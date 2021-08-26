@@ -68,7 +68,7 @@ If you prefer can use the PushNotification.notify or PushNotification.notify_tok
         6. In the **Priority** field (Android, only), select either **Normal** or **High**. Set to high priority if the message is time-critical and requires the user's immediate interaction.
 8. To define the notification payload using the **Advanced** view:
     1. In the **Custom JSON** field, enter a valid JSON string (see [Custom JSON Payloads](#custom-json-payloads) for details).
-        ![](/Images/advanced_form2_latest.png)
+        ![Custom JSON field](/Images/advanced_form2_latest.png)
 9. Click **Send Now**.
 
 ## About notification payloads
@@ -100,7 +100,7 @@ The payload can also include custom fields that your application can read and us
 
 The Dashboard provides two forms, Standard and Advanced, for you to compose the payload. In the Standard form, you use common form controls to compose the payload, without having to write JSON code. In the Advanced form, you manually enter the JSON-encoded string that's sent in the notification. The JSON object can contain any of the standard fields discussed in [About Notification Payloads](#about-notification-payloads), or custom fields specific to your application. For example, the following payload contains `alert` and `sound` fields, as well as a custom field named `high_score`.
 
-![](/Images/custom_json.png)
+![Custom JSON example](/Images/custom_json.png)
 
 Below is a more advanced custom JSON payload:
 
@@ -212,7 +212,7 @@ Some useful links to get started:
 
 You can create interactive notifications for users running iOS 8 or later can respond to without launching the application to the foreground.
 
-![](/Images/interactivebannermessage.png)
+![Interactive notification](/Images/interactivebannermessage.png)
 
 Your Titanium application defines one or more _notification categories_, each of which consists of one or more _notification actions_. When you [create a push notification](#create-a-push-notification) in the Dashboard, the **Category** form field lets you specify the category of interactive notification to display when the push notification arrives.
 
@@ -224,7 +224,7 @@ Your Titanium application defines one or more _notification categories_, each of
     3. [Register the application](https://docs.axway.com/bundle/Titanium_SDK_allOS_en/page/ios_interactive_notifications.html) for the desired notification categories, and to receive push notifications.
     4. Register an event listener for the  `[remotenotificationaction](http://docs.appcelerator.com/platform/latest/#!/api/Titanium.App.iOS-event-remotenotificationaction)` event, to respond to user actions when they interact with the notification.
 2. In the Dashboard, send a new push notification and set the **Category** field to the desired notification category.
-    ![](/Images/push_notification.png)
+    ![Set the category](/Images/push_notification.png)
 
 When the notification arrives, the device displays the set of actions defined by the category. The remotenotificationaction event fires when the user interacts with the notification.
 
@@ -234,7 +234,7 @@ In addition, you can set the `[behavior](http://docs.appcelerator.com/platform/l
 
 The **Content-Available** form field lets you silently notify a Titanium or native iOS/Android application, without alerting the user at all. A silent push is often used to alert the application that new content is available to download. Once the download (or another task) initiated by the silent push is complete, the application can display a notification to the user that new content is available.
 
-![](/Images/content_available.png)
+![Content-Available notification](/Images/content_available.png)
 
 For detailed steps on enabling silent push notifications in your Titanium application, see [Silent Push](https://docs.axway.com/bundle/Titanium_SDK_allOS_en/page/ios_background_services.html) in the Titanium SDK guides.
 
@@ -242,9 +242,9 @@ For detailed steps on enabling silent push notifications in your Titanium applic
 
 A **badge** is a number displayed on the application icon (on iOS), or in the notification area (on Android). You can specify a specific badge value to display (2 or 10, for example), or a number prefixed by plus (+) or minus (-) symbol (+3 or -6, for example). When prefixed, the currently displayed badge number is incremented or decremented by the specified amount, respectively. To remove an application badge on iOS, specify a badge value of **0** (zero).
 
-![](/Images/ios_notifiy.png)
+![Notification badge for iOS](/Images/ios_notifiy.png)
 
-![](/Images/android_badge.png)
+![Notification alert for Android](/Images/android_badge.png)
 
 #### Notification sounds
 
@@ -269,7 +269,7 @@ The Titanium application may also specify any of the properties in Titanium.An
 
 **Title** – A string to display above the alert message in the notification area. If not specified in the payload, the application's name is displayed, as specified by the `<name>` element in your [project's tiapp.xml](https://docs.axway.com/bundle/Titanium_SDK_allOS_en/page/tiapp_xml_and_timodule_xml_reference.html) file.
 
-![](/Images/title_alert.png)
+![Notification alert title](/Images/title_alert.png)
 
 ##### Icon field
 
@@ -282,7 +282,7 @@ The `icon` payload field specifies an image to display with the notification on 
 }
 ```
 
-![](/Images/icon_location.png)
+![Application icon for the notification](/Images/icon_location.png)
 
 ##### Vibrate field
 

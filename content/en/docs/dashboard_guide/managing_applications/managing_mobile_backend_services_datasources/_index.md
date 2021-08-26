@@ -23,7 +23,7 @@ To change the name of the datasource:
 3. Select the datasource from the apps list.
 4. In the datasource details page, click the **Actions** (**...**) menu in the upper-right of the screen and select **Edit**.
 5. Enter a new name for the datasource.
-    ![](/Images/rename_new.png)
+    ![Edit Mobile Backend Services Datasource](/Images/rename_new.png)
 6. (Optional) Enter a datasource description.
 7. Click **OK**.
 
@@ -39,19 +39,19 @@ To delete the datasource:
 
 The **Overview** tab displays the Mobile Backend Services Usage data and includes the number of Mobile Backend Services Requests made to MBS, the number of devices connected to receive [push notifications](/docs/dashboard_guide/managing_applications/managing_mobile_backend_services_datasources/sending_and_scheduling_push_notifications/), the number of email templates available to the application, and the amount of disk storage used. The **Overview** tab also displays the App GUID, Description, Teams, Created, and Creator information for the selected MBS application.
 
-![](/Images/overview_new.png)
+![Datasource overview page](/Images/overview_new.png)
 
 ## View connected applications
 
 The **Apps** tab displays a list of applications (Titanium or native) that are consuming the selected Mobile Backend Service app. Select an application from the list to manage it.
 
-![](/Images/apps_new.png)
+![View connected applications](/Images/apps_new.png)
 
 ## View API analytics
 
 The **Analytics** tab displays the total number of API calls for the selected period by API type (Chats or Users APIs, for instance) or by individual application. For additional information, see [Viewing Analytics](/docs/dashboard_guide/managing_applications/viewing_analytics/).
 
-![](/Images/analytics_new.png)
+![View API analytics](/Images/analytics_new.png)
 
 ## Manage data
 
@@ -59,13 +59,13 @@ The **Manage Data** tab displays the number of each type of MBS object created b
 
 To export your application's MBS data in a JSON format, click the **Actions** (**...**) menu icon and select **Export Data.** To delete your application's data, click the **Actions** (**...**) menu icon and select **Delete Data.**
 
-![](/Images/manage_data_new.png)
+![Manage data](/Images/manage_data_new.png)
 
 ## View and filter API logs
 
 The **Logs** tab displays a paginated table of all API calls made by your application to the selected MBS service.
 
-![](/Images/logs_new.png)
+![View and filter API logs](/Images/logs_new.png)
 
 The table includes the following fields:
 
@@ -81,7 +81,7 @@ Clicking a table row expands it to display the following additional fields:
 
 You can filter MBS API requests by their date.
 
-![](/Images/filter_logs_latest.png)
+![Filter by date](/Images/filter_logs_latest.png)
 
 ## Configuration
 
@@ -93,7 +93,7 @@ On the **Configuration** tab you can select from the following sub-tabs:
 
 For details, see [Configuring Cloud Services](/docs/dashboard_guide/managing_applications/managing_mobile_backend_services_datasources/configuring_cloud_services/).
 
-![](/Images/configuration_latest.png)
+![Configure the datasource](/Images/configuration_latest.png)
 
 ## Manage push notifications
 
@@ -141,9 +141,9 @@ To configure the p8 format
 5. (Optional) Enter the bundle ID in the **Bundle ID** field.
 6. Click **Save**.
 
-    ![](/Images/ios_push_latest_p8.png)
+    ![iOS push configuration](/Images/ios_push_latest_p8.png)
 
-To configure the p12 format_
+To configure the p12 format.
 
 1. Click **Browse** in the Push Certificate field.
 2. Locate the PKCS #12 file with your Push Notification certificate and click **Choose File**.
@@ -151,7 +151,7 @@ To configure the p12 format_
 4. Select p12 for the **Certificate Format**.
 5. (Optional) Enter the bundle ID in the **Bundle ID** field.
 6. Click **Save**.
-    ![](/Images/ios_push_latest_p12.png)
+    ![Configure p12 format](/Images/ios_push_latest_p12.png)
 
 #### Android cloud messaging settings
 
@@ -159,7 +159,7 @@ Click the **Android** tab to configure the application to use the Firebase Clou
 
 _To configure FCM HTTPv1_, select a service account JSON file from your Firebase console Service Accounts page.
 
-![](/Images/android_cloud_messaging_httpv1.png)
+![Configure FCM HTTPv1](/Images/android_cloud_messaging_httpv1.png)
 
 To configure FCM Legacy HTTP
 
@@ -167,7 +167,7 @@ To configure FCM Legacy HTTP
 2. Enter the FCM or GCM sender ID in the **Sender ID** field.
 3. Click **Save**.
 
-    ![](/Images/android_cloud_messaging_latest.png)
+    ![Configure FCM Legacy HTTP](/Images/android_cloud_messaging_latest.png)
 
 ### View subscribed devices
 

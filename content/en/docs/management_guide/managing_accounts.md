@@ -10,7 +10,7 @@ date: 2021-08-12
 
 To manage your account information, select **Account** from the [User menu](/docs/getting_started_with_amplify_platform_management/navigation/#user-menu). The left navigation includes the following tabs:
 
-![](/Images/account_left_hand_menu.png)
+![Account left navigation menu](/Images/account_left_hand_menu.png)
 
 * Account
 * Orgs & Roles (for accounts with multiple organizations)
@@ -22,7 +22,7 @@ To manage your account information, select **Account** from the [User menu](/
 
 Selecting Account from the left navigation opens the **Account** page.
 
-![](/Images/account_tab.png)
+![Account page](/Images/account_tab.png)
 
 The Account Information page includes the following account information:
 
@@ -40,7 +40,7 @@ Click the **Members** link at the top of the User Account page to be taken to th
 
 To edit your account details, click the **Edit Account** button.
 
-![](/Images/edit_account.png)
+![Edit account page](/Images/edit_account.png)
 
 Clicking the **Edit Account** button enables the editing of the **First Name** and **Last Name** fields. It also enables the **Phone Number** field and the verification of the entered phone number. For additional instructions on verifying your phone number, refer to [Verify your phone number](#verify-your-phone-number). Clicking on the Edit Account button also enables the **Timezone** dropdown menu. Once you have finished editing your user account information, click the **Save** button.
 
@@ -52,16 +52,16 @@ To verify your phone number:
 
 1. Complete the **Phone Number** field. The phone number should be entered as digits only in the format _\[+\]\[country code\] \[number including area code\]_.
 2. Click the **Verify** button. When the **Verify** button is clicked, Dashboard sends a phone verification code to the phone number entered in the **Phone Number** field, and the **Verification Code** field is displayed. If you do not receive a verification code, click **Resend**.
-    ![](/Images/phone_number_verification_latest.png)
+    ![Verify your phone number](/Images/phone_number_verification_latest.png)
 3. Enter the received verification code in the **Verification Code** field.
     Once a valid verification code is entered, Dashboard will process the verification and update the verification status of the phone number.
-    ![](/Images/phone_number_verified_latest.png)
+    ![Phone number verification code](/Images/phone_number_verified_latest.png)
 
 ## View organizations and roles
 
 The **Orgs & Roles** link lists the organizations you are a member of by org name and assigned roles. This menu appears for accounts with multiple organizations only. To view organization details, click on a selected **Org Name** link.
 
-![](/Images/orgs_and_roles_tab.png)
+![Orgs & Roles page](/Images/orgs_and_roles_tab.png)
 
 ## Manage credentials
 
@@ -73,7 +73,7 @@ To change your password:
 
 1. Select the **Credentials** link.
 2. Enter a new password in the **Change Password** field. The password should be at least eight characters. As you enter a new password in the **Change Password** field, the **Confirm Password** field is displayed.
-    ![](/Images/change_password_latest.png)
+    ![Change and confirm password](/Images/change_password_latest.png)
 3. Confirm the new password in the **Confirm Password** field. The entry in the **Confirm Password** field must be the same as the entry in the **Password** field.
 4. Select the **Force Logout** checkbox to force the log out of any current sessions.
 5. Click the **Save** button. The password changes are saved, and the Dashboard sends an Account Information Changed notification email.
@@ -140,7 +140,7 @@ The **Settings** tab enables you to manage your organization account settings. 
 * Configure your inactivity logout timeframe
 * Enable or disable restoring the previous page on your next login
 
-![](/Images/settings_tab.png)
+![Branding page](/Images/settings_tab.png)
 
 ### Select the org login rule
 

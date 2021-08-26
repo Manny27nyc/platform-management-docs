@@ -47,7 +47,7 @@ If you have Amplify and zero or more non-Amplify subscriptions you will see the 
 * My capabilities
 * Explore More
 
-![](/Images/amplify_subscriptions.png)
+![Amplify and Non-Amplify subscriptions Platform landing page](/Images/amplify_subscriptions.png)
 
 If you have one or more non-Amplify subscriptions you will see the following links:
 
@@ -62,7 +62,7 @@ If you have one or more non-Amplify subscriptions you will see the following lin
 * Support
 * Explore more
 
-![](/Images/non_amplify_subscriptions.png)
+![Non-Amplify subscriptions Platform landing page](/Images/non_amplify_subscriptions.png)
 
 If you have license maintenance contracts only (no subscriptions) you will see the following links:
 
@@ -76,8 +76,8 @@ If you have license maintenance contracts only (no subscriptions) you will see t
 * Support
 * Explore more
 
-![](/Images/licensed_org_no_subscriptions.png)
+![License maintenance contracts Platform landing page](/Images/licensed_org_no_subscriptions.png)
 
 If you have no subscriptions you are taken to the _Explore Products & Services_ page.
 
-![](/Images/explore_products_and_services.png)
+![No subscriptions Platform landing page](/Images/explore_products_and_services.png)

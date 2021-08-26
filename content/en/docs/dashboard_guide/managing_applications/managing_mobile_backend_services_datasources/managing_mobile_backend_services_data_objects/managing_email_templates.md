@@ -23,7 +23,7 @@ To create an email template:
     3. **Body (HTML)** – The email's HTML-formatted body text. The body can contain [placeholder values](#using-placeholder-fields) in double curly brackets.
     4. **Body (Plain Text)** – The email's plain text-formatted body text. The body can contain [placeholder values](#using-placeholder-fields) in double curly brackets.
 5. Click **Preview** to view a rendered version of the HTML body text.
-    ![](/Images/email_template_latest.png)
+    ![Complete the HTML message](/Images/email_template_latest.png)
 6. Click **Save**.
 
 Below is the sample HTML used in the above screenshot:

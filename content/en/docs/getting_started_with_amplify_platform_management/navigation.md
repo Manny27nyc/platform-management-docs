@@ -12,13 +12,13 @@ The Amplify Platform Management interface uses a unified top and bottom navigati
 
 The Amplify Platform includes the following menus and links in the top navigation:
 
-![](/Images/amplify_platform_navigation.png)
+![Platform top navigation](/Images/amplify_platform_navigation.png)
 
 ### Service Links menu
 
 The _Service Links_ menu provides links to to the _Platform Home_ page, the _Dashboard_, the capabilities to which your organization is subscribed (example shown), and the _Explore More Products and Services_ page. Click the _Integration Builder_ capability to show links to available environments.
 
-![](/Images/service_links_menu.png)
+![Service Links menu](/Images/service_links_menu.png)
 
 ### Site Name
 
@@ -28,7 +28,7 @@ The _Site Name_ identifies the page name in the Platform.
 
 The _Help & Resources_ menu provides links to:
 
-![](/Images/help_and_resources_menu.png)
+![Help & Resources menu](/Images/help_and_resources_menu.png)
 
 * **Documentation** - Click to navigate to the Documentation Portal and explore the Amplify Platform documentation.
 * **Developer Portal** - Click to navigate to the Axway Developer Portal to learn about and watch video tutorials on the Amplify Platform capabilities.
@@ -50,7 +50,7 @@ The Recent Activity icon displays a badge notification for new organization, us
 
 The _User_ menu displays your account email and role and provides links to:
 
-![](/Images/usermenu_multipleorg.png)
+![User menu](/Images/usermenu_multipleorg.png)
 
 * **Account** - Click this link to access and manage your account information.
 * **Organization** - Click this link to mange the selected organization.
@@ -61,7 +61,7 @@ The _User_ menu displays your account email and role and provides links to:
 
 The **Amplify Platform** includes the following links in the bottom navigation:
 
-![](/Images/amplify_platform_bottom_navigation.png)
+![Platform bottom navigation](/Images/amplify_platform_bottom_navigation.png)
 
 * **Version** - The version for the **Amplify Platform** and **Amplify Platform Dashboard**. Click the version to be taken to the Release Notes.
 * **Documentation** - Click this link to view the latest [Amplify Platform](https://docs.axway.com/category/platform) documentation.

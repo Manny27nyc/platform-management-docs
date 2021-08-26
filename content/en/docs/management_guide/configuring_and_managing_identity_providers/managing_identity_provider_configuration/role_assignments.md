@@ -35,7 +35,7 @@ Use the _Role Mapping_ section to map role assignments and the _Team Mapping_ se
     * **Attribute Value** - Type the role or access defined for the user by the IdP. This value is case sensitive.
     * **Roles** - Select the role within the platform that will be assigned to the user when a user has a matching value for the defined attribute.
 
-        ![](/Images/advanced_roles_management__saml.png)
+        ![Mapping roles and teams](/Images/advanced_roles_management__saml.png)
 
         {{% alert title="Note" color="primary" %}}The image is for SAML. The only difference between the OIDC and SAML configuration is that the OIDC requires the **Attribute Name** only and SAML requires the **Friendly Name** or **Attribute Name**.{{% /alert %}}
 
@@ -47,4 +47,4 @@ After you have completed mapping roles and teams, you can test the configuration
 2. Select a **User** and **Attribute**, and then click **Check User Attribute**.
 3. Verify that the attribute mapper has stored the expected value on a user from the last time they logged into the platform.
 
-    ![](/Images/test_mapped_attributes_filled.png)
+    ![Test Mapped Attributes modal](/Images/test_mapped_attributes_filled.png)

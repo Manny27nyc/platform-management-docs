@@ -9,6 +9,7 @@ date: 2021-08-12
 To use Amplify Platform Services in your Android and iOS applications, you need to first register an application in the Dashboard. Registering the application defines the name, platform, and other metadata about the application. Once you've registered the application in Dashboard, you can download the Appcelerator Platform Services (APS) SDK and use the libraries and frameworks to integrate Amplify Platform Services into your application. The Dashboard also generates a new Mobile Backend Services datasource and the application keys required to enable the services in your app.
 
 ## Register an application for services
+
 To use Amplify Platform Services in your Android and iOS applications, you need to first register an application in the Dashboard. This section includes how to register an APS SDK or API/Microservice application.
 
 ### Register an APS SDK application
@@ -23,7 +24,7 @@ To register an APS SDK application for services:
 4. Click **Register App for Services** to open the _Register App for Services_ form.
 5. Enter the **Name** of the application.
 6. Select **APS SDK** from the _Type_ selection menu.
-    ![](/Images/registerappforservice_latest_apssdk.png)
+    ![Register an APS SDK application](/Images/registerappforservice_latest_apssdk.png)
 7. Select a **Platform** (**Android** or **iOS**).
 8. Optionally, enter a unique **Identifier** for your application.
 9. Optionally, enter a **Description** for your application.
@@ -45,7 +46,7 @@ To register an API or microservice application:
 4. Click **Register App for Services** to open the _Register App for Services_ form.
 5. Enter the **Name** of the application.
 6. Select **API/Microservice** from the _Type_ selection menu.
-    ![](/Images/registerappforservice_latest_api.png)
+    ![Register an API/Microservice application](/Images/registerappforservice_latest_api.png)
 7. Enter a **Platform** for your application.
 8. Optionally, enter a unique **Identifier** for your application.
 9. Optionally, enter a **Description** for your application.
@@ -65,7 +66,7 @@ To register a Website or Web application:
 4. Click **Register App for Services** to open the _Register App for Services_ form.
 5. Enter the **Name** of the application.
 6. Select **Website/Web App** from the _Type_ selection menu.
-    ![](/Images/registerappforservice_latest_web.png)
+    ![Register a website/web app](/Images/registerappforservice_latest_web.png)
 7. Enter a **Platform** for your application.
 8. Optionally, enter a unique **Identifier** for your application.
 9. Optionally, enter a **Description** for your application.
@@ -85,7 +86,7 @@ To register a custom application (other than APS SDK, API/Microservice, or Webs
 4. Click **Register App for Services** to open the _Register App for Services_ form.
 5. Enter the **Name** of the application.
 6. Select **Other** from the _Type_ selection menu.
-    ![](/Images/registerappforservice_latest_other.png)
+    ![Register a custom application](/Images/registerappforservice_latest_other.png)
 7. Enter a **Platform** for your application.
 8. Optionally, enter a unique **Identifier** for your application.
 9. Optionally, enter a **Description** for your application.
@@ -112,7 +113,7 @@ To integrate the Cloud and Analytics services with your application:
 
 For more detailed instructions, see the [Quick Start Guide for Android APS SDK](https://docs.axway.com/bundle/Amplify_Appcelerator_Services_allOS_en/page/quick_start_guide_for_android_aps_sdk.html) and [Quick Start Guide for iOS APS SDK](https://docs.axway.com/bundle/Amplify_Appcelerator_Services_allOS_en/page/quick_start_guide_for_ios_aps_sdk.html) guides.
 
-![](/Images/platformservicesinstructions_new.png)
+![Integrate cloud and analytics services](/Images/platformservicesinstructions_new.png)
 
 If you need to later return to these Enable Platform Services instructions, do the following:
 

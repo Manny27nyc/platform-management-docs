@@ -45,4 +45,3 @@ See [Troubleshooting common errors](/docs/dashboard_guide/managing_applications
 ## Configuring cloud services
 
 To configure cloud services within Dashboard, please review [Configuring Cloud Services](/docs/dashboard_guide/managing_applications/managing_mobile_backend_services_datasources/configuring_cloud_services/) for more details.
-

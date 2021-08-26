@@ -10,10 +10,10 @@ To sign up for access to the Amplify API Management Platform and to create an Am
 
 1. Navigate to [https://platform.axway.com](https://platform.axway.com/). If this is your initial visit to [https://platform.axway.com](https://platform.axway.com/), the Amplify API Management Platform overview page is displayed.
 
-    ![](/Images/amplify_platform_overiew.png)
+    ![Amplify API Management Platform overview page](/Images/amplify_platform_overiew.png)
 
 2. To proceed with creating a new Amplify Platform account, click **Try it Now**. Clicking Try it Now forwards you to the Amplify Platform _Create your free account_ page.
-    ![](/Images/platform_sign_up_blank.png)
+    ![Create your free Platform account modal](/Images/platform_sign_up_blank.png)
 3. Complete the following fields:
     1. **First Name**
     2. **Last Name**
@@ -28,13 +28,13 @@ To sign up for access to the Amplify API Management Platform and to create an Am
     8. Select the **I have read and agree to the Axway Terms of Use and Privacy statement** option.
 
 4. Click **Sign up**. A message to _Check your email_ is displayed.
-    ![](/Images/check_your_email.png)
+    ![Check your email dialog](/Images/check_your_email.png)
 5. Locate the email, and then click **Active your Account**. You should have an email similar to the following in your inbox.
 
-    ![](/Images/activation_email.png)
+    ![Activate your account button](/Images/activation_email.png)
 
 6. You will see a message that your account has been activated, and then you are redirected to the **Sign in to your account** page. Type your email address and  password you used to sign up, and then click **Sign In**.
-    ![](/Images/sign_in_to_your_account.png)
+    ![Sign in to your account page](/Images/sign_in_to_your_account.png)
     The Amplify Platform home page is displayed. Refer to the [Amplify Platform Overview](/docs/getting_started_with_amplify_platform_management/overview) for details.
 
 ## Amplify Platform US and EU availability, data privacy, and data residency

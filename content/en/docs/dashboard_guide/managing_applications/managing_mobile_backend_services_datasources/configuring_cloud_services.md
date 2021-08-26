@@ -16,7 +16,7 @@ Before configuring Cloud settings, make sure you select the correct environment 
 
 The **Configuration** tab is available on the Dashboard left navigation for cloud services, which contains several sub-tabs:
 
-![](/Images/configuration_tab.png)
+![Configuration menu](/Images/configuration_tab.png)
 
 * Keys
 * Settings
@@ -26,7 +26,7 @@ The **Configuration** tab is available on the Dashboard left navigation for cl
 
 Click the **Keys** tab to display the keys. Click **Show** to display a key. Use the App Key to make requests to the Cloud service.
 
-![](/Images/keys_latest.png)
+![Keys menu](/Images/keys_latest.png)
 
 ## Settings
 
@@ -38,7 +38,7 @@ Click the **Settings** tab to configure application settings for Cloud services.
     * **One Way**: Follow a friend (Twitter).
 * **New User Email Verification**: With this option enabled, new users must provide a valid email address and prove they can access it before their account is activated. You must have your SMTP settings completed before this setting is enabled.
 * **Allow User Creation**: With this option disabled, app users can only be created through this administrative website.
-    ![](/Images/settings_latest.png)
+    ![Allow user creation](/Images/settings_latest.png)
 * Click **Save** to save any setting changes you made.
 
 ## Email
@@ -58,4 +58,4 @@ On the **Email** configuration tab, you can configure Dashboard to send email us
     1. In the **Test Mode** field, select **Enable**.
     2. In the **Administrator's Email** field, enter the email address where emails should be sent.
 5. Click **Save**.
-    ![](/Images/email_latest.png)
+    ![Configure application to send email](/Images/email_latest.png)

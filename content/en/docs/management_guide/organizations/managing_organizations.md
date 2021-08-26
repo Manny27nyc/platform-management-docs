@@ -19,7 +19,7 @@ These functions are available through the **Organization** tab. To access the 
 
 To manage your organization information, select **Organization** from the _User_ menu. The left navigation includes the following tabs:
 
-![](/Images/organization_left_menu.png)
+![Organization left navigation](/Images/organization_left_menu.png)
 
 * Organization
 * Teams
@@ -35,7 +35,7 @@ To manage your organization information, select **Organization** from the _Use
 
 The **Organization** tab enables you to select and update the organization name. It also provides detailed organization and subscription information.
 
-![](/Images/organization_tab.png)
+![Managing organizations](/Images/organization_tab.png)
 
 To update an organization name:
 
@@ -54,7 +54,7 @@ To add a child organization, refer to [Creating an Organization](/docs/managemen
 
 The **Users** tab enables you to view and manage users of the selected organization.
 
-![](/Images/dashboard_users.png)
+![Managing users](/Images/dashboard_users.png)
 
 ### Invite a user to your organization
 
@@ -91,7 +91,7 @@ The user's last login is displayed in the _Last Login_ column, and their current
 
 The **Service Accounts** tab enables you to view and manage service accounts of the selected organization.
 
-![](/Images/manage_service_accounts.png)
+![Managing Service Accounts](/Images/manage_service_accounts.png)
 
 ### Add a service account
 
@@ -134,7 +134,7 @@ After you create or add a user to your organization, you can view and modify the
 
 The **Teams** tab enables you to view and manage teams, their members and their assigned applications.
 
-![](/Images/teams_tab.png)
+![Managing teams](/Images/teams_tab.png)
 
 ### Add a new team
 
@@ -151,7 +151,7 @@ To add a team:
 9. Add members (users or service accounts) to the team by selecting team members from the Add Members list by clicking the **+** icons.
 10. Assign applications to the team by selecting applications from the Assign Applications list by clicking the **+** icons.
 11. Click **Save**.
-    ![](/Images/add_new_team.png)
+    ![Add a new team](/Images/add_new_team.png)
 
 ### Edit a team
 
@@ -196,13 +196,13 @@ To remove a team:
 
 The **Child Orgs** tab enables you to manage child organizations and to add a child organization to the selected parent organization. To add a child organization, refer to [Creating an Organization](/docs/management_guide/organizations/creating_an_organization/).
 
-![](/Images/child_orgs_tab.png)
+![Managing child organizations](/Images/child_orgs_tab.png)
 
 ## Viewing usage
 
 The **Usage** tab enables you to view the usage of allocated resources for the selected organization for the selected product or all products for the selected period.
 
-![](/Images/usage_tab.png)
+![Viewing usage](/Images/usage_tab.png)
 
 1. Sign in to the [Amplify Platform](https://platform.axway.com/).
 2. Click on the **User & Org** menu and select **Organization**.
@@ -224,7 +224,7 @@ The **Settings** tab enables you to:
 * Brand the Dashboard for the selected organization.
 * Configure and manage entity providers for Amplify Platform authentication.
 
-![](/Images/settings_tab.png)
+![Managing organization settings](/Images/settings_tab.png)
 
 ### Change the branding
 

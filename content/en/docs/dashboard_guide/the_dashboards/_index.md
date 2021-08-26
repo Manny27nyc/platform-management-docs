@@ -8,10 +8,10 @@ date: 2021-08-12
 
 Click the **Dashboard** link from the Amplify Platform home page.
 
-![](/Images/amplify_dashboard_link.png)
+![Dashboard link on Platform home page](/Images/amplify_dashboard_link.png)
 
 The **Amplify Platform Dashboard** menu appears.
 
-![](/Images/dashboard_left_menu.png)
+![Amplify Platform Dashboard left navigation](/Images/dashboard_left_menu.png)
 
 Refer to the [The Amplify Platform Dashboard](/docs/dashboard_guide/the_dashboards/platform_dashboard/) page for details.

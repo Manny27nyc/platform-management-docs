@@ -14,11 +14,11 @@ By default, Dashboard provides metric analytics for Amplify Runtime Requests, Av
 
 To access the _Queries Overview_ screen, select the **Custom Queries** tab on the Dashboard home page.
 
-![](/Images/custom_queries_overview.png)
+![Queries overview](/Images/custom_queries_overview.png)
 
 Note that if you have not created any custom queries, selecting the **Custom Queries** tab will transfer you to the _Queries_ screen. The _Queries_ screen enables creating, previewing, editing, saving, and deleting custom analytics queries. You can also filter custom queries. To access the _Queries_ screen from the _Queries Overview_ screen, click the **\+ Query** button or click on a custom query tile. To navigate from the _Queries_ screen to the _Queries Overview_ screen, select **All Queries** from the Saved Queries drop-down menu.
 
-![](/Images/custom_queries.png)
+![Queries page](/Images/custom_queries.png)
 
 ## Creating queries without filtering
 
@@ -158,7 +158,7 @@ To clear the custom query selections and fields, click **Clear**.
 To edit a custom query:
 
 1. Select the custom query to edit from the Saved Queries drop-down menu or from the _Queries Overview_ screen.
-    ![](/Images/custom_queries_edit.png)
+    ![Edit a query](/Images/custom_queries_edit.png)
 2. Edit the **Method**, **Field**, **Grouping**, and **Date Range** selections as needed.
 3. (Optional) Click **Preview** to preview your custom query changes. The Custom Query section will be updated to display your custom query analytics changes.
 4. Edit the filtering as needed.

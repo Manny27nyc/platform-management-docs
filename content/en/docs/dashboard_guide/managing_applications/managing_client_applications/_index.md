@@ -16,21 +16,21 @@ When you select a client application from the **Apps** tab, its **Overview** tab
 
 The left navigation includes the following tabs:
 
-![](/Images/titanium_apps_left_menu.png)
+![Apps ledt navigation](/Images/titanium_apps_left_menu.png)
 
 For Titanium applications, the **Overview** tab also specifies the **App ID** and **SDK Version** assigned to the application when it was created. The Titanium applications **Overview** tab also the application's publisher, copyright, and URL information.
 
-![](/Images/app_overview_latest.png)
+![Apps overview](/Images/app_overview_latest.png)
 
 Native iOS and Android applications include the same basic information on the **App Info** tab as Titanium applications. The **App Info** tab includes Category, Creator, and Admin information. Additionally, you can click the **Actions** (**...**) menu in the upper-right of the screen and select **Edit** to edit the Name, Category, and Description of your application for iOS and Android applications. Once you have completed your edits, click the **Save** button to save your edits. To return the **Overview** tab without saving your edits, click the **Cancel** button.
 
-![](/Images/edit_app.png)
+![Edit iOS and Android apps](/Images/edit_app.png)
 
 For Titanium applications, you can click the **Actions** (**...**) menu in the upper-right of the screen and select **Edit** to edit the Name, App ID, Copyright, URL, and Description of your application. Once you have completed your edits, click the **Save** button to save your edits. To return the **Overview** tab without saving your edits, click the **Cancel** button.
 
 {{% alert title="Note" color="primary" %}}Changes you make here will not affect your local application. Make sure to mirror the changes in your `tiapp.xml` file, or these will be overwritten the next time you build your app.{{% /alert %}}
 
-![](/Images/edit_titanium_app.png)
+![Edit Titanium apps](/Images/edit_titanium_app.png)
 
 You can also permanently delete the selected application by clicking the **Action Menu** icon and selecting **Delete**. To confirm the deletion of the selected application, type the name of the application you would like to delete permanently, and then select, **I understand that this a permanent and irreversible action. Continue**.
 
@@ -40,13 +40,13 @@ The **APIs** tab lists the Services, APIs, {{% variables/apibuilder_prod_name %}
 
 {{% alert title="Note" color="primary" %}}Mobile Backend Services and Runtime Services are deprecated and will be discontinued effective September 1, 2022.{{% /alert %}}
 
-![](/Images/apis_latest.png)
+![APIs page](/Images/apis_latest.png)
 
 ## Crashes tab
 
 The **Crashes** tab displays the total number of crashes of your application for the selected time frame and the crash rate for your application. The crash for your application is calculated by dividing the total number of crashes by the total number of sessions. Additionally, error messages, time of the first occurrence, time of the last occurrence, total occurrences, and triage status are displayed for each operating system (for example, Windows, iOS, and Android). The displayed crash analytics can be filtered by the environment, crash type, and crash status. To export the crash analytics information, click the **Actions** (**...**) menu, and select either **Chart** or **Table**.
 
-![](/Images/crashes.png)
+![Crashes page](/Images/crashes.png)
 
 To upload symbol files:
 
@@ -69,7 +69,7 @@ You can also view custom events captured by your application using the Titaniu
 
 You can define event funnels, or custom ordered collections of captured events that track a particular user or business process, such as a sales funnel (for example, purchase and purchase confirm).
 
-![](/Images/analytics_event_funnels.png)
+![Analytics page](/Images/analytics_event_funnels.png)
 
 For more information, see [Viewing Analytics](/docs/dashboard_guide/managing_applications/viewing_analytics/).
 

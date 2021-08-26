@@ -14,7 +14,7 @@ The **Manage Data** tab in Dashboard provides a visual interface to the various
 
 The left navigation includes the following tabs:
 
-![](/Images/dashboard_mbs_app_left_menu.png)
+![Mobile Backend Services app left navigation](/Images/dashboard_mbs_app_left_menu.png)
 
 * App overview
 * Apps
@@ -29,11 +29,11 @@ To manage MBS objects of a specific API, select the API from the Dashboard home 
 
 {{% alert title="Note" color="primary" %}}To manage Mobile Backend Services data objects, you must be an administrator or the application creator.{{% /alert %}}
 
-![](/Images/manage_data_new.png)
+![MBS data object](/Images/manage_data_new.png)
 
 Click an MBS type to view a paginated table that lists all the objects of that type. The column headers displayed depend on the type of object being listed. Click the **Next** and **Previous** buttons at the bottom of the table to paginate forward and back through the list.
 
-![](/Images/users_latest.png)
+![MBS objects of a data type](/Images/users_latest.png)
 
 To filter the list of objects displayed in the table, click the **Filter** icon. Select a field to filter on, a filter operand (for example, "Equals" or "Starts With"), and the value on which to filter. The fields you can filter on vary according to the type of object. See [Filtering Mobile Backend Services object data](#filtering-mobile-backend-services-object-data).
 
@@ -43,17 +43,17 @@ To refresh the object list, click the **Refresh** icon.
 
 | Icon | Function |
 | --- | --- |
-| ![](/Images/filter_icon.png) | Filter icon |
-| ![](/Images/delete_icon.png) | Delete icon |
-| ![](/Images/refresh_icon.png) | Refresh icon |
+| ![Filter an object list](/Images/filter_icon.png) | Filter icon |
+| ![Delete an object list](/Images/delete_icon.png) | Delete icon |
+| ![Refresh an object list](/Images/refresh_icon.png) | Refresh icon |
 
 To quickly switch to another object type, click the **Type** drop-down menu and select the desired MBS type.
 
-![](/Images/menu_latest.png)
+![Switch object type](/Images/menu_latest.png)
 
 Click a row to expand it and view additional fields. To edit an object, either click its name in the row heading or select **Edit** from the _Tools_ drop-down menu. To delete an object, select the **Action Menu** icon and select **Delete**. See [Editing and Deleting objects](#editing-and-deleting-objects).
 
-![](/Images/user_click_latest.png)
+![View object details](/Images/user_click_latest.png)
 
 ## Editing and deleting objects
 
@@ -85,7 +85,7 @@ Each rule consists of three parts:
 
 For example, the Users table below has been filtered to display only those users whose username starts with the letter "t".
 
-![](/Images/filter_multiple_latest.png)
+![Values filtered by "t"](/Images/filter_multiple_latest.png)
 
 ## Deleting application data
 
@@ -110,11 +110,11 @@ The following limitations apply to exported data:
 
 For a given export, if the total number of objects of a specific MBS type data is over 700,000, or if the total number of objects being exported is over 9,800,000, the export will stop.
 
-**To export an application's data**:
+To export an application's data:
 
 1. On the **Manage Data** tab, click the **Action Menu** icon in the upper-right of the screen and select **Export Data**.
 2. In the **Export App Data** dialog box, select **All** to export all application data, or to export data created during a certain period, select **Between** and select a date range.
-    ![](/Images/export_latest.png)
+    ![Export App Data page](/Images/export_latest.png)
 3. Click **Export App Data.** When the export package is ready to download, an email will be sent to your Dashboard user's registered email address.
 
 {{% alert title="Note" color="primary" %}}You cannot export data if it has been exported in the past seven (7) days.{{% /alert %}}
@@ -138,7 +138,7 @@ Each MBS object has fields unique to its purpose and function. Several types of 
 
 Most all MBS object creation forms have a **Custom Fields** field you use to attach custom fields to the object. This allows you to annotate pre-built MBS objects, such as Photos or Chats, with custom data fields. In the screenshot below, a custom field named **isNew** has been added to a File object.
 
- ![](/Images/custom_fields_latest.png)
+ ![Attach custom fields to an object](/Images/custom_fields_latest.png)
 
 A custom field can be one of the following data types:
 
@@ -164,6 +164,6 @@ A custom field can be one of the following data types:
 
 You can attach one or more latitude/longitude pairs to most MBS objects. For example, in the following screenshot, the coordinate pair \[22, 125\] has been added as a Geo Coordinate.
 
-![](/Images/geo_coords_latest.png)
+![Attach geo coordinates to an MBS object](/Images/geo_coords_latest.png)
 
 When present on an object, the geo-coordinates field enables your application to query it by location. See [Geographic Coordinates](https://docs.axway.com/bundle/Mobile_Backend_Services_allOS_en/page/geographic_coordinates.html) in the MBS Guide.

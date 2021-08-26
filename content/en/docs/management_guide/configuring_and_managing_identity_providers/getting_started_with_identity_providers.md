@@ -23,7 +23,7 @@ Before configuring a new Identity Provider, you must ensure:
 2. Click on the **Profile** menu and select **Organization**.
 3. Click the **Settings** tab from the left navigation.
 4. Click the **Identity Provider** tab. When you access the _Identity Provider_ page in the Dashboard for the first time, you will see a message that the organization is currently using the Amplify Platform for authentication.
-    ![](/Images/overview_new_dropdown.png)
+    ![You are currently using the Amplify Platform as your Identity Provider message](/Images/overview_new_dropdown.png)
 5. If you are a member of multiple organizations, select the organization from the _Organization_ dropdown menu.
 
 ### Next steps
@@ -35,7 +35,7 @@ The following tasks must be completed, in any order, before an Identity Provider
 
 After domain ownership is verified and you have configured an identity provider you must [confirm the association of an IdP to the domain](/docs/management_guide/configuring_and_managing_identity_providers/enabling_identity_provider_configuration/confirming_the_association_of_an_idp_to_the_domain/), and then you can [enable IdP configuration for all domain users](/docs/management_guide/configuring_and_managing_identity_providers/enabling_identity_provider_configuration/enabling_idp_configuration_for_all_domain_users/) and optionally [add a subdomain](/docs/management_guide/configuring_and_managing_identity_providers/managing_domains/adding_a_subdomain/). The following is an example of the Identity Providers page once all steps are completed with configuring multiple  Identity Providers for an organization.
 
-![](/Images/multiple_idps_configured.png)
+![Multiple Identity Providers configured](/Images/multiple_idps_configured.png)
 
 After a domain and identity provider has been added and configured, you can complete the following tasks:
 

@@ -29,7 +29,7 @@ The Amplify Visibility dashboards left navigation menu comprises the following:
 
 {{% alert title="Note" color="primary" %}}The available menus on the Amplify Visibility Dashboard may vary based on your role and your organization's subscriptions. Click the **<** to collapse the menu or **\>** to expand the menu.{{% /alert %}}
 
-![](/Images/visibility_menu_left_menu.png)
+![Visibility dashboards left navigation](/Images/visibility_menu_left_menu.png)
 
 * API Dashboard
 * Search Audit
@@ -44,7 +44,7 @@ Click the **API Dashboard** menu to access the **API Report - Insights**, **A
 ### Viewing the 10 most and least API performant values
 
 The **API Report - Insights** dashboard shows a summary of the API metrics ingested inside the platform.
-![](/Images/dashboard_insights.png)
+![Insights dashboard](/Images/dashboard_insights.png)
 
 The  **API Report - Insights** displays the API, the environment, and a consumers count (a distinct count of applications through which each API was called) for the following 10 performant values:
 
@@ -66,7 +66,7 @@ Click the refresh button next to the filter to refresh the data displayed.
 
 The **API Report - Health and Usage** dashboard shows the API metrics ingested inside the platform.
 
-![](/Images/dashboard_health_and_usage.png)
+![Health & Usage dashboard](/Images/dashboard_health_and_usage.png)
 
 The  **API Report - Health and Usage** displays the following values for all APIs:
 
@@ -99,7 +99,7 @@ You can do the following with the displayed results:
 
 The  **API Report - API Traffic** displays an evolution of the number of API calls to an application, in a given period.
 
-![](/Images/dashboard_api_traffic.png)
+![API Traffic dashboard](/Images/dashboard_api_traffic.png)
 
 * **Hours** \- Compares the number of calls per minute from the current hour with the data from 1 and 2 hours prior.
 * **Days** -  Compares the number of calls per hour from the current day with the data from 1 and 2 days prior.
@@ -113,7 +113,7 @@ Filter the data by the application name, or you can select **All Applications** 
 
 Click the **Search Audit** menu to view the **Search Audit** Amplify Visibility dashboard. You must be assigned the Auditor Role to access the **Search Audit** menu. The **Search Audit** dashboard is used to display audit events showing sensitive data that is most relevant to an auditor.
 
-![](/Images/dashboard_searchaudit.png)
+![Audit dashboard](/Images/dashboard_searchaudit.png)
 
 The following event audit details are displayed:
 
@@ -150,8 +150,8 @@ You can do the following with the displayed results:
 
 ## Accessing the  App Builder (Amplify Platform Dashboard)
 
-Click the **App Builder ![](/Images/tab_app_builder.png)** menu to redirect you from the Visibility dashboards view into the Amplify Platform Dashboard (App Builder) dashboard. You will not see this menu if you are an Axway administrator. See [The Amplify Platform Dashboard](/docs/dashboard_guide/the_dashboards/platform_dashboard/) for details.
+Click the **App Builder ![App Builder  icon](/Images/tab_app_builder.png)** menu to redirect you from the Visibility dashboards view into the Amplify Platform Dashboard (App Builder) dashboard. You will not see this menu if you are an Axway administrator. See [The Amplify Platform Dashboard](/docs/dashboard_guide/the_dashboards/platform_dashboard/) for details.
 
 ## Accessing the API Observer dashboard
 
-Click the **API Observer**  ![](/Images/tab_apiobserver.png) menu to redirect you from the Visibility dashboards view into the [API Observer](https://docs.axway.com/bundle/axway-open-docs/page/docs/central/quickstart/index.html#monitor-api-traffic) dashboard. You must be assigned the Analytics Specialist Role to access the  API Observer menu. You will not see this menu if you are an Axway administrator.
+Click the **API Observer**  ![API Observer dashboard](/Images/tab_apiobserver.png) menu to redirect you from the Visibility dashboards view into the [API Observer](https://docs.axway.com/bundle/axway-open-docs/page/docs/central/quickstart/index.html#monitor-api-traffic) dashboard. You must be assigned the Analytics Specialist Role to access the  API Observer menu. You will not see this menu if you are an Axway administrator.

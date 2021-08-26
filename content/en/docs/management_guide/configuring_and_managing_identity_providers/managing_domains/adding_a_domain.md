@@ -24,7 +24,7 @@ At least one email domain used by the Identity Provider must be added to the org
 
     The **Add Domain** modal dialog appears.
 
-    ![](/Images/domain_add.png)
+    ![Add Domain modal](/Images/domain_add.png)
 2. Using the **TXT Name** (if supported by the IdP provider), **TXT Value**, and **TTL** values displayed, configure a TXT record with your DNS provider for the domain being added.
 3. Enter the domain in the modal, and then click **Add**. After adding the domain, it will appear in the Email Domain table as **Pending** in the **Owned** column.
-    ![](/Images/domain_check_txt_dropdown.png)
+    ![Identity Provider pending status](/Images/domain_check_txt_dropdown.png)

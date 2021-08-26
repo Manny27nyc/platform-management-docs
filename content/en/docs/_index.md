@@ -36,5 +36,3 @@ If you try to access the Amplify Platform in an unsupported browser, you will be
 ## Next steps
 
 Review the [Getting Started](/docs/getting_started_with_amplify_platform_management/) documentation to start using the Amplify Platform Management interface.
-
-Aug 12, 2021

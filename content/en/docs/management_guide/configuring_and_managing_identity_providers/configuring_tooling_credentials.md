@@ -13,4 +13,4 @@ The **Tooling Credentials** view enables you to create and change the password 
 3. Confirm the new password in the **Confirm Password** field. The entry in the **Confirm Password** field must be the same as the entry in the **Password** field.
 4. Click the **Save** button.
 
-![](/Images/configure_tooling_credentials.png)
+![Tooling Credentials page](/Images/configure_tooling_credentials.png)

@@ -20,17 +20,17 @@ After confirming the association of your IdP to the domain, you can enable the c
 
 1. For the domain you want to confirm, select **Enable** from the **Actions** (**...**) menu from the **Email Domain** table.
 
-    ![](/Images/domain_enable_dropdown.png)
+    ![Enable domain link](/Images/domain_enable_dropdown.png)
 2. One of the following modals dialogs displays:
     * _If there are other users on the domain that are in the Platform_, but not in the org, a **Consolidate Users** modal dialog displays. The modal explains that all users must be in the org and displays a table showing the missing users. Click **Add Users** to the add the users to the org and the default team with the Developer role. These users' roles and team membership can be managed on the organization's Members page.
 
-        ![](/Images/domain_consolidate_users.png)
+        ![Consolidate Users dialog](/Images/domain_consolidate_users.png)
     * _If all of the users on the confirmed domain are in the org_, then the **Enable Identity Provider** modal dialog displays. The modal explains that all steps have been completed to enable the IdP for all users on the domain. Click **Enable**.
 
-        ![](/Images/domain_enable.png)
+        ![Enable Identity Provider dialog](/Images/domain_enable.png)
 
     After the IdP is enabled for all users on the domain, the following occurs:
 
     * The users on the domain are signed out of the Platform and must use their IdP to authenticate with the Platform.
     * The Email Domain table displays **Confirmed** in the **Confirmed** column.
-![](/Images/domain_confirmed_table.png)
+![Confirmed domain](/Images/domain_confirmed_table.png)

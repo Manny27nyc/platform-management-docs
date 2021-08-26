@@ -12,7 +12,7 @@ The Amplify Platform Dashboard left navigation comprises the following menu item
 
 {{% alert title="Note" color="primary" %}}The available menus on the Dashboard may vary based on your role and your organization's subscriptions.{{% /alert %}}
 
-![](/Images/dashboard_left_menu.png)
+![Amplify Platform Dashboard left navigation](/Images/dashboard_left_menu.png)
 
 * **Overview** - displays  key metric information relevant to a product line to which your organization is subscribed. All users will see the Overview tab.
 * **API Observer** - navigates you to the [API Observer](https://docs.axway.com/bundle/axway-open-docs/page/docs/central/quickstart/index.html#monitor-api-traffic) dashboard. Users with the Central Admin and Developer roles will see the API Observer tab .
@@ -27,7 +27,7 @@ The left-side in the bottom navigation contains a link for enabling Demo Data mo
 
 The **Overview** displays key metric information relevant to the product line to which your organization is subscribed. For additional information on the key metrics, refer to [Viewing Metrics](/docs/dashboard_guide/managing_applications/viewing_metrics/).
 
-![](/Images/dasbhoard_home_overview_tab.png)
+![Overview page](/Images/dasbhoard_home_overview_tab.png)
 
 ## API Observer
 
@@ -43,7 +43,7 @@ The **Overview** displays key metric information relevant to the product line t
 
 {{% alert title="Note" color="primary" %}}Mobile Backend Services and Runtime Services are deprecated and will be discontinued effective September 1, 2022.{{% /alert %}}
 
-![](/Images/dashboard_apps_home_tab.png)
+![Apps page](/Images/dashboard_apps_home_tab.png)
 
 To manage an application, select the application to manage from the list of applications.
 
@@ -53,7 +53,7 @@ If you haven't created any applications yet, you will be directed to the _You do
 * **Register App for Services** \- You will be forwarded to the _Register App for Services_ page.
 * **Create MBS Datasource** \- If you do not have a subscription, you will be forwarded to the _Billing_ page where you can upgrade your plan to access locked items. Refer to [Managing Billing](/docs/management_guide/managing_billing/). If you have a subscription, you will be forwarded to the _Create Mobile Backend Services Datasource_ page.
 
-![](/Images/dashboard_home_no_apps.png)
+![You don't have any apps yet page](/Images/dashboard_home_no_apps.png)
 
 Once you have apps created, you can add new apps from the apps list page. Click the **Actions** ( **...** ) menu in the upper right, and then select **Register App for Services** or **Create MBS Datasource**.
 
@@ -85,7 +85,7 @@ The Name, Type, and Created columns in the apps list can be sorted either in asc
 
 The number of displayed applications per page can be selected using the _per page_ drop-down menu.
 
-![](/Images/application_list_paging.png)
+![Apps list paging](/Images/application_list_paging.png)
 
 The number of applications displayed per page can be set to:
 
@@ -132,13 +132,13 @@ To delete multiple apps:
 
 **Custom Queries** displays custom query summary information and enables the creation of custom analytics queries. For information on creating custom queries, refer to [Creating Custom Queries](/docs/dashboard_guide/managing_applications/creating_custom_queries/).
 
-![](/Images/dashboard_home_custom_queries_tab.png)
+![Custom queries page](/Images/dashboard_home_custom_queries_tab.png)
 
 ## Premium modules
 
 **Premium Modules** takes you to the _Download Premium Modules_ page.
 
-![](/Images/download_premium_modules.png)
+![Premium Modules page](/Images/download_premium_modules.png)
 
 To download a premium module, click the module download button associated with your current Titanium SDK installation. The following premium modules are available for download:
 

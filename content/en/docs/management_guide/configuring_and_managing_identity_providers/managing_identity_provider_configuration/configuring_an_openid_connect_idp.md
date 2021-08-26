@@ -29,16 +29,16 @@ To create a new Identity Provider
 7. Complete the _Role Assignments_ section. Refer to [Role assignments](/docs/management_guide/configuring_and_managing_identity_providers_idps/managing_identity_provider_configuration/role_assignments/) for details.
 8. The following is an example of a completed OIDC form (before clicking **Save**).
 
-    ![](/Images/oidc_new.png)
+    ![Completed form for adding an OIDC Identity Provider](/Images/oidc_new.png)
 
 9. Click **Save**. A confirmation dialog appears with a message that, once the Identity Provider configuration is verified, all users on that domain will be required to log into the Amplify Platform with their Identity Provider credentials.
 
-    ![](/Images/idp_save_configuration.png)
+    ![Confirm Identity Provider Configuration dialog](/Images/idp_save_configuration.png)
 
 10. To complete the configuration, you must add values configured in the Amplify Platform _Identity Providers_ detail page to your Identity Provider.
 
     * Copy the **Redirect URI** and optionally the **Post-Logout Redirect URI** into the OIDC configuration manually or by clicking the clipboard icon.
-        ![](/Images/oidc_overview.png)
+        ![Completing OIDC configuration](/Images/oidc_overview.png)
     * Click **Save** in the OIDC  page.
 
 When a new Identity Provider is being configured, the organization administrator can edit any field. After an OIDC Identity Provider is pending or verified, the organization administrator is not permitted to edit the **Authorization URL**, **Token URL**, and **Client ID** fields.
