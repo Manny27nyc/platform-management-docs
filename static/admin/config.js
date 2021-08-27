@@ -151,11 +151,11 @@ const postDefaults = {
   description: 'All pages relating to Release notes section.',
   format: 'frontmatter',
 }, {
-  ...docsDefaults('release_notes/platform_management_8_0_0_-_8_5_1_release_notes', 'platform_management_8_0_0_-_8_5_1_release_notes'),
-  name: 'platform_management_8_0_0_-_8_5_1_release_notes',
-  label: 'Platform Management 8.0.0 - 8.5.1 release notes',
-  label_singular: 'page in Platform Management 8.0.0 - 8.5.1 release notes section',
-  description: 'All pages relating to Platform Management 8.0.0 - 8.5.1 release notes section.',
+  ...docsDefaults('release_notes/platform_management_8.0.0_release_notes', 'platform_management_8.0.0_release_notes'),
+  name: 'platform_management_8.0.0_release_notes',
+  label: 'Platform Management later than 8.0.0 release notes',
+  label_singular: 'page in Platform Management later than 8.0.0 release notes section',
+  description: 'All pages relating to Platform Management later than 8.0.0 release notes section.',
   format: 'frontmatter',
 }, {
   ...docsDefaults('release_notes/platform_management_7.0.0_-_7.4.1_release_notes', 'platform_management_7.0.0_-_7.4.1_release_notes'),
