@@ -164,7 +164,14 @@ const postDefaults = {
   label_singular: 'page in Platform Management 7.0.0 - 7.4.1 release notes section',
   description: 'All pages relating to Platform Management 7.0.0 - 7.4.1 release notes section.',
   format: 'frontmatter',
-},];
+}, {
+  ...docsDefaults('faq', 'faq'),
+  name: 'faq',
+  label: 'FAQ',
+  label_singular: 'page in FAQ section',
+  description: 'All pages relating to FAQ section.',
+  format: 'frontmatter',
+}, ];
 
 const cms_branch = window.location.hostname.includes('develop') ? 'develop' : 'master'; // Additional config for a develop branch and develop site
 
