@@ -24,7 +24,7 @@ Refer to the [Microsoft configure SAML-based configure single sign on](https://
 
 To create a new Identity Provider
 
-1. From the _Identity Providers_ page, click the **\+ Identity Provider**. The **New Identity Provider** form will be presented.
+1. From the _Identity Providers_ page, click the **\+ Identity Provider**. The **New Identity Provider** form will be presented.
 2. Select **SAML v2.0**. A blank form is presented.
     ![Completed form for adding a SAML v2.0 Identity Provider](/Images/saml_new_empty.png)
 3. Complete the fields based on the values that are configured for your Identity Provider. The example is for SAML v2.0 for Azure Active Directory. For example, the SAML v2.0 Identity Provider values are found in the Azure Active Directory admin center in the Single sign-on menu. Refer to the [Microsoft configure SAML-based configure single sign on](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/configure-single-sign-on-non-gallery-applications) article and the following example for details.
@@ -61,10 +61,10 @@ To create a new Identity Provider
 
     The following is an example for a completed SAML v2.0 form (before clicking **Save**).
     ![SAML v2.0 completed form](/Images/saml_new.png)
-8. Click **Save**. A Confirmation dialog appears with a message that once the Identity Provider is verified, all users on that domain will be required to log into the Amplify Platform with their Identity Provider credentials.
+8. Click **Save**. A Confirmation dialog appears with a message that once the Identity Provider is verified, all users on that domain will be required to log into the Platform with their Identity Provider credentials.
     ![Confirm Identity Provider Configuration dialog](/Images/idp_save_configuration.png)
 
-9. To complete the configuration, you must add the values configured in the Amplify Platform identity configuration page to your Identity Provider's configuration.
+9. To complete the configuration, you must add the values configured in the Platform identity configuration page to your Identity Provider's configuration.
     * Copy the **Entity ID**, **Assertion Consumer Service URL**, and optionally the **Post-Logout URL**values individually from the Platform's page manually or by clicking the clipboard icon.
         ![Complete SAML v2.0 configuration](/Images/saml_overview.png)
 

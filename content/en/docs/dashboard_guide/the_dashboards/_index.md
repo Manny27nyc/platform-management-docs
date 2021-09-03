@@ -6,7 +6,7 @@ weight: 10
 date: 2021-08-12
 ---
 
-Click the **Dashboard** link from the Amplify Platform home page.
+Click the **Dashboard** link from the {{% variables/platform_prod_name %}} home page.
 
 ![Dashboard link on Platform home page](/Images/amplify_dashboard_link.png)
 

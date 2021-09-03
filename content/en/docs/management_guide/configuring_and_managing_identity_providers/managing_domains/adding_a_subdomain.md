@@ -16,6 +16,6 @@ date: 2021-08-12
 | **✓** | 3 | [Enable the IdP configuration for all domain users](/docs/management_guide/configuring_and_managing_identity_providers/enabling_identity_provider_configuration/enabling_idp_configuration_for_all_domain_users/) |
 | **✓** | 4 | (_Optional_) [Add a subdomain](#) |
 
-Once ownership is confirmed for a domain, any subdomains can be added without ownership having to be confirmed. The organization administrator can add the subdomain by selecting **Add subdomain** from the **Actions** (...) menu in the _Identity Providers_ page.
+Once ownership is confirmed for a domain, any subdomains can be added without ownership having to be confirmed. The organization administrator can add the subdomain by selecting **Add subdomain** from the **Actions** (...) menu in the _Identity Providers_ page.
 
 ![Add Subdomain modal](/Images/domain_add_subdomain.png)

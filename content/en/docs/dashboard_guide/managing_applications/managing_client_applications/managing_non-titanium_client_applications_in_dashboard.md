@@ -18,7 +18,7 @@ Appcelerator Platform Services (APS) SDK for iOS and Android provides support fo
 
 To register an APS SDK application for services:
 
-1. Sign in to the [Amplify Platform](https://platform.axway.com/).
+1. Sign in to the [Platform](https://platform.axway.com/).
 2. Click Dashboard from the _Service Links_ menu.
 3. Click the **Actions** (**...**) menu in the upper right.
 4. Click **Register App for Services** to open the _Register App for Services_ form.
@@ -40,7 +40,7 @@ The Dashboard displays the **Services** tab for your application. Follow the dir
 
 To register an API or microservice application:
 
-1. Sign in to the [Amplify Platform](https://platform.axway.com/).
+1. Sign in to the [Platform](https://platform.axway.com/).
 2. Click Dashboard from the _Services Links_ menu.
 3. Click the **Actions** (**...**) menu in the upper right.
 4. Click **Register App for Services** to open the _Register App for Services_ form.
@@ -60,7 +60,7 @@ To register an API or microservice application:
 
 To register a Website or Web application:
 
-1. Sign in to the [Amplify Platform](https://platform.axway.com/).
+1. Sign in to the [Platform](https://platform.axway.com/).
 2. Click Dashboard from the _Services Links_ menu.
 3. Click the **Actions** (**...**) menu in the upper right.
 4. Click **Register App for Services** to open the _Register App for Services_ form.
@@ -80,7 +80,7 @@ To register a Website or Web application:
 
 To register a custom application (other than APS SDK, API/Microservice, or Website/Web applications):
 
-1. Sign in to the [Amplify Platform](https://platform.axway.com/).
+1. Sign in to the [Platform](https://platform.axway.com/).
 2. Click Dashboard from the _Services Links_ menu.
 3. Click the **Actions** (**...**) menu in the upper right.
 4. Click **Register App for Services** to open the _Register App for Services_ form.

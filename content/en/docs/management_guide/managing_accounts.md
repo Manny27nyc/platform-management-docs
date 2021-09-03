@@ -154,11 +154,11 @@ To view details of a listed organization, click on the organization name and ref
 
 ### Configure your inactivity logout time
 
-You can configure the amount of time before you are signed out of the **Amplify Platform** due to browser session inactivity. The options are 15 minutes, 30 minutes (default), 1 hour, or Disabled (do not log me out due to inactivity).
+You can configure the amount of time before you are signed out of the Platform due to browser session inactivity. The options are 15 minutes, 30 minutes (default), 1 hour, or Disabled (do not log me out due to inactivity).
 
 ### Enable or disable restoring previous page on next login
 
-You can enable or disable if you want to be redirected to the page previously viewed once signed back in after being signed out due to inactivity in the **Amplify Platform**. This setting is disabled by default (do not restore previous page on next login).
+You can enable or disable if you want to be redirected to the page previously viewed once signed back in after being signed out due to inactivity in the Platform. This setting is disabled by default (do not restore previous page on next login).
 
 ## View your user activity
 

@@ -18,7 +18,7 @@ This guide provides how-to instructions for getting started with Mobile Backend 
 
 To create a standalone Mobile Backend Services datasource (an MBS datasource not tied to a specific client application):
 
-1. Log into the [Amplify Platform](https://platform.axway.com/).
+1. Log into the [Platform](https://platform.axway.com/).
 2. Click Dashboard from the _Services Links_ menu.
 3. Click the **Actions** (**...**) menu in the upper right.
 4. Select **Create MBS Datasource**.

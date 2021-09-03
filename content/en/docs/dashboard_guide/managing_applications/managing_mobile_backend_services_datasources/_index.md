@@ -18,8 +18,8 @@ To create a standalone Mobile Backend Services datasource (an MBS datasource tha
 
 To change the name of the datasource:
 
-1. Log into the [Amplify Platform](https://platform.axway.com/).
-2. Click Dashboard from the _Service Links_ menu.
+1. Log into the [Platform](https://platform.axway.com/).
+2. Click Dashboard from the _Services Link_ menu.
 3. Select the datasource from the apps list.
 4. In the datasource details page, click the **Actions** (**...**) menu in the upper-right of the screen and select **Edit**.
 5. Enter a new name for the datasource.

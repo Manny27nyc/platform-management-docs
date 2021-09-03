@@ -14,8 +14,8 @@ The App Preview functionality is available on the Dashboard. Previously, this fu
 
 To access app preview:
 
-1. Log into the [Amplify Platform](https://platform.axway.com/).
-2. Click Dashboard from the _Services Links_ menu.
+1. Log into the [Platform](https://platform.axway.com/).
+2. Click Dashboard from the _Services Link_ menu.
 3. Select the app you want to preview.
 4. Select the **App Preview** option from the **Actions** menu. For first-time users, click the **Go to App Preview** button to open the application upload navigation flow. The upload navigation flow will guide you through the steps to upload an application and make it available to the selected list of users. Applications can be uploaded as IPA or APK files.
 

@@ -11,6 +11,6 @@ The organization administrator can disassociate email domains with an Associated
 After the dissociation:
 
 * The domain is returned to the Owned state.
-* All users on the associated domain will revert to using the Amplify Platform for authentication.
+* All users on the associated domain will revert to using the {{% variables/platform_prod_name %}} for authentication.
 
 If the organization administrator wants to associate the domain again, they must follow the same process to confirm the association to the same or a different IdP.

@@ -10,7 +10,7 @@ The Amplify Platform Management interface uses a unified top and bottom navigati
 
 ## Top navigation
 
-The Amplify Platform includes the following menus and links in the top navigation:
+The {{% variables/platform_prod_name %}} includes the following menus and links in the top navigation:
 
 ![Platform top navigation](/Images/amplify_platform_navigation.png)
 
@@ -30,8 +30,8 @@ The _Help & Resources_ menu provides links to:
 
 ![Help & Resources menu](/Images/help_and_resources_menu.png)
 
-* **Documentation** - Click to navigate to the Documentation Portal and explore the Amplify Platform documentation.
-* **Developer Portal** - Click to navigate to the Axway Developer Portal to learn about and watch video tutorials on the Amplify Platform capabilities.
+* **Documentation** - Click to navigate to the Documentation Portal and explore the {{% variables/platform_prod_name %}}documentation.
+* **Developer Portal** - Click to navigate to the Axway Developer Portal to learn about and watch video tutorials on the {{% variables/platform_prod_name %}} capabilities.
 * **Community Portal** - Click to navigate to the Axway Community Portal.
 * **Support Portal** - Click to navigate to the Axway Support Portal (login required).
 * **Axway University** - Click to navigate to the Axway University Portal.
@@ -59,13 +59,13 @@ The _User_ menu displays your account email and role and provides links to:
 
 ## Bottom navigation
 
-The **Amplify Platform** includes the following links in the bottom navigation:
+The {{% variables/platform_prod_name %}} includes the following links in the bottom navigation:
 
 ![Platform bottom navigation](/Images/amplify_platform_bottom_navigation.png)
 
-* **Version** - The version for the **Amplify Platform** and **Amplify Platform Dashboard**. Click the version to be taken to the Release Notes.
-* **Documentation** - Click this link to view the latest [Amplify Platform](https://docs.axway.com/category/platform) documentation.
-* **Status** - Click this link to open the Axway Amplify Platform Status page.
-* **Release Notes** - Click this link to open the [Amplify Platform release notes directory](https://docs.axway.com/bundle/amplify_rn_dir/page/amplify_platform_release_notes_directory.html).
-* **Terms** - Click this link to view the Amplify Platform Terms of Use.
+* **Version** - The version for the {{% variables/platform_prod_name %}} and Amplify Platform Dashboard. Click the version to be taken to the Release Notes.
+* **Documentation** - Click this link to view the latest [{{% variables/platform_prod_name %}}](https://docs.axway.com/category/platform) documentation.
+* **Status** - Click this link to open the Axway {{% variables/platform_prod_name %}} Status page.
+* **Release Notes** - Click this link to open the [{{% variables/platform_prod_name %}} release notes directory](https://docs.axway.com/bundle/amplify_rn_dir/page/amplify_platform_release_notes_directory.html).
+* **Terms** - Click this link to view the {{% variables/platform_prod_name %}} Terms of Use.
 * **Chat Icon** - Click this icon to ask a question, make a suggestion, or report a problem.

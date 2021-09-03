@@ -23,7 +23,7 @@ Also use the interface to:
 
 ## Browser support
 
-The Amplify Platform supports the following browsers:
+The {{% variables/platform_prod_name %}} supports the following browsers:
 
 * Google Chrome 61+
 * Mozilla Firefox 52+
@@ -31,7 +31,7 @@ The Amplify Platform supports the following browsers:
 * Microsoft Edge 17+
 * Internet Explorer 11 (has been deprecated with an end of support date of September 30, 2020).
 
-If you try to access the Amplify Platform in an unsupported browser, you will be redirected to the [Supported Browsers](https://platform.axway.com/browser) page.
+If you try to access the {{% variables/platform_prod_name %}} in an unsupported browser, you will be redirected to the [Supported Browsers](https://platform.axway.com/browser) page.
 
 ## Next steps
 

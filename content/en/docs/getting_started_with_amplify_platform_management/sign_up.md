@@ -6,13 +6,13 @@ weight: 10
 date: 2021-08-12
 ---
 
-To sign up for access to the Amplify API Management Platform and to create an Amplify Platform account:
+To sign up for access to the Amplify API Management Platform and to create an {{% variables/platform_prod_name %}} account:
 
 1. Navigate to [https://platform.axway.com](https://platform.axway.com/). If this is your initial visit to [https://platform.axway.com](https://platform.axway.com/), the Amplify API Management Platform overview page is displayed.
 
     ![Amplify API Management Platform overview page](/Images/amplify_platform_overiew.png)
 
-2. To proceed with creating a new Amplify Platform account, click **Try it Now**. Clicking Try it Now forwards you to the Amplify Platform _Create your free account_ page.
+2. To proceed with creating a new {{% variables/platform_prod_name %}} account, click **Try it Now**. Clicking Try it Now forwards you to the {{% variables/platform_prod_name %}} _Create your free account_ page.
     ![Create your free Platform account modal](/Images/platform_sign_up_blank.png)
 3. Complete the following fields:
     1. **First Name**
@@ -35,11 +35,11 @@ To sign up for access to the Amplify API Management Platform and to create an Am
 
 6. You will see a message that your account has been activated, and then you are redirected to the **Sign in to your account** page. Type your email address and  password you used to sign up, and then click **Sign In**.
     ![Sign in to your account page](/Images/sign_in_to_your_account.png)
-    The Amplify Platform home page is displayed. Refer to the [Amplify Platform Overview](/docs/getting_started_with_amplify_platform_management/overview) for details.
+    The {{% variables/platform_prod_name %}} home page is displayed. Refer to the [Amplify Platform Overview](/docs/getting_started_with_amplify_platform_management/overview) for details.
 
 ## Amplify Platform US and EU availability, data privacy, and data residency
 
-The Amplify Platform and services are available in the United States (US) or Europe (EU) region. For cloud-based Amplify Platform the data is stored as follows:
+The {{% variables/platform_prod_name %}} and services are available in the United States (US) or Europe (EU) region. For cloud-based {{% variables/platform_prod_name %}} the data is stored as follows:
 
 * Business essential data is centrally stored:
     * Authentication data (users, organizations, and teams)

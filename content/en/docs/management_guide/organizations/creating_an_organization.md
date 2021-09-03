@@ -18,7 +18,7 @@ If your organization is an authorized Amplify Services Reseller and you are an 
 
 To create an organization:
 
-1. Sign in to the [Amplify Platform](https://platform.axway.com/).
+1. Sign in to the [Platform](https://platform.axway.com/).
 2. Click on the _User_ dropdown menu and select **Organization**.
 3. If you're a member of multiple organizations, select the organization from the **Organization** dropdown menu you want to which you want to add an organization.
 4. On the **Organization** tab, click the **Action Menu** icon in the upper-right corner of the screen and select either **New Child Org** or **New Org**.

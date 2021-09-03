@@ -16,7 +16,7 @@ date: 2021-08-12
 | \- | 3 | [Enable the IdP configuration for all domain users](/docs/management_guide/configuring_and_managing_identity_providers/enabling_identity_provider_configuration/enabling_idp_configuration_for_all_domain_users/) |
 | \- | 4 | (_Optional_) [Add a subdomain](/docs/management_guide/configuring_and_managing_identity_providers/managing_domains/adding_a_subdomain/) |
 
-At least one email domain used by the Identity Provider must be added to the org, and domain ownership must be confirmed by a TXT record set on the domain's DNS that matches one that is displayed in the Amplify Platform.
+At least one email domain used by the Identity Provider must be added to the org, and domain ownership must be confirmed by a TXT record set on the domain's DNS that matches one that is displayed in the Platform.
 
 ## To add a domain
 

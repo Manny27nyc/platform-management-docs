@@ -6,7 +6,7 @@ weight: 10
 date: 2021-08-12
 ---
 
-An organization administrator completes all tasks related to configuring and managing identity providers and associated domains from the Organization's Settings - **Identity Provider** tab in the Amplify Platform.
+An organization administrator completes all tasks related to configuring and managing identity providers and associated domains from the Organization's Settings - **Identity Provider** tab in the Platform.
 
 ### Prerequisites
 
@@ -19,11 +19,11 @@ Before configuring a new Identity Provider, you must ensure:
 
 ### Accessing the Identity Provider (IdP) page
 
-1. Sign in to the [Amplify Platform](https://platform.axway.com/).
+1. Sign in to the [Platform](https://platform.axway.com/).
 2. Click on the **Profile** menu and select **Organization**.
 3. Click the **Settings** tab from the left navigation.
-4. Click the **Identity Provider** tab. When you access the _Identity Provider_ page in the Dashboard for the first time, you will see a message that the organization is currently using the Amplify Platform for authentication.
-    ![You are currently using the Amplify Platform as your Identity Provider message](/Images/overview_new_dropdown.png)
+4. Click the **Identity Provider** tab. When you access the _Identity Provider_ page in the Dashboard for the first time, you will see a message that the organization is currently using the {{% variables/platform_prod_name %}} for authentication.
+    ![You are currently using the {{% variables/platform_prod_name %}} as your Identity Provider message](/Images/overview_new_dropdown.png)
 5. If you are a member of multiple organizations, select the organization from the _Organization_ dropdown menu.
 
 ### Next steps
@@ -33,7 +33,7 @@ The following tasks must be completed, in any order, before an Identity Provider
 * [Add a domain](/docs/management_guide/configuring_and_managing_identity_providers/managing_domains/adding_a_domain/) and [verify domain ownership](/docs/management_guide/configuring_and_managing_identity_providers/managing_domains/verifying_domain_ownership/)
 * Configure Identity Providers: [configure an OpenID Connect IdP](/docs/management_guide/configuring_and_managing_identity_providers/managing_identity_provider_configuration/configuring_an_openid_connect_idp) or [configure a SAML v2.0 IdP](/docs/management_guide/configuring_and_managing_identity_providers/managing_identity_provider_configuration/configuring_a_saml_v2.0_idp/).
 
-After domain ownership is verified and you have configured an identity provider you must [confirm the association of an IdP to the domain](/docs/management_guide/configuring_and_managing_identity_providers/enabling_identity_provider_configuration/confirming_the_association_of_an_idp_to_the_domain/), and then you can [enable IdP configuration for all domain users](/docs/management_guide/configuring_and_managing_identity_providers/enabling_identity_provider_configuration/enabling_idp_configuration_for_all_domain_users/) and optionally [add a subdomain](/docs/management_guide/configuring_and_managing_identity_providers/managing_domains/adding_a_subdomain/). The following is an example of the Identity Providers page once all steps are completed with configuring multiple  Identity Providers for an organization.
+After domain ownership is verified and you have configured an identity provider you must [confirm the association of an IdP to the domain](/docs/management_guide/configuring_and_managing_identity_providers/enabling_identity_provider_configuration/confirming_the_association_of_an_idp_to_the_domain/), and then you can [enable IdP configuration for all domain users](/docs/management_guide/configuring_and_managing_identity_providers/enabling_identity_provider_configuration/enabling_idp_configuration_for_all_domain_users/) and optionally [add a subdomain](/docs/management_guide/configuring_and_managing_identity_providers/managing_domains/adding_a_subdomain/). The following is an example of the Identity Providers page once all steps are completed with configuring multiple Identity Providers for an organization.
 
 ![Multiple Identity Providers configured](/Images/multiple_idps_configured.png)
 

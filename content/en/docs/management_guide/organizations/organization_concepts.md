@@ -6,11 +6,11 @@ weight: 10
 date: 2021-08-12
 ---
 
-This section details which capabilities an organization can use, which assets a user can consume or what actions a user can take available from the **Organization** tab. To access the **Organization** tab, sign in to the [Amplify Platform](https://platform.axway.com/) and select **Organization** from the _User_ dropdown menu.
+This section details which capabilities an organization can use, which assets a user can consume or what actions a user can take available from the **Organization** tab. To access the **Organization** tab, sign in to the [{{% variables/platform_prod_name %}}](https://platform.axway.com/) and select **Organization** from the _User_ dropdown menu.
 
 ## Organizations
 
-Let's start from the beginning and look at what an organization is in the Amplify Platform. An organization can be seen as a single instance of the platform. An organization is uniquely identified by an Organization Identifier (Org ID). As a best practice, an organization is a company, and the teams concept (see further below) is used to have a clear separation of assets between working groups such as departments, projects, and individual users.
+Let's start from the beginning and look at what an organization is in the {{% variables/platform_prod_name %}}. An organization can be seen as a single instance of the Platform. An organization is uniquely identified by an Organization Identifier (Org ID). As a best practice, an organization is a company, and the teams concept (see further below) is used to have a clear separation of assets between working groups such as departments, projects, and individual users.
 
 ![Organization details page](/Images/organization_org_id.png)
 
@@ -20,7 +20,7 @@ An organization is linked to one or more subscriptions. Subscriptions define the
 
 ![Subscriptions page](/Images/organization_subscriptions.png)
 
-When you sign up for a trial of the platform, then an organization is automatically created and you become the administrator that manages the organization with a default list of subscriptions. When a customer purchases our platform capabilities, then an Axway administrator creates an organization, assigns the correct subscriptions, and makes a user of the customer an administrator of the platform.
+When you sign up for a trial of the platform, then an organization is automatically created and you become the administrator that manages the organization with a default list of subscriptions. When a customer purchases our platform capabilities, then an Axway administrator creates an organization, assigns the correct subscriptions, and makes a user of the customer an administrator of the Platform.
 
 ## Child organizations
 
@@ -38,7 +38,7 @@ Each organization has one or more users. At least one user needs to be an admini
 
 ![Users page](/Images/dashboard_users.png)
 
-We can distinguish the following types of roles in the Amplify Platform:
+We can distinguish the following types of roles in the Platform:
 
 * **Platform Roles** - a role that applies to all the capabilities of the platform and is mutually exclusive. You can only have 1 platform role, such as Administrator. This role can be different per organization to which you are a member.
 * **Service Roles** - roles that are specific to a capability such as Amplify Central or Flow Manager. These roles are not mutually exclusive. A member can for example have one role in Amplify Central and three roles in Flow Manager for a specific organization.

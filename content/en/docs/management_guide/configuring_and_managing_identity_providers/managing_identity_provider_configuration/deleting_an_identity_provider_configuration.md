@@ -8,7 +8,7 @@ date: 2021-08-12
 
 The organization administrator can delete an Identity Provider by selecting **Delete** from the **Actions** (...) menu from the Identity Provider's detail page. Deleting an Identity Provider is a permanent and irreversible action.
 
-When an organization administrator initiates deleting an Identify Provider, a confirmation modal is presented. The organization administrator must type their email address to confirm they understand that this action will permanently delete the configuration and all users on the associated domain(s) will revert to using the Amplify Platform for authentication.
+When an organization administrator initiates deleting an Identify Provider, a confirmation modal is presented. The organization administrator must type their email address to confirm they understand that this action will permanently delete the configuration and all users on the associated domain(s) will revert to using the {{% variables/platform_prod_name %}} for authentication.
 
 ![Delete and Identity Provider modal](/Images/360_delete_idp.png)
 

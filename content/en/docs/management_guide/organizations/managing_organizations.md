@@ -6,14 +6,14 @@ weight: 30
 date: 2021-08-12
 ---
 
-As an administrator the Amplify Platform lets you:
+As an administrator the {{% variables/platform_prod_name %}} lets you:
 
 * View details about your organization
 * Manage the users and service accounts who have access to the Amplify Services
 * Manage the applications created by organization users
 * Configure Identity Providers
 
-These functions are available through the **Organization** tab. To access the **Organization** tab, sign in to the  [Amplify Platform](https://platform.axway.com/) and select **Organization** from the _User_ dropdown menu.
+These functions are available through the **Organization** tab. To access the **Organization** tab, sign in to the  [{{% variables/platform_prod_name %}}](https://platform.axway.com/) and select **Organization** from the _User_ dropdown menu.
 
 ## Organization left navigation
 
@@ -39,7 +39,7 @@ The **Organization** tab enables you to select and update the organization name.
 
 To update an organization name:
 
-1. Sign in to the [Amplify Platform](https://platform.axway.com/).
+1. Sign in to the [Platform](https://platform.axway.com/).
 2. Click on the **User & Org** menu and select **Organization**.
 3. Click the **Organization** tab from the left navigation.
 4. Select the organization from the _Organization_ dropdown menu.
@@ -60,10 +60,10 @@ The **Users** tab enables you to view and manage users of the selected organizat
 
 If you are an organization admin, you can add users to an organization. An organization admin can only add as many users as the number of available seats in the organization.
 
-1. Sign in to the [Amplify Platform](https://platform.axway.com/).
+1. Sign in to the [Platform](https://platform.axway.com/).
 2. Click on the **User & Org** menu and select **Organization**.
 3. Click the **Users** tab from the left navigation.
-4. If you're a user of multiple organizations, select the organization you want to view from the  _Users_ dropdown menu.
+4. If you're a user of multiple organizations, select the organization you want to view from the _Users_ dropdown menu.
 5. Click the **\+ User** button in the upper-right corner.
 6. Enter the user's email address.
 7. Select the user's roles from the _Org Roles_ dropdown menu. One platform role and zero, one or more service roles can be selected. Administrators can manage all users and applications in the organization.
@@ -77,7 +77,7 @@ An email invitation is sent to the user, providing a link to confirm their membe
 
 After you create or add a users to your organization, you can view and modify the user's access rights or role.
 
-1. Sign in to the [Amplify Platform](https://platform.axway.com/).
+1. Sign in to the [Platform](https://platform.axway.com/).
 2. Click on the **User & Org** menu and select **Organization**.
 3. Click the **Users** tab from the left navigation.
 4. If you're a user of multiple organizations, select the organization you want to view from the _Users_ dropdown menu.
@@ -97,7 +97,7 @@ The **Service Accounts** tab enables you to view and manage service accounts of 
 
 If you are an organization admin, you can add new service accounts to an organization. An organization admin can only add as many service accounts as the number of available seats in the organization.
 
-1. Sign in to the [Amplify Platform](https://platform.axway.com/).
+1. Sign in to the [Platform](https://platform.axway.com/).
 2. Click on the **User & Org** menu and select **Organization**.
 3. Click the **Service Accounts** tab from the left navigation.
 4. If you're a user of multiple organizations, select the organization you want to view from the _Service Account_ dropdown menu.
@@ -114,7 +114,7 @@ If you are an organization admin, you can add new service accounts to an organiz
 
 After you create or add a user to your organization, you can view and modify the service account's access or role.
 
-1. Sign in to the [Amplify Platform](https://platform.axway.com/).
+1. Sign in to the [Platform](https://platform.axway.com/).
 2. Click on the **User & Org** menu and select **Organization**.
 3. Click the **Service Accounts** tab from the left navigation.
 4. If you're a user of multiple organizations, select the organization you want to view from the _Service Accounts_ dropdown menu.
@@ -140,7 +140,7 @@ The **Teams** tab enables you to view and manage teams, their members and their 
 
 To add a team:
 
-1. Sign in to the [Amplify Platform](https://platform.axway.com/).
+1. Sign in to the [Platform](https://platform.axway.com/).
 2. Click on the **User & Org** menu and select **Organization**.
 3. Click the **Teams** tab from the left navigation.
 4. If you're a member of multiple organizations, select the organization you want to view from the _Teams_ dropdown menu.
@@ -157,7 +157,7 @@ To add a team:
 
 To edit an existing team:
 
-1. Sign in to the [Amplify Platform](https://platform.axway.com/).
+1. Sign in to the [Platform](https://platform.axway.com/).
 2. Click on the **User & Org** menu and select **Organization**.
 3. Click the **Teams** tab from the left navigation.
 4. If you're a member of multiple organizations, select the organization you want to view from the _Teams_ dropdown menu.
@@ -170,7 +170,7 @@ To edit an existing team:
 
 To set a team as default:
 
-1. Sign in to the [Amplify Platform](https://platform.axway.com/).
+1. Sign in to the [Platform](https://platform.axway.com/).
 2. Click on the **User & Org** menu and select **Organization**.
 3. Click the **Teams** tab from the left navigation.
 4. If you're a member of multiple organizations, select the organization you want to view from the _Teams_ dropdown menu.
@@ -182,7 +182,7 @@ To set a team as default:
 
 To remove a team:
 
-1. Sign in to the [Amplify Platform](https://platform.axway.com/).
+1. Sign in to the [Platform](https://platform.axway.com/).
 2. Click on the **User & Org** menu and select **Organization**.
 3. Click the **Teams** tab from the left navigation.
 4. If you're a member of multiple organizations, select the organization you want to view from the _Teams_ dropdown menu.
@@ -204,7 +204,7 @@ The **Usage** tab enables you to view the usage of allocated resources for the 
 
 ![Viewing usage](/Images/usage_tab.png)
 
-1. Sign in to the [Amplify Platform](https://platform.axway.com/).
+1. Sign in to the [Platform](https://platform.axway.com/).
 2. Click on the **User & Org** menu and select **Organization**.
 3. Click the **Usage** tab from the left navigation.
 4. If you're a member of multiple organizations, select the organization you want to view from the _Usage_ dropdown menu.
@@ -230,10 +230,10 @@ The **Settings** tab enables you to:
 
 To brand the Dashboard per your organization's branding requirements:
 
-1. Sign in to the [Amplify Platform](https://platform.axway.com/).
+1. Sign in to the [Platform](https://platform.axway.com/).
 2. Click on the **User & Org** menu and select **Organization**.
 3. Click the **Settings** tab from the left navigation. The _Branding_ page appears.
-4. If you're a member of multiple organizations, select the organization you want to view from the _Branding_ dropdown menu.
+4. If you're a member of multiple organizations, select the organization you want to view from the _Branding_ dropdown menu.
 5. Select your organization's logo. The logo will be displayed at a maximum height of 45 pixels, and the logo file must be less than 100KB.
     1. Click **Choose File**.
     2. Select the logo file to upload. Once the logo file is selected, the _Branding Preview_ will update to display the selected logo.
@@ -253,7 +253,7 @@ Refer to the [Configuring and Managing Identity Providers (IdPs)](/docs/managem
 
 The **Activity** tab allows you to filter and see more details about each of the events for your organization.
 
-1. Sign in to the [Amplify Platform](https://platform.axway.com/).
+1. Sign in to the [Platform](https://platform.axway.com/).
 2. Click on the **User & Org** menu and select **Organization**.
 3. Click the **Activity** tab from the left navigation.
 4. If you're a member of multiple organizations, select the organization you want to view from the _Activity_ dropdown menu.

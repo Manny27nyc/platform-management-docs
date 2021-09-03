@@ -15,7 +15,7 @@ The Amplify Platform Dashboard left navigation comprises the following menu item
 ![Amplify Platform Dashboard left navigation](/Images/dashboard_left_menu.png)
 
 * **Overview** - displays  key metric information relevant to a product line to which your organization is subscribed. All users will see the Overview tab.
-* **API Observer** - navigates you to the [API Observer](https://docs.axway.com/bundle/axway-open-docs/page/docs/central/quickstart/index.html#monitor-api-traffic) dashboard. Users with the Central Admin and Developer roles will see the API Observer tab .
+* **API Observer** - navigates you to the [API Observer](https://docs.axway.com/bundle/axway-open-docs/page/docs/central/saas_api_gateway/quickstart/index.html#monitor-api-traffic) dashboard. Users with the Central Admin and Developer roles will see the API Observer tab .
 * **Visibility** - you to the [Amplify Visibility Dashboards](/docs/dashboard_guide/the_dashboards/visibility_dashboards/). Users with the Auditor or Analytics Specialist Visibility roles will see the Visibility tab.
 * **Apps** - displays the list of applications for your organization and where you can [manage your applications](/docs/dashboard_guide/managing_applications/). Organizations with Application Development, Cloud Capacity, or Runtime Services subscriptions will see the Apps tab.
 * **Custom Queries** - if configured, displays custom query summary information and enables the creation of custom analytics queries. Organizations with the Application Development or API Management subscriptions will see the Custom Queries tab.
@@ -31,7 +31,7 @@ The **Overview** displays key metric information relevant to the product line t
 
 ## API Observer
 
-**API Observer** redirects you to [API Observer](https://docs.axway.com/bundle/axway-open-docs/page/docs/central/quickstart/index.html#monitor-api-traffic).
+**API Observer** redirects you to [API Observer](https://docs.axway.com/bundle/axway-open-docs/page/docs/central/saas_api_gateway/quickstart/index.html#monitor-api-traffic).
 
 ## Visibility
 
@@ -47,9 +47,9 @@ The **Overview** displays key metric information relevant to the product line t
 
 To manage an application, select the application to manage from the list of applications.
 
-If you haven't created any applications yet, you will be directed to the _You don't have any apps yet!_ page. Don't worry. It's easy to get started creating apps using the Amplify Platform. It should take you only a few minutes to create an app. Once you do, your Dashboard will have data here. To get started creating applications, click one of the following options:
+If you haven't created any applications yet, you will be directed to the _You don't have any apps yet!_ page. Don't worry. It's easy to get started creating apps using the Platform. It should take you only a few minutes to create an app. Once you do, your Dashboard will have data here. To get started creating applications, click one of the following options:
 
-* **Get the latest tools -** You will be forwarded to the _Get started with App Builder_ page where you can select to get started building apps with either [Axway Appcelerator Studio](https://docs.axway.com/bundle/Appcelerator_Studio_allOS_en/page/axway_appcelerator_studio.html) or [Appcelerator CLI](https://docs.axway.com/bundle/Appcelerator_CLI_allOS_en/page/appcelerator_cli.html).
+* **Get the latest tools -** You will be forwarded to the _Get started with {{% variables/apibuilder_prod_name %}}_ page where you can select to get started building apps with either [Axway Appcelerator Studio](https://docs.axway.com/bundle/Appcelerator_Studio_allOS_en/page/axway_appcelerator_studio.html) or [Appcelerator CLI](https://docs.axway.com/bundle/Appcelerator_CLI_allOS_en/page/appcelerator_cli.html).
 * **Register App for Services** \- You will be forwarded to the _Register App for Services_ page.
 * **Create MBS Datasource** \- If you do not have a subscription, you will be forwarded to the _Billing_ page where you can upgrade your plan to access locked items. Refer to [Managing Billing](/docs/management_guide/managing_billing/). If you have a subscription, you will be forwarded to the _Create Mobile Backend Services Datasource_ page.
 

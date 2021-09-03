@@ -31,11 +31,11 @@ To create a new Identity Provider
 
     ![Completed form for adding an OIDC Identity Provider](/Images/oidc_new.png)
 
-9. Click **Save**. A confirmation dialog appears with a message that, once the Identity Provider configuration is verified, all users on that domain will be required to log into the Amplify Platform with their Identity Provider credentials.
+9. Click **Save**. A confirmation dialog appears with a message that, once the Identity Provider configuration is verified, all users on that domain will be required to log into the {{% variables/platform_prod_name %}} with their Identity Provider credentials.
 
     ![Confirm Identity Provider Configuration dialog](/Images/idp_save_configuration.png)
 
-10. To complete the configuration, you must add values configured in the Amplify Platform _Identity Providers_ detail page to your Identity Provider.
+10. To complete the configuration, you must add values configured in the Platform _Identity Providers_ detail page to your Identity Provider.
 
     * Copy the **Redirect URI** and optionally the **Post-Logout Redirect URI** into the OIDC configuration manually or by clicking the clipboard icon.
         ![Completing OIDC configuration](/Images/oidc_overview.png)

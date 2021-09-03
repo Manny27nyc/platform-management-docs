@@ -26,7 +26,7 @@ After [domain ownership is verified](/docs/management_guide/configuring_and_man
     3. Click **Send Verification Email**.
 
         ![Confirm Domain Association modal](/Images/domain_confirm_association.png)
-3. The verification recipient will be logged out of the Platform and will receive an email from the Amplify Platform to confirm domain ownership. The user must click the link in the email they receive to be taken to the login page of the configured IdP, where they must log in using the email address where they received the confirm domain ownership link. The user is returned to the Platform where they receive a message that domain ownership has been successfully confirmed. They can then click **Continue to the Amplify Platform** where they are logging into that organization.
+3. The verification recipient will be logged out of the Platform and will receive an email from the {{% variables/platform_prod_name %}} to confirm domain ownership. The user must click the link in the email they receive to be taken to the login page of the configured IdP, where they must log in using the email address where they received the confirm domain ownership link. The user is returned to the Platform where they receive a message that domain ownership has been successfully confirmed. They can then click **Continue to the Amplify Platform** where they are logging into that organization.
 
     ![Domain Association Confirmed dialog](/Images/email_confirmed.png)
 

@@ -6,4 +6,4 @@ weight: 10
 date: 2021-08-12
 ---
 
-The Getting Started documentation includes the following topics:
+The Getting Started documentation includes the following topics.
