@@ -9,7 +9,7 @@ Hide_readingtime: true
 
 ## Platform Management 8.9.1 - 6 October 2021
 
-Platform Management 8.9.1 is a minor release which includes one new feature.
+Platform Management 8.9.1 is a patch release which includes one new feature.
 
 ## New feature
 
