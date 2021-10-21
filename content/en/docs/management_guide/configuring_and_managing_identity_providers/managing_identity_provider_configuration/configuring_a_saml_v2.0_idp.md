@@ -22,11 +22,20 @@ This section includes details on configuring a SAML v2.0 Identity Provider with 
 
 Refer to the [Microsoft configure SAML-based configure single sign on](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/configure-single-sign-on-non-gallery-applications) article for details.
 
-To create a new Identity Provider
+## Create a new Identity Provider
 
-1. From the _Identity Providers_ page, click the **\+ Identity Provider**. The **New Identity Provider** form will be presented.
+Adding an Identity Provider comprises the following:
+
+* [Create an Identity Provider](#complete-the-new-identity-provider-form-in-the-platform) in the Platform using values configured for your Identity Provider (make sure you have access to your Identity Provider configuration).
+* [Update your Identity Provider configuration](#update-your-identity-provider-configuration) with values from the Platform's configured Identity Provider details page.
+
+### Complete the new Identity Provider form in the Platform
+
+In the Platform, you must complete a form to create the Identity Provider using values configured for your Identity Provider.
+
+1. From the _Identity Providers_ page, click the **\+ Identity Provider**. The **New Identity Provider** form is presented.
 2. Select **SAML v2.0**. A blank form is presented.
-    ![Completed form for adding a SAML v2.0 Identity Provider](/Images/saml_new_empty.png)
+    ![Adding a new SAML v2.0 Identity Provider](/Images/saml_new_empty.png)
 3. Complete the fields based on the values that are configured for your Identity Provider. The example is for SAML v2.0 for Azure Active Directory. For example, the SAML v2.0 Identity Provider values are found in the Azure Active Directory admin center in the Single sign-on menu. Refer to the [Microsoft configure SAML-based configure single sign on](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/configure-single-sign-on-non-gallery-applications) article and the following example for details.
 
     **Section 1**: These URLs (for example, Assertion Consumer Service URL) will be provided after the Amplify Platform Identity Provider configuration is saved, and then can be used on your Identity Provider.
@@ -43,7 +52,21 @@ To create a new Identity Provider
 5. Copy the mapping values from the Identity Provider configuration to complete the **NameID Policy Format**, **Signature Algorithm**, and **Validating X509 Certificate**. See sections 2 and 3 from the SAML v2.0 for Azure Active Directory example.
 
     * **NameID Policy Format**: Click the field under **Required Claim** to show the format that will be used for the **NameID Policy Format** section in the Identity Provider configuration form.
+
         ![Required claim section](/Images/ad_attribute_map_unique_name_id.png)
+
+        ![Identifier name format](/Images/ad_name_identifier_format.png)
+
+        {{% alert title="Note" color="primary" %}}Not all Identity Providers may show the NameID Policy Format with a readable name. Some IdPs may only provide the SAML `urn` string representation.
+
+        Below is a map of the displayed options to the equivalent `urn` values.
+        * **Persistent** - `urn:oasis:names:tc:SAML:2.0:nameid-format:persistent`
+        * **Email** - `urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress`
+        * **Kerberos** - `urn:oasis:names:tc:SAML:2.0:nameid-format:kerberos`
+        * **X.509 Subject Name** - `urn:oasis:names:tc:SAML:1.1:nameid-format:X509SubjectName`
+        * **Windows Domain Qualified Name** - `urn:oasis:names:tc:SAML:1.1:nameid-format:WindowsDomainQualifiedName`
+        * **Unspecified** - `urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified`
+        {{% /alert %}}
     * **Signature Algorithm**: Select the value that is configured for your Identity Provider.
     * **Validating X509 Certificates**: Download the contents. Then copy and paste the X509 certificate value into the text box making sure to omit \------BEGIN CERTIFICATE ----- and \------END CERTIFICATE--------.
 
@@ -54,24 +77,34 @@ To create a new Identity Provider
         ![Certificate contents](/Images/ad_certificate.png)
 
 6. Copy the mapping values from the Identity Provider configuration to complete the **Attribute Mapping** fields (**Email Address**, **First Name**, and **Last Name**). See the **Additional claims** area in section 2 from the SAML v2.0 for Azure Active Directory example.
+
     ![Attribute Mapping](/Images/360_saml_v2_0_attribute_mapping_values.png)
 
     ![User Attribute & Claims page](/Images/ad_attribute_map_claims.png)
 7. Complete the _Role Assignments_ section. Refer to [Role Assignments](/docs/management_guide/configuring_and_managing_identity_providers_idps/managing_identity_provider_configuration/role_assignments/) for details.
 
     The following is an example for a completed SAML v2.0 form (before clicking **Save**).
+
     ![SAML v2.0 completed form](/Images/saml_new.png)
 8. Click **Save**. A Confirmation dialog appears with a message that once the Identity Provider is verified, all users on that domain will be required to log into the Platform with their Identity Provider credentials.
+
     ![Confirm Identity Provider Configuration dialog](/Images/idp_save_configuration.png)
 
-9. To complete the configuration, you must add the values configured in the Platform identity configuration page to your Identity Provider's configuration.
-    * Copy the **Entity ID**, **Assertion Consumer Service URL**, and optionally the **Post-Logout URL**values individually from the Platform's page manually or by clicking the clipboard icon.
-        ![Complete SAML v2.0 configuration](/Images/saml_overview.png)
+9. Click **Submit** to confirm the Identity Provider configuration. The Platform's configured Identity Provider details page is displayed.
 
-        {{% alert title="Note" color="primary" %}}The SAML Descriptor may include additional content that is applicable to your Identity Provider, such as the public key used for signed assertions. The SAML Descriptor includes options that may be applicable to your IdP: **View**, **Download**, or **Download Signing Certificate**.{{% /alert %}}
+### Update your Identity Provider configuration
 
-    * Paste the copied values into their respective fields in the SAML v2.0 configuration page.
-        ![Basic SAML configuration page](/Images/ad_supplied_urls.png)
-    * Click **Save** in the Azure Active Directory page.
+To complete the configuration, you must add the values displayed on the Platform's configured Identity Provider details page to your Identity Provider's configuration.
+
+1. Copy the **Entity ID**, **Assertion Consumer Service URL**, and optionally the **Post-Logout URL** values individually from the Platform's configured Identity Provider details page manually or by clicking the clipboard icon. The **Assertion Consumer Service URL** and **Logout URL** comprise a unique identifier value generated by the Platform, which are masked (####) to represent a sample value.
+
+    ![Complete SAML v2.0 configuration](/Images/saml_overview.png)
+
+    {{% alert title="Note" color="primary" %}}The SAML Descriptor may include additional content that is applicable to your Identity Provider, such as the public key used for signed assertions. The SAML Descriptor includes options that may be applicable to your IdP: **View**, **Download**, or **Download Signing Certificate**.{{% /alert %}}
+
+2. Paste the copied values into their respective fields in the SAML v2.0 configuration page for Azure Active Directory. The **Assertion Consumer Service URL** and **Logout URL** comprise a unique identifier value generated by the Platform, which are masked (####) to represent a sample value.
+
+    ![Basic SAML configuration page](/Images/ad_supplied_urls.png)
+3. Click **Save** in the Azure Active Directory page.
 
 When a new Identity Provider is being configured, the organization administrator can edit any field. After a SAML v2.0 Identity Provider is verified, the organization administrator is not permitted to edit the **Single Sign-On Service URL**, **NameID Policy Format**, and **Signature Algorithm** fields.
