@@ -27,6 +27,8 @@ We recommend that you check your DNS provider's documentation about specific con
     The **Add Domain** modal dialog appears.
 
     ![Add Domain modal](/Images/domain_add.png)
-2. Using the **TXT Name** (if supported by the DNS provider), **TXT Value**, and **TTL** values displayed configure a TXT record with your DNS provider for the domain being added.
-3. Enter the domain in the modal, and then click **Add**. Make sure to associate an email domain that is controlled by your Identity Provider. After adding the domain, it will appear in the Email Domain table as **Pending** in the **Owned** column.
+2. Using the **TXT Name** (if supported by the DNS provider), **TXT Value**, and **TTL** values displayed configure a TXT record with your DNS provider for the domain being added. Make sure to associate an email domain that is controlled by your Identify Provider and not by Axway.
+
+    The screen shots represent adding the domain called `example.com` for users, such as `john.smith@example.com`. Replace `example.com` with a domain that is in your DNS.
+3. Enter the domain in the modal, and then click **Add**. After adding the domain, it will appear in the Email Domain table as **Pending** in the **Owned** column.
     ![Identity Provider pending status](/Images/domain_check_txt_dropdown.png)
