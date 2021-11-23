@@ -40,10 +40,53 @@ The following table shows the available roles and capabilities.
 
 Users also have a role in each team they belong to.
 
-| Role | Short Description |
+| Team Role | Short Description |
 | --- | --- |
-| Team Role |
 | Administrator | Use this role to manage the members of the team |
-| Developer | Use this role to manage assets in Amplify Central and the Unified Catalog |
 | Consumer | Use this role to view and consume assets in the Unified Catalog |
+| Developer | Use this role to manage assets in Amplify Central and the Unified Catalog |
 | Catalog Manager | Use this role to manage Unified Catalog items and approve subscriptions |
+
+## Team roles and capabilities
+
+The following table shows the available team roles and capabilities. The Central administrator role has access to all team capabilities.
+
+Capabilities | Catalog Manager | Developer | Consumer | Team Admin
+---------|---------|---------|----------|---------|
+ **Unified Catalog** |  |  |  |  |
+ Create catalog items | x (my team) | x (my team) | | |
+ View catalog items | x (my team) | x (my team) | x |  |
+ Delete catalog items | x (my team) |  |  |  |
+ Share a catalog item | x (my team) |  | x |  |
+ Edit a catalog item | x (my team) | x (my team) |  |  |
+ Create my subscriptions | x (my team) | x (my team) | x (my team) |  |
+ View my subscriptions | x (my team) | x (my team) | x (my team) |  |
+ Update my subscriptions | x (my team) | x (my team) | x (my team) |  |
+ View consumer's subscriptions | x (my team assets) |  |  |  |
+ Delete consumer's subscriptions | x (my team assets) |  |  |  |
+ Approve/reject consumer's subscriptions | x (my team assets) |  |  |  |
+ Delete my subscriptions | x (my team) | x (my team) | x (my team) |  |
+ **Environments** |  |  |  |  |
+ Create environments |  |  |  |  |
+ View environments |  |  |  |  |
+ Delete environments |  |  |  |  |
+ Update environments |  |  |  |  |
+ **Categories** | *Team level/Enterprise* | *Team level/Enterprise* | *Enterprise level* | *Team level/Enterprise* |
+ Create a category |  |  |  |  |
+ View category |  |  |  |  |
+ Delete a category |  |  |  |  |
+ Update a category |  |  |  |  |
+ Assign to a category |  |  |  |  |
+ **Applications** |  |  |  |  |
+ Create application | x |  |  |  |
+ View application | x |  |  |  |
+ Delete application | x |  |  |  |
+ Update application | x |  |  |  |
+ **Observer** |  |  |  |  |
+ View transactions for my subscriptions | x | x | x | x |
+ View transactions for my assets | x | x | x | x |
+ **Teams & Members (Platform)** |  |  |  |  |
+ Create a team |  |  |  |  |
+ View teams | (x) my teams | (x) my teams |  | x (my team) |
+ Update team |  |  |  | x (my team) |
+ Delete team |  |  |  |  |
